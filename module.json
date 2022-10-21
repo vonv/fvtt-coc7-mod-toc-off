@@ -106,7 +106,7 @@
     }
   ],
   "socket": false,
-  "manifest": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/blob/main/module.json",
+  "manifest": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/raw/main/module.json",
   "download": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/archive/main/coc7-module-fr-toc-main.zip",
   "protected": false,
   "coreTranslation": false,
