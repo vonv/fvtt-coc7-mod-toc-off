@@ -4,11 +4,11 @@
   "description": "<p>Une collection de compendiums pour l'Appel de Cthulhu en français.</p>",
   "author": "Plein de poulpes",
   "authors": [],
-  "url": "https://github.com/Trouver-Objet-Cache/coc7-module-fr-toc",
+  "url": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/",
   "flags": {},
   "version": "1.0.9",
-  "minimumCoreVersion": "0.8.9",
-  "compatibleCoreVersion": "9",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "10.288",
   "scripts": [
     "./coc7-module-fr-toc.js"
   ],
@@ -106,7 +106,7 @@
     }
   ],
   "socket": false,
-  "manifest": "https://raw.githubusercontent.com/Trouver-Objet-Cache/coc7-module-fr-toc/main/module.json",
+  "manifest": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/blob/main/module.json",
   "download": "https://github.com/Trouver-Objet-Cache/coc7-module-fr-toc/archive/refs/heads/main.zip",
   "protected": false,
   "coreTranslation": false,
