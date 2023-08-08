@@ -104,7 +104,11 @@
     "systems": [{
         "id": "CoC7",
         "type": "system",
-        "compatibility": "0.9"
+        "compatibility": {
+          "minimum": "0.9",
+          "verified": "0.9",
+          "maximum": "0.9"
+        }
       }
     ]
   },
