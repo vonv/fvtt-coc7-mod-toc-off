@@ -1,124 +1,100 @@
 {
-  "name": "coc7-module-fr-toc",
   "title": "Compendiums pour CoC7 en français Toc",
   "description": "<p>Une collection de compendiums pour l'Appel de Cthulhu en français.</p>",
-  "author": "Plein de poulpes",
-  "authors": [],
   "url": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/",
-  "flags": {},
-  "version": "1.0.10",
-  "minimumCoreVersion": "0.8.9",
-  "maximumCoreVersion": "10",
-  "compatibleCoreVersion": "10",
+  "version": "1.0.9",
   "scripts": [
-    "./coc7-module-fr-toc.js"
+    "coc7-module-fr-toc.js"
   ],
-  "esmodules": [],
   "styles": [
-    "./coc7-module-fr-toc.css"
-  ],
-  "languages": [],
-  "relationships": {
-    "systems": [{
-        "id": "CoC7",
-        "manifest": "https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/releases/latest/download/system.json",
-        "compatibility": {
-          "minimum": "0.9",
-          "verified": "0.10",
-          "maximum": "0.10"
-        }
-      }
-    ]
-  },
-  "dependencies": [
-    {
-      "name": "compendium-folders",
-      "type": "module"
-    }
+    "coc7-module-fr-toc.css"
   ],
   "packs": [
     {
       "label": "FR-compendiums-actors",
-      "entity": "Actor",
       "name": "fr-compendiums-actor",
       "path": "packs/fr-compendiums-actor.db",
       "system": "CoC7",
-      "package": "world",
-      "folder": "Actor",
       "type": "Actor",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "FR-compendiums-items",
-      "entity": "Item",
       "name": "fr-compendiums-item",
       "path": "packs/fr-compendiums-item.db",
       "system": "CoC7",
-      "package": "world",
-      "folder": "Item",
       "type": "Item",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "FR-compendiums-items-crea",
-      "entity": "Item",
       "name": "fr-compendiums-item-crea",
       "path": "packs/fr-compendiums-item-crea.db",
       "system": "CoC7",
-      "package": "world",
-      "folder": "Item",
       "type": "Item",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "FR-compendiums-journalentries",
-      "entity": "JournalEntry",
       "name": "fr-compendiums-journalentry",
       "path": "packs/fr-compendiums-journalentry.db",
       "system": "CoC7",
-      "package": "world",
-      "folder": "JournalEntry",
       "type": "JournalEntry",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "FR-compendiums-rolltables",
-      "entity": "RollTable",
       "name": "fr-compendiums-rolltable",
       "path": "packs/fr-compendiums-rolltable.db",
       "system": "CoC7",
-      "package": "world",
-      "folder": "RollTable",
       "type": "RollTable",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "FR-compendiums-scenes",
-      "entity": "Scene",
       "name": "fr-compendiums-scene",
       "path": "packs/fr-compendiums-scene.db",
       "system": "CoC7",
-      "package": "world",
-      "folder": "Scene",
       "type": "Scene",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "FR-compendiums-sono",
-      "entity": "Playlist",
       "name": "fr-compendiums-sono",
       "path": "packs/fr-compendiums-sono.db",
       "system": "CoC7",
-      "package": "world",
-      "folder": "Playlist",
       "type": "Playlist",
-      "private": false
+      "private": false,
+      "flags": {}
     }
   ],
-  "socket": false,
-  "manifest": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/raw/core910-sys010/module.json",
-  "download": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/archive/core910-sys010/coc7-module-fr-toc-core910-sys010.zip",
-  "protected": false,
-  "coreTranslation": false,
-  "library": false
+  "manifest": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/raw/main/module.json",
+  "download": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/archive/main/coc7-module-fr-toc-main.zip",
+  "id": "coc7-module-fr-toc",
+  "relationships": {
+    "requires": [
+      {
+        "id": "compendium-folders",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "CoC7",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "0.8.9",
+    "verified": "10.303"
+  }
 }
