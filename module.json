@@ -27,14 +27,15 @@
           "verified": "0.10"
         }
       }
+    ],
+    "requires": [
+      {
+        "id": "compendium-folders",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/11x-update/module.json"
+      }
     ]
   },
-  "dependencies": [
-    {
-      "name": "compendium-folders",
-      "type": "module"
-    }
-  ],
   "packs": [
     {
       "label": "FR-compendiums-actors",
