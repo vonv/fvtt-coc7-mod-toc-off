@@ -97,13 +97,11 @@
       "private": false
     }
   ],
-  "system": [
-    "CoC7"
-  ],
   "relationships": {
     "systems": [{
         "id": "CoC7",
         "type": "system",
+        "manifest": "https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/releases/download/0.9.2/system.json",
         "compatibility": {
           "minimum": "0.9",
           "verified": "0.9",
