@@ -23,7 +23,7 @@
         "id": "CoC7",
         "manifest": "https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/releases/latest/download/system.json",
         "compatibility": {
-          "minimum": "0.10",
+          "minimum": "0.9",
           "verified": "0.10",
           "maximum": "0.10"
         }
