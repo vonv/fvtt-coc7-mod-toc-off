@@ -18,6 +18,25 @@
     "./coc7-module-fr-toc.css"
   ],
   "languages": [],
+  "relationships": {
+    "systems": [{
+        "id": "CoC7",
+        "type": "system",
+        "manifest": "https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "0.10",
+          "verified": "0.10",
+          "maximum": "0.10"
+        }
+      }
+    ]
+  },
+  "dependencies": [
+    {
+      "name": "compendium-folders",
+      "type": "module"
+    }
+  ],
   "packs": [
     {
       "label": "FR-compendiums-actors",
@@ -95,25 +114,6 @@
       "folder": "Playlist",
       "type": "Playlist",
       "private": false
-    }
-  ],
-  "relationships": {
-    "systems": [{
-        "id": "CoC7",
-        "type": "system",
-        "manifest": "https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/releases/latest/download/system.json",
-        "compatibility": {
-          "minimum": "0.10",
-          "verified": "0.10",
-          "maximum": "0.10"
-        }
-      }
-    ]
-  },
-  "dependencies": [
-    {
-      "name": "compendium-folders",
-      "type": "module"
     }
   ],
   "socket": false,
