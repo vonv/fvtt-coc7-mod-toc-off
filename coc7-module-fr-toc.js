@@ -47,9 +47,9 @@ Hooks.on('ready', async function () {
     if (isDsnActive) game.settings.set('dice-so-nice', 'immediatelyDisplayChatMessages', true);
 
     // message d'accueil à l'activation du module
-    if (!game.user.getFlag("coc7-module-fr-toc", "welcomeMessageShown")) {
+    //if (!game.user.getFlag("coc7-module-fr-toc", "welcomeMessageShown")) {
         welcomeMessage()
-    }
+    //}
 
   } else {
     await game.settings.set('CoC7', 'overrideSheetArtwork', true)

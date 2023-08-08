@@ -1,115 +1,120 @@
 {
-  "name": "coc7-module-fr-toc",
   "title": "Compendiums pour CoC7 en français Toc",
   "description": "<p>Une collection de compendiums pour l'Appel de Cthulhu en français.</p>",
-  "author": "Plein de poulpes",
-  "authors": [],
+  "authors": [
+    {
+      "name": "Toc",
+      "email": "vonv@tentacules.net",
+      "url": "https://tentacules.net",
+      "discord": "@vonv"
+    }
+  ],
   "url": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/",
-  "flags": {},
   "version": "1.1.0",
-  "minimumCoreVersion": "11",
-  "maximumCoreVersion": "11",
-  "compatibleCoreVersion": "11",
   "scripts": [
-    "./coc7-module-fr-toc.js"
+    "coc7-module-fr-toc.js"
   ],
-  "esmodules": [],
   "styles": [
-    "./coc7-module-fr-toc.css"
+    "coc7-module-fr-toc.css"
   ],
-  "languages": [],
+  "relationships": {
+    "systems": [
+      {
+        "id": "CoC7",
+        "manifest": "https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "0.10",
+          "verified": "0.10"
+        },
+        "type": "system"
+      }
+    ]
+  },
   "packs": [
     {
-      "label": "FR-compendiums-actors",
-      "entity": "Actor",
       "name": "fr-compendiums-actor",
-      "path": "packs/fr-compendiums-actor.db",
-      "system": "CoC7",
-      "package": "world",
-      "folder": "Actor",
+      "label": "FR-acteurs",
+      "path": "packs/fr-compendiums-actor",
       "type": "Actor",
-      "private": false
+      "system": "CoC7",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "FR-compendiums-items",
-      "entity": "Item",
       "name": "fr-compendiums-item",
-      "path": "packs/fr-compendiums-item.db",
-      "system": "CoC7",
-      "package": "world",
-      "folder": "Item",
+      "label": "FR-objets",
+      "path": "packs/fr-compendiums-item",
       "type": "Item",
-      "private": false
+      "system": "CoC7",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "FR-compendiums-items-crea",
-      "entity": "Item",
       "name": "fr-compendiums-item-crea",
-      "path": "packs/fr-compendiums-item-crea.db",
-      "system": "CoC7",
-      "package": "world",
-      "folder": "Item",
+      "label": "FR-création",
+      "path": "packs/fr-compendiums-item-crea",
       "type": "Item",
-      "private": false
+      "system": "CoC7",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "FR-compendiums-journalentries",
-      "entity": "JournalEntry",
       "name": "fr-compendiums-journalentry",
-      "path": "packs/fr-compendiums-journalentry.db",
-      "system": "CoC7",
-      "package": "world",
-      "folder": "JournalEntry",
+      "label": "FR-journaux",
+      "path": "packs/fr-compendiums-journalentry",
       "type": "JournalEntry",
-      "private": false
+      "system": "CoC7",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "FR-compendiums-rolltables",
-      "entity": "RollTable",
       "name": "fr-compendiums-rolltable",
-      "path": "packs/fr-compendiums-rolltable.db",
-      "system": "CoC7",
-      "package": "world",
-      "folder": "RollTable",
+      "label": "FR-tables",
+      "path": "packs/fr-compendiums-rolltable",
       "type": "RollTable",
-      "private": false
+      "system": "CoC7",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "FR-compendiums-scenes",
-      "entity": "Scene",
       "name": "fr-compendiums-scene",
-      "path": "packs/fr-compendiums-scene.db",
-      "system": "CoC7",
-      "package": "world",
-      "folder": "Scene",
+      "label": "FR-scènes",
+      "path": "packs/fr-compendiums-scene",
       "type": "Scene",
-      "private": false
+      "system": "CoC7",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "FR-compendiums-sono",
-      "entity": "Playlist",
       "name": "fr-compendiums-sono",
-      "path": "packs/fr-compendiums-sono.db",
-      "system": "CoC7",
-      "package": "world",
-      "folder": "Playlist",
+      "label": "FR-sono",
+      "path": "packs/fr-compendiums-sono",
       "type": "Playlist",
-      "private": false
+      "system": "CoC7",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
-  "system": [
-    "CoC7"
-  ],
-  "dependencies": [
-    {
-      "name": "compendium-folders",
-      "type": "module"
-    }
-  ],
-  "socket": false,
-  "manifest": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/raw/main/module.json",
-  "download": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/archive/main/coc7-module-fr-toc-main.zip",
-  "protected": false,
-  "coreTranslation": false,
-  "library": false
+  "manifest": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/raw/core910-sys010/module.json",
+  "download": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/archive/core910-sys010/coc7-module-fr-toc-core910-sys010.zip",
+  "id": "coc7-module-fr-toc",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
+  }
 }
