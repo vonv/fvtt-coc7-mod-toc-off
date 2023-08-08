@@ -7,7 +7,8 @@
   "url": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/",
   "flags": {},
   "version": "1.0.9",
-  "minimumCoreVersion": "9",
+  "minimumCoreVersion": "0.8.9",
+  "maximumCoreVersion": "10",
   "compatibleCoreVersion": "10",
   "scripts": [
     "./coc7-module-fr-toc.js"
@@ -106,8 +107,8 @@
     }
   ],
   "socket": false,
-  "manifest": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/raw/main/module.json",
-  "download": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/archive/main/coc7-module-fr-toc-main.zip",
+  "manifest": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/raw/core910-sys09/module.json",
+  "download": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/archive/core910-sys09/coc7-module-fr-toc-core910-sys09.zip",
   "protected": false,
   "coreTranslation": false,
   "library": false
