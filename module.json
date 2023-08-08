@@ -6,9 +6,10 @@
   "authors": [],
   "url": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/",
   "flags": {},
-  "version": "1.0.9",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "10",
+  "version": "1.1.0",
+  "minimumCoreVersion": "11",
+  "maximumCoreVersion": "11",
+  "compatibleCoreVersion": "11",
   "scripts": [
     "./coc7-module-fr-toc.js"
   ],
