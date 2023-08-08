@@ -109,8 +109,8 @@
       }
     }
   ],
-  "manifest": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/raw/core910-sys010/module.json",
-  "download": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/archive/core910-sys010/coc7-module-fr-toc-core910-sys010.zip",
+  "manifest": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/raw/main/module.json",
+  "download": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/archive/main/coc7-module-fr-toc-main.zip",
   "id": "coc7-module-fr-toc",
   "compatibility": {
     "minimum": "11",
