@@ -1,8 +1,8 @@
-2023/08/08-23:23:58.623 12bc Recovering log #8
-2023/08/08-23:23:58.628 12bc Delete type=0 #8
-2023/08/08-23:23:58.628 12bc Delete type=3 #6
-2023/08/08-23:24:29.694 213c Level-0 table #13: started
-2023/08/08-23:24:29.694 213c Level-0 table #13: 0 bytes OK
-2023/08/08-23:24:29.696 213c Delete type=0 #11
-2023/08/08-23:24:29.700 213c Manual compaction at level-0 from '!folders!YsZ0S5GqVanLqkYn' @ 72057594037927935 : 1 .. '!scenes.tiles!fvlDSRFdDkgoUVvC.u4F4CfsGD3cRnB2R' @ 0 : 0; will stop at (end)
-2023/08/08-23:24:29.700 213c Manual compaction at level-1 from '!folders!YsZ0S5GqVanLqkYn' @ 72057594037927935 : 1 .. '!scenes.tiles!fvlDSRFdDkgoUVvC.u4F4CfsGD3cRnB2R' @ 0 : 0; will stop at (end)
+2023/08/09-21:54:40.552971 b33fe400 Recovering log #12
+2023/08/09-21:54:40.594407 b33fe400 Delete type=0 #12
+2023/08/09-21:54:40.597804 b33fe400 Delete type=3 #10
+2023/08/09-22:27:34.396975 accff400 Level-0 table #17: started
+2023/08/09-22:27:34.399402 accff400 Level-0 table #17: 0 bytes OK
+2023/08/09-22:27:34.404420 accff400 Delete type=0 #15
+2023/08/09-22:27:34.451435 accff400 Manual compaction at level-0 from '!folders!YsZ0S5GqVanLqkYn' @ 72057594037927935 : 1 .. '!scenes.tiles!fvlDSRFdDkgoUVvC.u4F4CfsGD3cRnB2R' @ 0 : 0; will stop at (end)
+2023/08/09-22:27:34.451594 accff400 Manual compaction at level-1 from '!folders!YsZ0S5GqVanLqkYn' @ 72057594037927935 : 1 .. '!scenes.tiles!fvlDSRFdDkgoUVvC.u4F4CfsGD3cRnB2R' @ 0 : 0; will stop at (end)
