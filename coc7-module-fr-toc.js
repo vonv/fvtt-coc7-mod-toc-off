@@ -32,8 +32,8 @@ Hooks.on('ready', async function () {
       tenDieNoMod: 'black',
       tenDieBonus: 'foundry',
       tenDiePenalty: 'bloodmoon',
-      displayPlayerNameOnSheet: true,
-      oneBlockBackstory: true
+      // oneBlockBackstory: true,
+      displayPlayerNameOnSheet: true
     }
     game.settings.settings.forEach(async setting => {
       if (typeof settings[setting.key] !== 'undefined' && 
@@ -42,13 +42,15 @@ Hooks.on('ready', async function () {
       }
     })
     // modif du jet dans dicesonice pour Hey listen fonctionne
-    /* TODO: tester la présence de dsn */
     let isDsnActive = game.modules.has("dice-so-nice") ? game.modules.get('dice-so-nice').active : false ;
     if (isDsnActive) game.settings.set('dice-so-nice', 'immediatelyDisplayChatMessages', true);
 
+    // activation auto du click gauche pour relacher
+    game.settings.set('core', 'leftClickRelease', true);
+
     // message d'accueil à l'activation du module
     //if (!game.user.getFlag("coc7-module-fr-toc", "welcomeMessageShown")) {
-        welcomeMessage()
+    //    welcomeMessage()
     //}
 
   } else {
@@ -76,6 +78,17 @@ Hooks.on('renderJournalSheet', (app, html, options) => {
       pack.render(true);
     }
   })
+})
+
+Hooks.once('init', async () => {
+  // ajout des époques Achtung Cthulhu et Achtung Pulp
+  game.CoC7.eras('achtung', 'Achtung Cthulhu')
+  game.CoC7.eras('achtungPulp', 'Achtung Cthulhu Pulp')
+  game.CoC7.eras('deltagreen', 'Delta Green')
+  game.CoC7.eras('deltagreenVN', 'Delta Green Viet Nam')
+  game.CoC7.eras('contreesReve', 'Les Contrées du Rêve')
+  game.CoC7.eras('findestemps', 'Fin des Temps')
+  game.CoC7.eras('futuriste', 'Futuriste')
 })
 
 // mise à jour du logo en haut à gauche
