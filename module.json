@@ -107,6 +107,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "fr-aventures",
+      "label": "FR-aventures",
+      "path": "packs/fr-aventures",
+      "type": "Adventure",
+      "system": "CoC7",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "manifest": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/raw/main/module.json",
