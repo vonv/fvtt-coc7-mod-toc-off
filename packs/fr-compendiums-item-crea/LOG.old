@@ -1,17 +1,8 @@
-2023/08/10-15:07:13.092516 b2bfd400 Recovering log #51
-2023/08/10-15:07:13.116994 b2bfd400 Delete type=0 #51
-2023/08/10-15:07:13.119548 b2bfd400 Delete type=3 #49
-2023/08/10-15:49:11.994915 accff400 Level-0 table #56: started
-2023/08/10-15:49:12.157322 accff400 Level-0 table #56: 3419039 bytes OK
-2023/08/10-15:49:12.161243 accff400 Delete type=0 #54
-2023/08/10-15:49:12.206320 accff400 Manual compaction at level-0 from '!folders!0Bvp8FExwWEhgnhY' @ 72057594037927935 : 1 .. '!items!zsXr59E3PDJmghEs' @ 0 : 0; will stop at (end)
-2023/08/10-15:49:12.233555 accff400 Manual compaction at level-1 from '!folders!0Bvp8FExwWEhgnhY' @ 72057594037927935 : 1 .. '!items!zsXr59E3PDJmghEs' @ 0 : 0; will stop at '!items!zsXr59E3PDJmghEs' @ 1983 : 1
-2023/08/10-15:49:12.233577 accff400 Compacting 1@1 + 2@2 files
-2023/08/10-15:49:12.401052 accff400 Generated table #57@1: 334 keys, 2114317 bytes
-2023/08/10-15:49:12.525333 accff400 Generated table #58@1: 158 keys, 1305893 bytes
-2023/08/10-15:49:12.525369 accff400 Compacted 1@1 + 2@2 files => 3420210 bytes
-2023/08/10-15:49:12.526177 accff400 compacted to: files[ 0 0 2 0 0 0 0 ]
-2023/08/10-15:49:12.529841 accff400 Delete type=2 #19
-2023/08/10-15:49:12.533998 accff400 Delete type=2 #20
-2023/08/10-15:49:12.542087 accff400 Delete type=2 #56
-2023/08/10-15:49:12.547843 accff400 Manual compaction at level-1 from '!items!zsXr59E3PDJmghEs' @ 1983 : 1 .. '!items!zsXr59E3PDJmghEs' @ 0 : 0; will stop at (end)
+2023/08/10-15:49:24.416654 b2bfd400 Recovering log #55
+2023/08/10-15:49:24.455370 b2bfd400 Delete type=0 #55
+2023/08/10-15:49:24.458888 b2bfd400 Delete type=3 #53
+2023/08/10-19:34:55.982731 accff400 Level-0 table #62: started
+2023/08/10-19:34:55.984513 accff400 Level-0 table #62: 0 bytes OK
+2023/08/10-19:34:55.988705 accff400 Delete type=0 #60
+2023/08/10-19:34:55.992513 accff400 Manual compaction at level-0 from '!folders!0Bvp8FExwWEhgnhY' @ 72057594037927935 : 1 .. '!items!zsXr59E3PDJmghEs' @ 0 : 0; will stop at (end)
+2023/08/10-19:34:55.994953 accff400 Manual compaction at level-1 from '!folders!0Bvp8FExwWEhgnhY' @ 72057594037927935 : 1 .. '!items!zsXr59E3PDJmghEs' @ 0 : 0; will stop at (end)

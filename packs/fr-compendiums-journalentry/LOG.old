@@ -1,8 +1,8 @@
-2023/08/10-15:07:13.243922 b2bfd400 Recovering log #36
-2023/08/10-15:07:13.266243 b2bfd400 Delete type=0 #36
-2023/08/10-15:07:13.268753 b2bfd400 Delete type=3 #34
-2023/08/10-15:49:11.954507 accff400 Level-0 table #41: started
-2023/08/10-15:49:11.955863 accff400 Level-0 table #41: 0 bytes OK
-2023/08/10-15:49:11.959376 accff400 Delete type=0 #39
-2023/08/10-15:49:11.962903 accff400 Manual compaction at level-0 from '!folders!FC8hDyOXrfq226hH' @ 72057594037927935 : 1 .. '!journal!xKVELxlR8g4PndGk' @ 0 : 0; will stop at (end)
-2023/08/10-15:49:11.962967 accff400 Manual compaction at level-1 from '!folders!FC8hDyOXrfq226hH' @ 72057594037927935 : 1 .. '!journal!xKVELxlR8g4PndGk' @ 0 : 0; will stop at (end)
+2023/08/10-15:49:24.421929 b3bff400 Recovering log #40
+2023/08/10-15:49:24.464970 b3bff400 Delete type=0 #40
+2023/08/10-15:49:24.467647 b3bff400 Delete type=3 #38
+2023/08/10-19:34:56.006419 accff400 Level-0 table #45: started
+2023/08/10-19:34:56.012372 accff400 Level-0 table #45: 0 bytes OK
+2023/08/10-19:34:56.016377 accff400 Delete type=0 #43
+2023/08/10-19:34:56.045861 accff400 Manual compaction at level-0 from '!folders!FC8hDyOXrfq226hH' @ 72057594037927935 : 1 .. '!journal!xKVELxlR8g4PndGk' @ 0 : 0; will stop at (end)
+2023/08/10-19:34:56.047520 accff400 Manual compaction at level-1 from '!folders!FC8hDyOXrfq226hH' @ 72057594037927935 : 1 .. '!journal!xKVELxlR8g4PndGk' @ 0 : 0; will stop at (end)
