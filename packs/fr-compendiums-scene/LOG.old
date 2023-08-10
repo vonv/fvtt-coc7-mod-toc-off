@@ -1,8 +1,15 @@
-2023/08/10-12:00:14.361728 b3bff400 Recovering log #24
-2023/08/10-12:00:14.417371 b3bff400 Delete type=0 #24
-2023/08/10-12:00:14.421093 b3bff400 Delete type=3 #22
-2023/08/10-12:01:08.110140 accff400 Level-0 table #29: started
-2023/08/10-12:01:08.111965 accff400 Level-0 table #29: 0 bytes OK
-2023/08/10-12:01:08.115516 accff400 Delete type=0 #27
-2023/08/10-12:01:08.139784 accff400 Manual compaction at level-0 from '!folders!YsZ0S5GqVanLqkYn' @ 72057594037927935 : 1 .. '!scenes.tiles!fvlDSRFdDkgoUVvC.u4F4CfsGD3cRnB2R' @ 0 : 0; will stop at (end)
-2023/08/10-12:01:08.139869 accff400 Manual compaction at level-1 from '!folders!YsZ0S5GqVanLqkYn' @ 72057594037927935 : 1 .. '!scenes.tiles!fvlDSRFdDkgoUVvC.u4F4CfsGD3cRnB2R' @ 0 : 0; will stop at (end)
+2023/08/10-15:07:13.375913 b23fc400 Recovering log #36
+2023/08/10-15:07:13.398333 b23fc400 Delete type=0 #36
+2023/08/10-15:07:13.400864 b23fc400 Delete type=3 #34
+2023/08/10-15:49:11.977236 accff400 Level-0 table #41: started
+2023/08/10-15:49:11.988707 accff400 Level-0 table #41: 141068 bytes OK
+2023/08/10-15:49:11.992371 accff400 Delete type=0 #39
+2023/08/10-15:49:12.206293 accff400 Manual compaction at level-0 from '!folders!YsZ0S5GqVanLqkYn' @ 72057594037927935 : 1 .. '!scenes.tiles!fvlDSRFdDkgoUVvC.u4F4CfsGD3cRnB2R' @ 0 : 0; will stop at (end)
+2023/08/10-15:49:12.206461 accff400 Manual compaction at level-1 from '!folders!YsZ0S5GqVanLqkYn' @ 72057594037927935 : 1 .. '!scenes.tiles!fvlDSRFdDkgoUVvC.u4F4CfsGD3cRnB2R' @ 0 : 0; will stop at '!scenes.tiles!fvlDSRFdDkgoUVvC.u4F4CfsGD3cRnB2R' @ 44 : 1
+2023/08/10-15:49:12.206473 accff400 Compacting 1@1 + 1@2 files
+2023/08/10-15:49:12.222034 accff400 Generated table #42@1: 13 keys, 141410 bytes
+2023/08/10-15:49:12.222069 accff400 Compacted 1@1 + 1@2 files => 141410 bytes
+2023/08/10-15:49:12.222794 accff400 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/08/10-15:49:12.226191 accff400 Delete type=2 #5
+2023/08/10-15:49:12.229412 accff400 Delete type=2 #41
+2023/08/10-15:49:12.547818 accff400 Manual compaction at level-1 from '!scenes.tiles!fvlDSRFdDkgoUVvC.u4F4CfsGD3cRnB2R' @ 44 : 1 .. '!scenes.tiles!fvlDSRFdDkgoUVvC.u4F4CfsGD3cRnB2R' @ 0 : 0; will stop at (end)
