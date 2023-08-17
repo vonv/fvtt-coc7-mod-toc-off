@@ -12,7 +12,7 @@ function collapse(toggleId) {
 async function welcomeMessage() {
   ChatMessage.create({
     type: CONST.CHAT_MESSAGE_TYPES.OTHER,
-    content: '🐙 Ph\'n glui,<br />Cliquez @Compendium[coc7-module-fr-toc.fr-compendiums-journalentry.BfWJfgDbvLoJTpkC]{ici} pour accéder à toute la documentation de ces compendiums pour l\'Appel V7. Bon jeu !',
+    content: '🐙 Ph\'n glui,<br />Cliquez @UUID[Compendium.coc7-module-fr-toc.fr-compendiums-journalentry.JournalEntry.ew3N9xBidfE8M2td]{ici} pour accéder à toute la documentation de ces compendiums pour l\'Appel V7. Bon jeu !',
     speaker: { alias: "Cthulhu" }
   })
   game.user.setFlag("coc7-module-fr-toc", "welcomeMessageShown", true)
@@ -49,9 +49,9 @@ Hooks.on('ready', async function () {
     game.settings.set('core', 'leftClickRelease', true);
 
     // message d'accueil à l'activation du module
-    //if (!game.user.getFlag("coc7-module-fr-toc", "welcomeMessageShown")) {
-    //    welcomeMessage()
-    //}
+    if (!game.user.getFlag("coc7-module-fr-toc", "welcomeMessageShown")) {
+        welcomeMessage()
+    }
 
   } else {
     await game.settings.set('CoC7', 'overrideSheetArtwork', true)
