@@ -1,3 +1,15 @@
-2023/08/17-15:18:55.188037 b33fe400 Recovering log #81
-2023/08/17-15:18:55.237989 b33fe400 Delete type=0 #81
-2023/08/17-15:18:55.243279 b33fe400 Delete type=3 #79
+2023/08/18-19:04:51.298254 b33fe400 Recovering log #85
+2023/08/18-19:04:51.334870 b33fe400 Delete type=0 #85
+2023/08/18-19:04:51.337368 b33fe400 Delete type=3 #83
+2023/08/18-19:07:59.033795 acaff400 Level-0 table #91: started
+2023/08/18-19:07:59.083182 acaff400 Level-0 table #91: 572528 bytes OK
+2023/08/18-19:07:59.086962 acaff400 Delete type=0 #89
+2023/08/18-19:07:59.112298 acaff400 Manual compaction at level-0 from '!adventures!XHCQIHKxp1ciaqOQ' @ 72057594037927935 : 1 .. '!adventures!zV0gqBQbpbAHpK3G' @ 0 : 0; will stop at (end)
+2023/08/18-19:07:59.112675 acaff400 Manual compaction at level-1 from '!adventures!XHCQIHKxp1ciaqOQ' @ 72057594037927935 : 1 .. '!adventures!zV0gqBQbpbAHpK3G' @ 0 : 0; will stop at '!adventures!w6TJGVLAsjaxzMDJ' @ 48 : 1
+2023/08/18-19:07:59.112689 acaff400 Compacting 1@1 + 1@2 files
+2023/08/18-19:07:59.278149 acaff400 Generated table #92@1: 5 keys, 1427914 bytes
+2023/08/18-19:07:59.278195 acaff400 Compacted 1@1 + 1@2 files => 1427914 bytes
+2023/08/18-19:07:59.278989 acaff400 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/08/18-19:07:59.292545 acaff400 Delete type=2 #87
+2023/08/18-19:07:59.296664 acaff400 Delete type=2 #91
+2023/08/18-19:07:59.319395 acaff400 Manual compaction at level-1 from '!adventures!w6TJGVLAsjaxzMDJ' @ 48 : 1 .. '!adventures!zV0gqBQbpbAHpK3G' @ 0 : 0; will stop at (end)

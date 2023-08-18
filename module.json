@@ -10,7 +10,7 @@
     }
   ],
   "url": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "scripts": [
     "coc7-module-fr-toc.js"
   ],

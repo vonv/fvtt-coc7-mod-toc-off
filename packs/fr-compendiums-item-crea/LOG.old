@@ -1,8 +1,17 @@
-2023/08/17-15:06:25.197526 b2bfd400 Recovering log #126
-2023/08/17-15:06:25.236208 b2bfd400 Delete type=0 #126
-2023/08/17-15:06:25.238888 b2bfd400 Delete type=3 #124
-2023/08/17-15:07:07.285987 acaff400 Level-0 table #131: started
-2023/08/17-15:07:07.288023 acaff400 Level-0 table #131: 0 bytes OK
-2023/08/17-15:07:07.292915 acaff400 Delete type=0 #129
-2023/08/17-15:07:07.306297 acaff400 Manual compaction at level-0 from '!folders!0Bvp8FExwWEhgnhY' @ 72057594037927935 : 1 .. '!items!zsXr59E3PDJmghEs' @ 0 : 0; will stop at (end)
-2023/08/17-15:07:07.306769 acaff400 Manual compaction at level-1 from '!folders!0Bvp8FExwWEhgnhY' @ 72057594037927935 : 1 .. '!items!zsXr59E3PDJmghEs' @ 0 : 0; will stop at (end)
+2023/08/17-15:18:54.864757 b3bff400 Recovering log #130
+2023/08/17-15:18:54.911106 b3bff400 Delete type=0 #130
+2023/08/17-15:18:54.916452 b3bff400 Delete type=3 #128
+2023/08/18-16:58:43.190459 acaff400 Level-0 table #135: started
+2023/08/18-16:58:43.200275 acaff400 Level-0 table #135: 1508 bytes OK
+2023/08/18-16:58:43.206002 acaff400 Delete type=0 #133
+2023/08/18-16:58:43.210276 acaff400 Manual compaction at level-0 from '!folders!0Bvp8FExwWEhgnhY' @ 72057594037927935 : 1 .. '!items!zsXr59E3PDJmghEs' @ 0 : 0; will stop at (end)
+2023/08/18-16:58:43.293155 acaff400 Manual compaction at level-1 from '!folders!0Bvp8FExwWEhgnhY' @ 72057594037927935 : 1 .. '!items!zsXr59E3PDJmghEs' @ 0 : 0; will stop at '!items!skM1bMR3Vhc9vZdt' @ 4383 : 1
+2023/08/18-16:58:43.293607 acaff400 Compacting 1@1 + 2@2 files
+2023/08/18-16:58:43.447228 acaff400 Generated table #136@1: 335 keys, 2114516 bytes
+2023/08/18-16:58:43.535395 acaff400 Generated table #137@1: 158 keys, 1305952 bytes
+2023/08/18-16:58:43.535796 acaff400 Compacted 1@1 + 2@2 files => 3420468 bytes
+2023/08/18-16:58:43.536843 acaff400 compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/08/18-16:58:43.540286 acaff400 Delete type=2 #102
+2023/08/18-16:58:43.544805 acaff400 Delete type=2 #135
+2023/08/18-16:58:43.549198 acaff400 Delete type=2 #103
+2023/08/18-16:58:43.579368 acaff400 Manual compaction at level-1 from '!items!skM1bMR3Vhc9vZdt' @ 4383 : 1 .. '!items!zsXr59E3PDJmghEs' @ 0 : 0; will stop at (end)
