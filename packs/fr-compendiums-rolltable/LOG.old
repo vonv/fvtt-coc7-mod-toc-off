@@ -1,8 +1,15 @@
-2023/08/17-15:18:55.008437 b2bfd400 Recovering log #106
-2023/08/17-15:18:55.053120 b2bfd400 Delete type=0 #106
-2023/08/17-15:18:55.056929 b2bfd400 Delete type=3 #104
-2023/08/18-16:58:43.554301 acaff400 Level-0 table #111: started
-2023/08/18-16:58:43.557599 acaff400 Level-0 table #111: 0 bytes OK
-2023/08/18-16:58:43.563155 acaff400 Delete type=0 #109
-2023/08/18-16:58:43.579764 acaff400 Manual compaction at level-0 from '!folders!c59jZ0QhAWYSsHdV' @ 72057594037927935 : 1 .. '!tables.results!z67JoxW5zzn0Kjg8.tLAxbSn0LfPjS4I5' @ 0 : 0; will stop at (end)
-2023/08/18-16:58:43.583965 acaff400 Manual compaction at level-1 from '!folders!c59jZ0QhAWYSsHdV' @ 72057594037927935 : 1 .. '!tables.results!z67JoxW5zzn0Kjg8.tLAxbSn0LfPjS4I5' @ 0 : 0; will stop at (end)
+2023/08/23-11:29:45.143570 b35fe400 Recovering log #127
+2023/08/23-11:29:45.179249 b35fe400 Delete type=0 #127
+2023/08/23-11:29:45.183500 b35fe400 Delete type=3 #125
+2023/08/23-13:14:38.007133 b037a400 Level-0 table #132: started
+2023/08/23-13:14:38.018936 b037a400 Level-0 table #132: 75466 bytes OK
+2023/08/23-13:14:38.022843 b037a400 Delete type=0 #130
+2023/08/23-13:14:38.033419 b037a400 Manual compaction at level-0 from '!folders!c59jZ0QhAWYSsHdV' @ 72057594037927935 : 1 .. '!tables.results!z67JoxW5zzn0Kjg8.tLAxbSn0LfPjS4I5' @ 0 : 0; will stop at (end)
+2023/08/23-13:14:38.033519 b037a400 Manual compaction at level-1 from '!folders!c59jZ0QhAWYSsHdV' @ 72057594037927935 : 1 .. '!tables.results!z67JoxW5zzn0Kjg8.tLAxbSn0LfPjS4I5' @ 0 : 0; will stop at '!tables.results!z67JoxW5zzn0Kjg8.tLAxbSn0LfPjS4I5' @ 4776 : 1
+2023/08/23-13:14:38.033533 b037a400 Compacting 1@1 + 1@2 files
+2023/08/23-13:14:38.058237 b037a400 Generated table #133@1: 478 keys, 75750 bytes
+2023/08/23-13:14:38.058270 b037a400 Compacted 1@1 + 1@2 files => 75750 bytes
+2023/08/23-13:14:38.058975 b037a400 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/08/23-13:14:38.062471 b037a400 Delete type=2 #120
+2023/08/23-13:14:38.065564 b037a400 Delete type=2 #132
+2023/08/23-13:14:38.099224 b037a400 Manual compaction at level-1 from '!tables.results!z67JoxW5zzn0Kjg8.tLAxbSn0LfPjS4I5' @ 4776 : 1 .. '!tables.results!z67JoxW5zzn0Kjg8.tLAxbSn0LfPjS4I5' @ 0 : 0; will stop at (end)

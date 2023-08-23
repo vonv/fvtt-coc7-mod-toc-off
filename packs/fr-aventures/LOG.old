@@ -1,15 +1,8 @@
-2023/08/17-15:18:55.188037 b33fe400 Recovering log #81
-2023/08/17-15:18:55.237989 b33fe400 Delete type=0 #81
-2023/08/17-15:18:55.243279 b33fe400 Delete type=3 #79
-2023/08/18-16:58:43.643093 acaff400 Level-0 table #86: started
-2023/08/18-16:58:43.752117 acaff400 Level-0 table #86: 1947230 bytes OK
-2023/08/18-16:58:43.758095 acaff400 Delete type=0 #84
-2023/08/18-16:58:43.764295 acaff400 Manual compaction at level-0 from '!adventures!XHCQIHKxp1ciaqOQ' @ 72057594037927935 : 1 .. '!adventures!zV0gqBQbpbAHpK3G' @ 0 : 0; will stop at (end)
-2023/08/18-16:58:43.767443 acaff400 Manual compaction at level-1 from '!adventures!XHCQIHKxp1ciaqOQ' @ 72057594037927935 : 1 .. '!adventures!zV0gqBQbpbAHpK3G' @ 0 : 0; will stop at '!adventures!w6TJGVLAsjaxzMDJ' @ 43 : 1
-2023/08/18-16:58:43.769585 acaff400 Compacting 1@1 + 1@2 files
-2023/08/18-16:58:43.901909 acaff400 Generated table #87@1: 5 keys, 1428186 bytes
-2023/08/18-16:58:43.902296 acaff400 Compacted 1@1 + 1@2 files => 1428186 bytes
-2023/08/18-16:58:43.903283 acaff400 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/08/18-16:58:43.906485 acaff400 Delete type=2 #66
-2023/08/18-16:58:43.909927 acaff400 Delete type=2 #86
-2023/08/18-16:58:43.973405 acaff400 Manual compaction at level-1 from '!adventures!w6TJGVLAsjaxzMDJ' @ 43 : 1 .. '!adventures!zV0gqBQbpbAHpK3G' @ 0 : 0; will stop at (end)
+2023/08/23-11:29:45.340152 b2dfd400 Recovering log #103
+2023/08/23-11:29:45.391516 b2dfd400 Delete type=0 #103
+2023/08/23-11:29:45.394848 b2dfd400 Delete type=3 #101
+2023/08/23-13:14:39.444111 b037a400 Level-0 table #108: started
+2023/08/23-13:14:39.445309 b037a400 Level-0 table #108: 0 bytes OK
+2023/08/23-13:14:39.450550 b037a400 Delete type=0 #106
+2023/08/23-13:14:39.453174 b037a400 Manual compaction at level-0 from '!adventures!XHCQIHKxp1ciaqOQ' @ 72057594037927935 : 1 .. '!adventures!zV0gqBQbpbAHpK3G' @ 0 : 0; will stop at (end)
+2023/08/23-13:14:39.453214 b037a400 Manual compaction at level-1 from '!adventures!XHCQIHKxp1ciaqOQ' @ 72057594037927935 : 1 .. '!adventures!zV0gqBQbpbAHpK3G' @ 0 : 0; will stop at (end)
