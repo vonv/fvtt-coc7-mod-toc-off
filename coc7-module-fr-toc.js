@@ -1,13 +1,5 @@
 /* Scripts des Compendiums FR de Toc pour le système CoC7 pour Foundry VTT */
 
-// auto réduit la barre de macros
-function collapse(toggleId) {
-  let target = document.getElementById(toggleId);
-  if (target) {
-    target.click()
-  }
-}
-
 // message d'accueil à l'activation du module
 async function welcomeMessage() {
   ChatMessage.create({
@@ -41,12 +33,6 @@ Hooks.on('ready', async function () {
               await game.settings.set('CoC7', setting.key, settings[setting.key])
       }
     })
-    // modif du jet dans dicesonice pour Hey listen fonctionne
-    let isDsnActive = game.modules.has("dice-so-nice") ? game.modules.get('dice-so-nice').active : false ;
-    if (isDsnActive) game.settings.set('dice-so-nice', 'immediatelyDisplayChatMessages', true);
-
-    // activation auto du click gauche pour relacher
-    game.settings.set('core', 'leftClickRelease', true);
 
     // message d'accueil à l'activation du module
     if (!game.user.getFlag("coc7-module-fr-toc", "welcomeMessageShown")) {
@@ -58,8 +44,6 @@ Hooks.on('ready', async function () {
     window.location.reload()
   }
 
-  // auto réduit la barre de macros
-  collapse("bar-toggle")
 })
 
 Hooks.on('renderPause', async function () {
