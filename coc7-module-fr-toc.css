@@ -8,34 +8,6 @@ body {
     background-color: #000000;
 }
 
-/* custom du chat */
-#chat-log .message {
-    border: 2px solid #7a0a30;
-    border-radius: 10px;
-    margin: 10px;
-}
-.dice-roll .dice-formula,
-.dice-roll .dice-total {
-    line-height: 20px;
-}
-#chat-log .message {
-    margin: 1px;
-}
-
-/* réduction des icônes de menu de gauche */
-#controls ol.control-tools > li {
-    width: 30px;
-    height: 30px;
-    font-size: 22px;
-    line-height: 30px;
-    margin: 0 0 2px;
-}
-
-/* custo des journaux */
-.sheet .editor-content {
-    font-size: 16px;
-}
-
 /* custom du logo en haut à gauche */
 #logo {
     left: 35px;
@@ -100,12 +72,6 @@ input:focus {
 #hotbar .macro.active:hover {
     box-shadow: 0 0 8px #168a1d inset;
     border: 1px solid #168a1d;
-}
-
-/* menu des scenes */
-#navigation #scene-list {
-    font-variant: small-caps;
-    font-size: 1.2em;
 }
 
 /* FICHE DE PERSO */
