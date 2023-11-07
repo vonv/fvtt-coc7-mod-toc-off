@@ -1,0 +1,13 @@
+2023/11/07-14:27:35.916399 b33fe400 Delete type=3 #1
+2023/11/07-14:27:35.919147 b0aff400 Compacting 4@0 + 0@1 files
+2023/11/07-14:27:35.966942 b0aff400 Generated table #148@0: 13 keys, 141410 bytes
+2023/11/07-14:27:35.969604 b0aff400 Compacted 4@0 + 0@1 files => 141410 bytes
+2023/11/07-14:27:35.970769 b0aff400 compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/11/07-14:28:35.190517 b0aff400 Level-0 table #150: started
+2023/11/07-14:28:35.191927 b0aff400 Level-0 table #150: 0 bytes OK
+2023/11/07-14:28:35.196344 b0aff400 Delete type=2 #79
+2023/11/07-14:28:35.199506 b0aff400 Delete type=2 #133
+2023/11/07-14:28:35.204249 b0aff400 Delete type=2 #140
+2023/11/07-14:28:35.208793 b0aff400 Delete type=2 #145
+2023/11/07-14:28:35.212890 b0aff400 Delete type=0 #147
+2023/11/07-14:28:35.263730 b0aff400 Manual compaction at level-0 from '!folders!YsZ0S5GqVanLqkYn' @ 72057594037927935 : 1 .. '!scenes.tiles!fvlDSRFdDkgoUVvC.u4F4CfsGD3cRnB2R' @ 0 : 0; will stop at (end)
