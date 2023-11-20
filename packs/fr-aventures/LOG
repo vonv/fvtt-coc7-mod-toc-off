@@ -1,7 +1,7 @@
-2023/11/13-09:14:28.842549 b33fe400 Recovering log #148
-2023/11/13-09:14:28.864805 b33fe400 Delete type=0 #148
-2023/11/13-09:14:28.867244 b33fe400 Delete type=3 #146
-2023/11/13-09:14:47.942589 b10ff400 Level-0 table #153: started
-2023/11/13-09:14:47.944997 b10ff400 Level-0 table #153: 0 bytes OK
-2023/11/13-09:14:47.952673 b10ff400 Delete type=0 #151
-2023/11/13-09:14:47.973874 b10ff400 Manual compaction at level-0 from '!adventures!XHCQIHKxp1ciaqOQ' @ 72057594037927935 : 1 .. '!adventures!zV0gqBQbpbAHpK3G' @ 0 : 0; will stop at (end)
+2023/11/20-07:48:53.222643 b2bfd400 Recovering log #156
+2023/11/20-07:48:53.245169 b2bfd400 Delete type=0 #156
+2023/11/20-07:48:53.247588 b2bfd400 Delete type=3 #154
+2023/11/20-07:49:50.984272 b0aff400 Level-0 table #161: started
+2023/11/20-07:49:50.986066 b0aff400 Level-0 table #161: 0 bytes OK
+2023/11/20-07:49:50.995852 b0aff400 Delete type=0 #159
+2023/11/20-07:49:51.024075 b0aff400 Manual compaction at level-0 from '!adventures!XHCQIHKxp1ciaqOQ' @ 72057594037927935 : 1 .. '!adventures!zV0gqBQbpbAHpK3G' @ 0 : 0; will stop at (end)
