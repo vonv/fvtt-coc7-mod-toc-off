@@ -1,0 +1,3578 @@
+{
+  "name": "Enzo Baldini",
+  "type": "character",
+  "img": "ressources/_vonv_/pj-enzo.webp",
+  "data": {
+    "characteristics": {
+      "str": {
+        "value": 60,
+        "tempValue": null,
+        "short": "CHARAC.STR",
+        "label": "CHARAC.Strength",
+        "formula": "(3D6)*5"
+      },
+      "con": {
+        "value": 85,
+        "tempValue": null,
+        "short": "CHARAC.CON",
+        "label": "CHARAC.Constitution",
+        "formula": "(3D6)*5"
+      },
+      "siz": {
+        "value": 70,
+        "tempValue": null,
+        "short": "CHARAC.SIZ",
+        "label": "CHARAC.Size",
+        "formula": "(2D6+6)*5"
+      },
+      "dex": {
+        "value": 75,
+        "tempValue": null,
+        "short": "CHARAC.DEX",
+        "label": "CHARAC.Dexterity",
+        "formula": "(3D6)*5"
+      },
+      "app": {
+        "value": 70,
+        "tempValue": null,
+        "short": "CHARAC.APP",
+        "label": "CHARAC.Appearance",
+        "formula": "(3D6)*5"
+      },
+      "int": {
+        "value": 85,
+        "tempValue": null,
+        "short": "CHARAC.INT",
+        "label": "CHARAC.Intelligence",
+        "formula": "(2D6+6)*5"
+      },
+      "pow": {
+        "value": 50,
+        "tempValue": null,
+        "short": "CHARAC.POW",
+        "label": "CHARAC.Power",
+        "formula": "(3D6)*5"
+      },
+      "edu": {
+        "value": 55,
+        "tempValue": null,
+        "short": "CHARAC.EDU",
+        "label": "CHARAC.Education",
+        "formula": "(2D6+6)*5"
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 15,
+        "max": 15,
+        "short": "HP",
+        "label": "Hit points",
+        "auto": true
+      },
+      "mp": {
+        "value": 10,
+        "max": 10,
+        "short": "HP",
+        "label": "Magic points",
+        "auto": true
+      },
+      "lck": {
+        "value": 58,
+        "short": "LCK",
+        "label": "Luck",
+        "max": 99
+      },
+      "san": {
+        "value": 49,
+        "max": 99,
+        "short": "SAN",
+        "label": "Sanity",
+        "auto": true,
+        "dailyLoss": 1,
+        "oneFifthSanity": " / 10",
+        "dailyLimit": 10
+      },
+      "mov": {
+        "value": 6,
+        "max": 6,
+        "short": "MOV",
+        "label": "Movement rate",
+        "auto": true
+      },
+      "db": {
+        "value": "1D4",
+        "short": "DB",
+        "label": "Damage bonus",
+        "auto": true
+      },
+      "build": {
+        "current": 1,
+        "value": 1,
+        "short": "BLD",
+        "label": "Build",
+        "auto": true
+      },
+      "armor": {
+        "value": "",
+        "localized": false,
+        "locations": [],
+        "auto": false
+      }
+    },
+    "conditions": {
+      "criticalWounds": {
+        "value": false
+      },
+      "unconscious": {
+        "value": false
+      },
+      "dying": {
+        "value": false
+      },
+      "dead": {
+        "value": false
+      },
+      "prone": {
+        "value": false
+      },
+      "tempoInsane": {
+        "value": false
+      },
+      "indefInsane": {
+        "value": false
+      }
+    },
+    "infos": {
+      "occupation": "",
+      "age": "52",
+      "sex": "M",
+      "residence": "",
+      "birthplace": "Naple",
+      "archetype": "",
+      "organization": "",
+      "playername": "Guillaume"
+    },
+    "flags": {
+      "locked": true,
+      "manualCredit": false
+    },
+    "credit": {
+      "monetarySymbol": "",
+      "multiplier": null,
+      "spent": "",
+      "assetsDetails": ""
+    },
+    "development": {
+      "personal": 170,
+      "occupation": 220,
+      "archetype": null
+    },
+    "biography": [],
+    "sanityLossEvents": [],
+    "backstory": "<p>Enzo Baldini, 52 ans, ancien mafieux italien reconverti dans la pr&ecirc;trise.</p>\n<p>Il a \"raccroch&eacute;\" avant que &ccedil;a tourne mal et afin d'&eacute;viter de sombres repr&eacute;sailles il est devenu pr&ecirc;tre car comme il &agrave; l'habitude de dire \"s'en prendre &agrave; un pr&ecirc;tre &ccedil;a porte malheur\".</p>\n<p><em>Pour le sc&eacute;nar:</em></p>\n<p>Stanley Anders, riche industriel dans le tabac, transport, import/export, &agrave; la t&ecirc;te de la Anders &amp; Co qu'il a cr&eacute;&eacute; il y a 15 ans. Bas&eacute; &agrave; New York.</p>\n<p>Votre \"employeur\" actuel.</p>\n<p>Enqu&ecirc;te sur un cas de possession sur la grande tante de Stanley Anders du c&ocirc;t&eacute; de Trenton: qui s'est r&eacute;v&eacute;l&eacute; faux &gt; tentative d'escroquerie dont elle essayait de s'extraire en se faisant passer pour poss&eacute;d&eacute;e.</p>\n<p>Assist&eacute; sur ce cas de Lawrence Paramatta, psychiatre.</p>\n<p>&nbsp;</p>",
+    "indefiniteInsanityLevel": {
+      "value": 1,
+      "max": 9
+    },
+    "description": {
+      "keeper": ""
+    },
+    "notes": "",
+    "adjustments": {
+      "personal": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "35",
+        "35",
+        "",
+        "",
+        "",
+        "20",
+        "45",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "35"
+      ],
+      "experience": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "occupation": [
+        "20",
+        "",
+        "10",
+        "40",
+        "",
+        "30",
+        "60",
+        "60"
+      ]
+    }
+  },
+  "token": {
+    "vision": true,
+    "dimSight": 30,
+    "brightSight": 0,
+    "actorLink": true,
+    "disposition": 1,
+    "name": "Enzo",
+    "displayName": 30,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "sightAngle": 0,
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "displayBars": 50,
+    "bar1": {
+      "attribute": ""
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "flags": {},
+    "randomImg": false,
+    "img": "ressources/_vonv_/pj-enzo.webp",
+    "tint": null,
+    "x": null,
+    "y": null,
+    "elevation": null
+  },
+  "items": [
+    {
+      "_id": "9EO6YCUvdaxZ2CNw",
+      "name": "Anthropologie",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-anthropology.svg",
+      "data": {
+        "skillName": "Anthropologie",
+        "specialization": "",
+        "description": {
+          "value": "<p>Permet d’identifier et de comprendre&nbsp;les traditions d’un groupe par&nbsp;l’observation. Pour utiliser cette&nbsp;compétence, l’investigateur doit&nbsp;passer du temps au sein d’une culture&nbsp;vivante, ou étudier des documents sûrs&nbsp;et objectifs sur une culture éteinte.</p>\n<p>Il peut alors faire des prédictions&nbsp;simples sur ses us et coutumes,&nbsp;même s’il se base sur des éléments&nbsp;incomplets. En consacrant un mois&nbsp;ou plus à cette culture, l’investigateur&nbsp;commence à vraiment la comprendre.</p>\n<p>En combinant cette compétence avec&nbsp;Psychologie, il peut prédire les actions&nbsp;et les croyances des sujets.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>La difficulté d’un test dépend du temps que l’investigateur passe avec les sujets de son étude.</p>\n<ul>\n<li>Difficulté ordinaire : il passe un mois en leur compagnie.</li>\n<li>Difficulté majeure : il ne passe qu’une semaine ou moins avec eux.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Prendre plus de temps pour étudier ses sujets ; partager leur vie pendant un moment ; participer activement à une cérémonie ou un rituel.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>L’investigateur est attaqué ou emprisonné par les personnes qu’il étudie, à cause de fautes ou d’insultes commises par maladresse ; il subit des effets secondaires indésirables suite à l’ingestion de plantes hallucinogènes lors d’une cérémonie. Si un investigateur dément rate un redoublement, il peut se perdre dans la culture étudiée, comme le photojournaliste interprété par Dennis Hopper dans <em>Apocalypse Now</em>.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "1",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.Q1IIZaQXtrsI60EO"
+        }
+      }
+    },
+    {
+      "_id": "L0aYotsGxeLIxvns",
+      "name": "Arts et métiers (Arts et métiers)",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-artcraft.svg",
+      "data": {
+        "skillName": "Arts et métiers",
+        "specialization": "Arts et métiers",
+        "description": {
+          "value": "<p>Gr&acirc;ce &agrave; cette compétence, un investigateur peut se lancer dans la réparation ou la fabrication d&rsquo;objets. Le temps et les matériaux nécessaires sont laissés &agrave; la discrétion du gardien, si nécessaire. Si cette précision est importante, un test majeur ou extr&ecirc;me peut indiquer un objet de qualité supérieure. Une compétence en Arts et métiers peut également servir &agrave; la réalisation de copies ou de faux. Dans ce cas, la difficulté dépend de la complexité et de l&rsquo;originalité de l&rsquo;objet copié. La spécialité contrefa&ccedil;on est nécessaire &agrave; la réalisation de faux documents. Un test réussi peut fournir des informations sur un objet, comme l&rsquo;endroit o&ugrave; il a été fabriqué, une partie de son histoire ou une technique le concernant, voire le nom de son créateur. Outre son savoir-faire, un spécialiste accumule des connaissances étendues dans son domaine, notamment sur son histoire et ses pratiquants notables.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : fabriquer un objet standard.</li>\n<li>Difficulté majeure : fabriquer un objet de grande qualité ou particulièrement complexe.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Reprendre le travail de zéro ; plonger dans ses souvenirs les plus douloureux pour les transmettre par l&rsquo;art ; présenter l&rsquo;oeuvre en l&rsquo;état &agrave; un ami et lui demander conseil.</p>\n<h2>Conséquences d&rsquo;un redoublement raté ?</h2>\n<p>L&rsquo;argent investi jusqu&rsquo;ici est g&acirc;ché sans résultat ; l&rsquo;audience ou le client est choqué ou blessé par votre travail ; les critiques sont mauvaises et plus personne ne veut travailler avec vous.</p>\n<p>Si un investigateur dément rate un redoublement, il peut créer une oeuvre transgressive et dérangeante qui fait l&rsquo;unanimité contre elle, si ce n&rsquo;est de quelques critiques décadents.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "5",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "special": true,
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.EDJMTauX0GWlyAwl"
+        }
+      }
+    },
+    {
+      "_id": "nrcDhirQfBA55mQB",
+      "name": "Baratin",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-fasttalk.svg",
+      "data": {
+        "skillName": "Baratin",
+        "specialization": "",
+        "description": {
+          "value": "<p>Cette comp&eacute;tence permet de bluffer, emberlificoter, ... En un mot, faire prendre des vessies pour des lanternes &agrave; son interlocuteur... Contrairement &agrave; la comp&eacute;tence <strong>Persuasion</strong>, elle n'a qu'un effet temporaire : La personne, quand elle aura le temps de r&eacute;fl&eacute;chir calmement au flot de paroles et d'arguments plus ou moins fallacieux que vous lui avez servi, prendra conscience qu'elle s'est fait rouler dans la farine.</p>\n<p><strong>Baratin </strong>est tr&egrave;s utile pour passer un garde de la s&eacute;curit&eacute;, un douanier, faire du plat &agrave; une personne du sexe opppos&eacute; pour passer la nuit avec elle, ou vendre la potion magique qui gu&eacute;rit de tous les maux et fait repousser les cheveux. Cependant, il ne faut pas esp&eacute;rer convaincre sur le long terme, et &eacute;viter d'&ecirc;tre dans les parages lorsqu'un &eacute;clair de lucidit&eacute; r&eacute;v&egrave;lera la supercherie.</p>\n<p><strong>Degr&eacute; de ma&icirc;trise :</strong></p>\n<p><strong>Un amateur </strong>saura embobiner des gens simples,</p>\n<p><strong>Un professionnel </strong>parviendra &agrave; vendre quelque chose de totalement inutile &agrave; la plupart des gens,</p>\n<p><strong>Un expert </strong>sera en capacit&eacute; de faire croire les choses les plus incroyables m&ecirc;mes aux personnes les plus sens&eacute;es, comme le fait de vendre la Tour Eiffel...</p>\n<p><strong>Comp&eacute;tences connexes :</strong> N&eacute;gociation, Persuasion, Cr&eacute;dit, Relations, Pratique Artistique : jouer la Com&eacute;die, ...&nbsp;</p>\n<p>&nbsp;</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "5",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "special": false,
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.GH4LKEwyTE2izw8u"
+        }
+      }
+    },
+    {
+      "_id": "siRwiLxl1U7Pbd2m",
+      "name": "Bibliothèque",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-libraryuse.svg",
+      "data": {
+        "skillName": "Bibliothèque",
+        "specialization": "",
+        "description": {
+          "value": "<p>Cette compétence permet &agrave; un investigateur de trouver une information, un livre précis, un journal ou une référence, dans une bibliothèque, une collection, des archives ou une base de données. Bien s&ucirc;r, pour qu&rsquo;il trouve quelque chose, il faut d&rsquo;abord que cela existe ! Un jet de compétence sanctionne plusieurs heures de recherches continues.</p>\n<p>Toutefois, cette compétence ne fait que localiser ce que l&rsquo;on cherche. Il faudra peut-&ecirc;tre faire appel &agrave; Baratin, Charme, Persuasion, Intimidation, Crédit ou &agrave; des arguments convaincants pour obtenir le droit d&rsquo;y accéder.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : trouver un livre ou une information dans une bibliothèque.</li>\n<li>Difficulté majeure : localiser une information dans une bibliothèque mal rangée ; &ecirc;tre extr&ecirc;mement pressé.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Insister auprès des bibliothécaires pour obtenir leur aide ; prendre le temps d&rsquo;examiner chaque livre des rayonnages.</p>\n<h2>Conséquences d&rsquo;un redoublement raté ?</h2>\n<p>Trouver un livre similaire, contenant des informations erronées qui risquent de mettre les investigateurs en danger ; une confrontation avec un ennemi, qui peut vous mettre des b&acirc;tons dans les roues ou s&rsquo;intéresser &agrave; son tour au livre que vous cherchez, voire arracher les pages en question ; se f&acirc;cher avec le bibliothécaire, qui révoque votre droit d&rsquo;entrée. Si un investigateur dément rate un redoublement, il peut se mettre &agrave; entasser les livres chez lui, en arrachant des pages qu&rsquo;il agrafe sur les murs, en gribouillant des notes inquiétantes dans les marges et en créant un réseau de liens &agrave; l&rsquo;aide d&rsquo;épingles et de ficelle. Il peut aussi &ecirc;tre obsédé par la recherche du &laquo; bon &raquo; livre et consacrer tout son temps &agrave; le retrouver.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "20",
+        "adjustments": {
+          "personal": null,
+          "occupation": 20,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {
+          "occupation": true
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.q68uO6oljUfjh5wY"
+        }
+      }
+    },
+    {
+      "_id": "Mphjl0CwO61dopDI",
+      "name": "Combat rapproché (Corps à corps)",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-brawl.svg",
+      "data": {
+        "skillName": "Corps à corps",
+        "specialization": "Combat rapproché",
+        "description": {
+          "value": "<p>Recouvre toutes&nbsp;les formes de combat à mains nues,&nbsp;ainsi que les armes&nbsp; improvisées à portée&nbsp;de tout le monde, comme les gourdins&nbsp;(y compris les battes de baseball ou de&nbsp;cricket), les couteaux, les bouteilles et&nbsp;les pieds de chaise. Pour déterminer les&nbsp;dégâts qu’inflige une arme improvisée,&nbsp;le gardien doit chercher ce qui s’en&nbsp;approche le plus sur la table des armes.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "25",
+        "adjustments": {
+          "personal": 35,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "fighting": true,
+          "firearm": false,
+          "combat": true,
+          "special": true
+        },
+        "eras": {},
+        "flags": {
+          "developement": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.vuxoIJmLVhTFIoxC"
+        }
+      }
+    },
+    {
+      "_id": "dxL0tFrMMPTRmZac",
+      "name": "Charme",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-charm.svg",
+      "data": {
+        "skillName": "Charme",
+        "specialization": "",
+        "description": {
+          "value": "<p>L’attraction physique, la séduction, la flatterie ou simplement une personnalité avenante sont toutes des aspects de cette compétence. En usant de son charme, on pousse une personne à agir d’une certaine façon, tant qu’elle reste dans le cadre de son comportement habituel. Les tests de Charme sont opposés par le Charme ou la Psychologie.</p>\n<p>Le Charme peut servir à marchander, pour obtenir une remise sur le prix d’un bien ou d’un service. En cas de succès, le vendeur, ému, consent à une petite réduction.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Consultez Fixer la difficulté des compétences sociales, page 82.</p>\n<h2>Comment redoubler ?</h2>\n<p>Flatter ostensiblement la cible ; lui offrir un cadeau coûteux ; lui confier un secret pour créer un climat de confiance.</p>\n<p>Souvenez-vous d’une chose : si un investigateur commence une interaction en étant charmant, mais qu’il opte pour une autre approche en cours de route, le gardien peut demander un test d’une compétence différente. S’il profère des menaces, ce sera Intimidation. S’il enchaîne sur une longue discussion, cela peut devenir de la Persuasion. Passer de l’un à l’autre pour obtenir une deuxième chance constitue un redoublement.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>La cible se vexe et ne veut plus avoir affaire à vous ; la cible est liée à vos ennemis, ce qui fait qu’elle joue le jeu, mais leur transmettra vos dires ; le petit ami de la femme que vous tentez de séduire vient vous expliquer sa façon de penser.</p>\n<p>Si un investigateur dément rate un redoublement, il peut tomber éperdument amoureux de sa cible, agissant comme s’il était victime d’un sort de domination (cf. page 239).</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "15",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.jlpedK4fSGsh9nVQ"
+        }
+      }
+    },
+    {
+      "_id": "9KgjpDQBaoq8eKdX",
+      "name": "Combat à distance (Armes de poing)",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-handgun.svg",
+      "data": {
+        "skillName": "Armes de poing",
+        "specialization": "Combat à distance",
+        "description": {
+          "value": "<p>Comprend&nbsp;toutes les armes tenues à une main&nbsp;et tirant au coup par coup. Pour les&nbsp;mitraillettes (MAC-11, Uzi, etc.)&nbsp;modernes, utilisez la compétence&nbsp;mitraillettes lorsque vous tirez en rafale.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "20",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "special": true,
+          "fighting": false,
+          "firearm": true,
+          "combat": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.uyP7ojzgwP3wUOGP"
+        }
+      }
+    },
+    {
+      "_id": "yQsfbrzjF0aTxxLG",
+      "name": "Archéologie",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-archaeology.svg",
+      "data": {
+        "skillName": "Archéologie",
+        "specialization": "",
+        "description": {
+          "value": "<p>Permet la datation et l’identification de reliques de civilisations passées, ainsi que la détection des contrefaçons.</p>\n<p>La&nbsp;&nbsp;compétence sert également à mettre en place et diriger des fouilles. En inspectant un site, l’investigateur peut en déduire l’usage et le mode de vie de ses habitants. L’anthropologie peut y aider.</p>\n<p>L’archéologie permet aussi de reconnaître des textes écrits dans des langues mortes.&nbsp;</p>\n<h2>Compétence opposée / Niveau de&nbsp;difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : l’investigateur dispose du temps et des ressources nécessaires.</li>\n<li>Difficulté majeure : il manque de temps ou d’argent.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Prendre plus de&nbsp;temps pour étudier le site ou l’objet ;&nbsp;poursuivre les recherches ; consulter un&nbsp;autre expert.&nbsp;</p>\n<h2>Conséquences d’un redoublement&nbsp;raté ?</h2>\n<p>Le site est détérioré, les&nbsp;trouvailles ruinées par l’incompétence,&nbsp;le vandalisme ou le vol ; les autorités&nbsp;saisissent le site ou les découvertes ; la&nbsp;publicité faite autour&nbsp; des activités de&nbsp;l’investigateur attire des voleurs.&nbsp;</p>\n<p>Si un investigateur dément rate un&nbsp;redoublement, il peut continuer&nbsp;ses excavations toujours plus&nbsp;profondément. Il sait que la vérité est&nbsp;là, quelque part.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "1",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.b6DPfh1inlZtCGEG"
+        }
+      }
+    },
+    {
+      "_id": "JDmUOdPsCblYwKXM",
+      "name": "Combat à distance (Fusils)",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-rifle.svg",
+      "data": {
+        "skillName": "Fusils",
+        "specialization": "Combat à distance",
+        "description": {
+          "value": "<p>Comprend toutes les&nbsp;armes d’épaule, dont les fusils (à&nbsp;verrou, à levier, à pompe ou semiautomatique)&nbsp;et les fusils de chasse.&nbsp;</p>\n<p>Comme les munitions de ces derniers&nbsp;s’évasent, les chances de toucher ne&nbsp;diminuent pas avec la distance, au&nbsp;contraire des dégâts. Si vous tirez au&nbsp;coup par coup avec un fusil d’assaut,&nbsp;utilisez cette compétence.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "25",
+        "adjustments": {
+          "personal": 35,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "fighting": false,
+          "firearm": true,
+          "combat": true,
+          "special": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.Y0rIVZWVhe5bsCKn"
+        }
+      }
+    },
+    {
+      "_id": "JPkFP1L4f4fbysxl",
+      "name": "Comptabilité",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-accounting.svg",
+      "data": {
+        "skillName": "Comptabilité",
+        "specialization": "",
+        "description": {
+          "value": "<p>Connaissance et compréhension des procédures comptables et de la gestion financière des entreprises et des individus. En inspectant les comptes, on peut découvrir des employés fictifs, des fonds secrets, le paiement de dessous-de-table, et l’état réel du budget. En sondant les archives, on peut voir quelle était la nature des bénéfices et des pertes (céréales, esclaves, alcool, etc.) et à qui ont été adressées les factures.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Si quelqu’un cache quelque chose, la difficulté sera basée sur le niveau de comptabilité de cette personne.</p>\n<ul>\n<li>Difficulté ordinaire : les livres de compte sont complets et bien tenus.</li>\n<li>Difficulté majeure : les comptes sont partiels et désorganisés.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Prendre plus de temps pour compulser les documents ; se rendre dans des banques ou des entreprises pour vérifier les découvertes ; refaire les calculs.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>Les discussions entre les investigateurs et des tiers alertent une faction ennemie ; des documents capitaux sont détruits ou égarés, peutêtre parce que l’investigateur est si fatigué qu’il renverse du café dessus.</p>\n<p>Si un investigateur dément rate un redoublement, il peut dévorer une partie des papiers.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "5",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {
+          "occupation": true
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.UBiLkEs5qiAmAgbw"
+        }
+      }
+    },
+    {
+      "_id": "wBurSSvwz7SAPdDF",
+      "name": "Conduite",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-driveauto.svg",
+      "data": {
+        "skillName": "Conduite",
+        "specialization": "",
+        "description": {
+          "value": "<p>Toute personne possédant cette compétence peut conduire une voiture, une moto ou un petit camion, réaliser des manoeuvres simples et gérer les problèmes courants de son véhicule. Si l’investigateur souhaite perdre un poursuivant ou suivre quelqu’un, un test de Conduite peut être nécessaire.</p>\n<p>D’autres cultures ont des versions différentes de cette compétence, Conduite de Traîneaux pour les Inuits ou Conduite d’Attelage pour l’époque victorienne, par exemple.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : rouler rapidement dans un trafic léger pour semer des poursuivants.</li>\n<li>Difficulté majeure : de même, dans un trafic dense.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Pousser le véhicule dans ses retranchements ; ne pas ralentir, quels que soient les risques.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>Un accident ; déraper sans savoir comment se rétablir ; être poursuivi par la police.</p>\n<p>Si un investigateur dément rate un redoublement, on peut le retrouver derrière le volant d’un véhicule à l’arrêt, en train de faire des bruits de moteur avec la bouche.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "20",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.bXADrF0TJUc7a4ap"
+        }
+      }
+    },
+    {
+      "_id": "TGPNPwUPZhXRNJHX",
+      "name": "Conduite Engin lourd",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-driveauto.svg",
+      "data": {
+        "skillName": "Conduite Engin lourd",
+        "specialization": "",
+        "description": {
+          "value": "<p>Cette compétence est nécessaire pour conduire un char d&rsquo;assaut, une pelleteuse, une excavatrice &agrave; vapeur ou d&rsquo;autres engins de chantier. Le gardien peut décider d&rsquo;augmenter la difficulté si l&rsquo;investigateur se retrouve dans une situation &agrave; laquelle il n&rsquo;est pas habitué. Par exemple, s&rsquo;il a l&rsquo;habitude de conduire un bulldozer, il ne sera pas immédiatement &agrave; l&rsquo;aise avec les moteurs &agrave; vapeur de la salle des machines d&rsquo;un navire.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : piloter une grue ou une niveleuse.</li>\n<li>Difficulté majeure : effectuer des manipulations délicates ou des t&acirc;ches complexes, comme exhumer des oeufs de dinosaures avec une pelleteuse sans les ab&icirc;mer.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Suivre le manuel pas &agrave; pas ; prendre le temps de s&rsquo;entra&icirc;ner, chercher un instructeur.</p>\n<h2>Conséquences d&rsquo;un redoublement raté ?</h2>\n<p>Suite &agrave; un excès de confiance du conducteur, l&rsquo;engin percute et défonce un mur de brique.</p>\n<p>Si un investigateur dément rate un redoublement, il peut se croire en mission et commencer &agrave; déterrer ou construire un temple consacré aux Grands Anciens.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "1",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.JF4UdQaQ3TOy0J3B"
+        }
+      }
+    },
+    {
+      "_id": "LzYmzKjgFLkvKgLV",
+      "name": "Crédit",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-creditrating.svg",
+      "data": {
+        "skillName": "Crédit",
+        "specialization": "",
+        "description": {
+          "value": "<p>Mesure la prospérité apparente de l’investigateur et la confiance financière qu’on lui accorde. L’argent ouvre les portes. Si l’investigateur fait jouer son rang social pour obtenir quelque chose, le gardien peut demander un test de Crédit. Selon les circonstances, la compétence peut également remplacer l’APP pour jauger les premières impressions. Cela représente notamment le fait que les individus aisés portent des vêtements plus coûteux.</p>\n<p>Le Crédit n’est pas une compétence comme les autres, mais plutôt une jauge de sa santé financière. Dans <strong><em>L’Appel de Cthulhu</em></strong>, on ne demande pas aux joueurs de gérer leur budget avec précision et rigueur. Toutefois, il est intéressant de connaître les limites de ses possibilités. Par exemple, peut-il engager une équipe d’archéologues et d’ouvriers pour déterrer une tombe égyptienne ?</p>\n<p>Contrairement aux autres compétences, elle ne reçoit pas de croix d’expérience. Un Crédit élevé est une ressource précieuse, qu’il faut acheter lors de la création de l’investigateur. Chaque occupation suggère des valeurs de Crédit minimal et maximal pour cette profession. Le joueur devrait s’y conformer, sauf s’il obtient l’aval du gardien. Cela dit, s’il ne progresse pas avec l’expérience, le Crédit peut changer selon les évènements. Les investigateurs du Mythe sont sujets aux problèmes mentaux, ce qui peut conduire à une perte d’emploi et un abaissement du Crédit. Vous trouverez plus d’informations sur l’utilisation de cette compétence dans Emploi et compétence Crédit, page 85.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : obtenir un prêt d’une banque ou d’une entreprise ; ignorer une demande d’antécédents ; bénéficier d’un crédit dans une boutique ou un casino ; avoir la meilleure table dans un restaurant chic.</li>\n<li>Difficulté majeure : obtenir un prêt alors que l’on est visé par une enquête criminelle, ou déjà jugé coupable ; bénéficier d’une attention favorable après avoir été vilipendé dans les médias.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Proposer sa maison ou d’autres biens précieux en garantie à un usurier malhonnête ; insister auprès de sa banque pour obtenir un prêt.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>L’usurier véreux perd patience et envoie ses gars vous donner une leçon ; le banquier appelle la police ; la pègre vous prête l’argent, mais c’est une manoeuvre pour vous faire crouler sous les dettes et exiger une faveur.</p>\n<p>Si un investigateur dément rate un redoublement, il peut perdre sa confiance dans le capitalisme et jeter littéralement son argent par les fenêtres. Voir aussi Dépenses courantes et Niveau de vie, page 84.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "0",
+        "adjustments": {
+          "personal": 20,
+          "occupation": 10,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "noxpgain": true,
+          "push": true
+        },
+        "eras": {},
+        "flags": {
+          "occupation": true
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.zyrOLKVlX9nZ6hHC"
+        }
+      }
+    },
+    {
+      "_id": "uqa5wyahhbtfRfKq",
+      "name": "Crochetage",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-locksmith.svg",
+      "data": {
+        "skillName": "Crochetage",
+        "specialization": "",
+        "description": {
+          "value": "<p>Un investigateur doué en crochetage peut forcer la porte d’une voiture, puis court-circuiter son Neiman, ouvrir les fenêtres d’une bibliothèque, résoudre des casse-tête chinois et déjouer des systèmes d’alarme commerciaux.</p>\n<p>La compétence permet également de réparer les serrures, de copier des clés ou de crocheter une porte à l’aide d’outils adaptés. Les serrures les plus complexes peuvent nécessiter un test de difficulté plus élevée.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : ouvrir ou réparer une serrure ordinaire.</li>\n<li>Difficulté majeure : ouvrir une serrure de haute sécurité.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Démonter l’intégralité de la serrure ; prendre son temps ; utiliser la force pour écarter le mécanisme.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>La serrure est endommagée et inutilisable, peut-être parce que le crochet s’est cassé à l’intérieur ; le casse-tête est abîmé, il faudra le briser pour l’ouvrir ; une alarme se déclenche, ou l’investigateur fait tellement de bruit qu’il attire l’attention.</p>\n<p>Si un investigateur dément rate un redoublement, il peut abandonner l’idée d’ouvrir cette serrure, et préférer se concentrer sur le véritable défi : ouvrir son esprit. Le monde lui apparaît enfin tel qu’il est, même si aucune personne saine d’esprit n’est capable de le comprendre.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "1",
+        "adjustments": {
+          "personal": 45,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {
+          "developement": true
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.UJhNuzOdHLmTKc7V"
+        }
+      }
+    },
+    {
+      "_id": "Q87MMvex9PIpkWly",
+      "name": "Discrétion",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-stealth.svg",
+      "data": {
+        "skillName": "Discrétion",
+        "specialization": "",
+        "description": {
+          "value": "<p>L’art de se déplacer sans faire de bruit ni se faire voir. Lorsqu’un investigateur souhaite éviter d’être repéré, le joueur doit faire un test de Discrétion. Un niveau de compétence élevé signifie que le personnage est doué pour marcher en silence et se camoufler, ou qu’il a suffisamment de nerfs et de patience pour rester immobile pendant de longues périodes.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Lorsqu’un investigateur se cache, la difficulté de son test de Discrétion est déterminée sur la base de la compétence écouter ou Trouver Objet Caché de ses adversaires. Elle peut être modifiée selon la situation (ténèbres, bruits).</p>\n<ul>\n<li>Difficulté ordinaire : se déplacer silencieusement dans une maison sans se faire entendre par des personnes moyennes (dont les compétences écouter et Trouver Objet Caché sont inférieures à 50 %).</li>\n<li>Difficulté majeure : ne pas se faire repérer par un chien de garde attentif ; se cacher en n’ayant que quelques secondes devant soi.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Prendre le temps d’étudier les lieux ; retirer ses chaussures ; faire diversion ; ne plus bouger le temps que les choses se calment.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>Sans le savoir, l’investigateur a été repéré par les adorateurs, mais plutôt que de s’en prendre à lui directement, ils ont décidé d’invoquer une créature qui va s’occuper de lui ; quelqu’un ferme à clef la porte du placard où l’investigateur vient de se réfugier, puis la cloue au chambranle.</p>\n<p>Si un investigateur dément rate un redoublement, il peut se croire invisible, alors que tout le monde peut le voir.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "20",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.jmqOOHue3SPq8FbW"
+        }
+      }
+    },
+    {
+      "_id": "VNILaHVARA0TofjB",
+      "name": "Droit",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-law.svg",
+      "data": {
+        "skillName": "Droit",
+        "specialization": "",
+        "description": {
+          "value": "<p>Cette compétence représente les chances de connaître des lois pertinentes à la situation, ainsi que la jurisprudence, les procédures judiciaires et les possibilités légales. La pratique du droit en tant que profession peut s’avérer très enrichissante et se conclure par un poste politique, mais le chemin est long et ardu. Un crédit élevé est un avantage certain. Aux Etats-Unis, l’inscription au barreau est soumise à un examen.</p>\n<p>Dans un pays étranger, les tests de Droit seront plus difficiles, à moins que l’investigateur n’ait passé plusieurs mois à étudier son système judiciaire.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : comprendre et utiliser les détails d’une loi ou d’une procédure légale.</li>\n<li>Difficulté majeure : se rappeler ou comprendre un précédent obscur ; interroger un témoin compétent hostile.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Faire une pause pour réfléchir à ses arguments; expliquer longuement les détails de l’affaire ; prendre le temps de faire des recherches ; détourner la lettre de la loi au mépris de son esprit.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>Une mauvaise interprétation de la loi ou l’ignorance d’une procédure légale fait que l’investigateur commet un délit et attire l’attention de la police, il perd du temps et de l’argent en recherches et en frais légaux ; il commet un outrage au tribunal et est jeté en cellule pour 24 heures. Si un investigateur dément rate un redoublement, il peut se croire au-dessus des lois.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "5",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.6oOc7Nefl3eYj1WQ"
+        }
+      }
+    },
+    {
+      "_id": "00v2fdX3VHr2g3BM",
+      "name": "Écouter",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-listen.svg",
+      "data": {
+        "skillName": "Écouter",
+        "specialization": "",
+        "description": {
+          "value": "<p>Cette compétence mesure la capacité d’un investigateur à interpréter et comprendre les bruits, par exemple pour espionner une conversation à travers une porte fermée ou à la table d’à côté dans un café bondé. Le gardien peut demander un test pour éviter d’être pris par surprise : l’investigateur a-t-il été réveillé parce que quelque chose a marché sur une brindille ? Par extension, le niveau en écouter exprime également le sens de l’observation et la réactivité.</p>\n<p>Compétence opposée / Niveau de difficulté :</p>\n<p>La compétence écouter d ’un investigateur s’oppose à la Discrétion d’un individu cherchant à s’approcher de lui subrepticement.</p>\n<ul>\n<li>Difficulté ordinaire : entendre une personne qui s’approche (et dont la compétence Discrétion est inférieure à 50 %) ; espionner une conversation proche.</li>\n<li>Difficulté majeure : entendre une personne qui s’approche (et dont la compétence Discrétion est comprise entre 50 et 89 %) ; espionner une conversation menée à voix basse.</li>\n</ul>\n<p>Comment redoubler ?</p>\n<p>S’arrêter complètement de bouger pour mieux écouter ; s’approcher de la source des bruits, par exemple en collant l’oreille sur les rails ou contre la porte ; demander à tout le monde de se taire, quitte à faire du bruit soi-même, avant d’écouter.</p>\n<p>Conséquences d’un redoublement raté ?</p>\n<p>La chose prend l’investigateur par surprise; il comprend l a conversation de travers, et en tire de fausses déductions ; les personnes qu’il espionne s’en rendent compte, ce qui le plonge dans l’embarras.</p>\n<p>Si un investigateur dément rate un redoublement, il peut devenir affreusement sensible aux bruits, ce qui l’oblige à porter des boules quiès ou d’autres protections auditives.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "20",
+        "adjustments": {
+          "personal": null,
+          "occupation": 40,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {
+          "occupation": true,
+          "developement": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.TrWitVugb1ev542H"
+        }
+      }
+    },
+    {
+      "_id": "S3bzy9tEh914G5Hx",
+      "name": "Électricité",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-electricalrepair.svg",
+      "data": {
+        "skillName": "Électricité",
+        "specialization": "",
+        "description": {
+          "value": "<p>Cette compétence permet de réparer ou de reconfigurer une installation électrique, notamment les bougies d&rsquo;une voiture, les moteurs électriques, les fusibles et les alarmes antivol. Pour effectuer des réparations, il faut des outils et des pièces de rechange.</p>\n<p>De nos jours, cette compétence est totalement distincte d&rsquo;électronique. Dans les années 1920, elle est fréquemment utilisée en conjonction avec Mécanique.</p>\n<p>électricité peut aussi &ecirc;tre utile avec des explosifs, comme les déclencheurs électriques, les briques de C-4 et les mines. Ces armes sont con&ccedil;ues pour &ecirc;tre faciles &agrave; déployer. Une explosion prématurée n&rsquo;arrive que si les dés indiquent une maladresse, et m&ecirc;me alors il est possible de redoubler le test. Les désamorcer est bien plus ardu, en raison des dispositifs de protection. La difficulté du test sera augmentée (cf. Explosifs, page 59).</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : réparer ou fabriquer une machine électrique standard. &bull;</li>\n<li>Difficulté majeure : réparer un objet très endommagé ; travailler sans outils adaptés.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Prendre son temps ; b&acirc;cler le travail.</p>\n<h2>Conséquences d&rsquo;un redoublement raté ?</h2>\n<p>Subir des dég&acirc;ts suite &agrave; un coup de jus ; faire sauter les plombs et plonger le b&acirc;timent dans le noir ; bousiller définitivement la machine que l&rsquo;on tentait de réparer.</p>\n<p>Si un investigateur dément rate un redoublement, il peut tenter d&rsquo;alimenter la machine gr&acirc;ce &agrave; la bio-électricité générée par les &ecirc;tres vivants.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "10",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.od8Ygey1e7dnBMnE"
+        }
+      }
+    },
+    {
+      "_id": "sJMkFJy1RgmTrTAo",
+      "name": "Équitation",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-ride.svg",
+      "data": {
+        "skillName": "Équitation",
+        "specialization": "",
+        "description": {
+          "value": "<p>Cette compétence est destinée à monter des chevaux, des ânes ou des mules. Elle confère une connaissance rudimentaire des soins à apporter à son animal, de l’usage du harnachement et de la façon de tenir sa monture au galop ou sur un terrain difficile. Si l’animal rue ou trébuche, le cavalier doit réussir un test de compétence pour rester en selle. Monter en amazone augmente la difficulté d’un cran. Il est possible de monter d’autres animaux que ceux dont on a l’habitude (comme un chameau), mais la difficulté est relevée.</p>\n<p>Si un investigateur tombe de selle, quelle que soit la raison, il perd un minimum de 1D6 points de vie, à moins de réussir un test de saut.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Un test n’est pas nécessaire pour chevaucher au pas ou s’occuper de sa monture.</p>\n<ul>\n<li>&nbsp;Difficulté ordinaire : chevaucher au galop ; calmer une monture nerveuse.</li>\n<li>Difficulté majeure : galoper sur un terrain difficile et inconnu, dans de mauvaises conditions ; par exemple, dans une forêt profonde, la nuit, sous la pluie.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Fouetter ou éperonner sa monture agressivement, peut-être pour la forcer à sauter pardessus une crevasse ou une tranchée ; prendre le risque de rester en selle plutôt que d’éviter un danger.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>Le cavalier est mis à bas et subit des dégâts ; la monture est blessée ; dans sa chute, le pied du cavalier se prend dans la bride, et il est tiré sur une bonne dizaine de mètres.</p>\n<p>Si un investigateur dément rate un redoublement, il peut devenir obsédé par l’animal.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "5",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.ETM4JyTAYbFcFrER"
+        }
+      }
+    },
+    {
+      "_id": "PiLxJxK6qjdQKXVT",
+      "name": "Combat rapproché (Esquive)",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-dodge.svg",
+      "data": {
+        "skillName": "Esquive",
+        "specialization": "Combat rapproché",
+        "description": {
+          "value": "<p>Compétence primordiale, elle permet d&rsquo;éviter les coups, les armes de jet et d&rsquo;autres attaques dangereuses. Un investigateur peut esquiver autant de fois que nécessaire dans le m&ecirc;me round de combat, mais une seule fois par attaque (cf. Chapitre 6 : Combat). Toutefois, il ne peut esquiver que les attaques qu&rsquo;il voit venir. Ainsi, il est impossible d&rsquo;esquiver les balles, puisqu&rsquo;on ne les voit plus bouger une fois en mouvement. Le mieux que l&rsquo;on peut faire est de prendre des mesures défensives, pour se rendre plus difficile &agrave; toucher (cf. Se mettre &agrave; couvert, page 100).</p>\n<p>L&rsquo;Esquive progresse avec l&rsquo;expérience, comme n&rsquo;importe quelle compétence.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Servant essentiellement lors de tests opposés en combat, l&rsquo;esquive n&rsquo;a pas de difficulté fixe.</p>\n<p><strong> Note :</strong> En tant que compétence de combat, le redoublement est impossible.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": 37,
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "fighting": true,
+          "firearm": false,
+          "combat": true,
+          "special": false
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.YZv6I2f5HuA1H8q8"
+        }
+      }
+    },
+    {
+      "_id": "884VSQEdo4cENxbW",
+      "name": "Estimation",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-appraise.svg",
+      "data": {
+        "skillName": "Estimation",
+        "specialization": "",
+        "description": {
+          "value": "<p>Sert à jauger la valeur d’un objet, à partir de sa qualité globale, des matières utilisées et de la finesse de l’ouvrage. L’investigateur peut déterminer l’âge de l’objet, reconnaître son éventuelle importance historique et détecter les contrefaçons.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : l’objet était courant à l’époque de sa fabrication, et il n’est pas fait d’un matériau rare (par exemple, une montre en or datant d’il y a 50 ans).</li>\n<li>Difficulté majeure : l’objet est inhabituel, peut-être parce qu’il est fait de matériaux sortant de l’ordinaire (par exemple, un objet venu de l’étranger et vieux de plusieurs siècles, comme un ouvrage ancien).</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Vérifier l’authenticité de l’objet auprès d’un second expert, mener des tests, faire des recherches.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>L’investigateur détruit l’objet par inadvertance ; il attire l’attention de personnes indésirables, qui peuvent tenter de subtiliser l’objet ; il active l’objet sans y être préparé.</p>\n<p>Si un investigateur dément rate un redoublement, il peut le détruire volontairement, le croyant maudit. Il peut aussi décréter que l’objet est nécessaire à son salut et refuser de s’en séparer.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "5",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.BAbZe4tzU5adw8uT"
+        }
+      }
+    },
+    {
+      "_id": "3f7GV3UDuGI9XHpb",
+      "name": "Grimper",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-climb.svg",
+      "data": {
+        "skillName": "Grimper",
+        "specialization": "",
+        "description": {
+          "value": "<p>Grâce à cette compétence, un investigateur peut grimper aux arbres, aux murs et à d’autres surfaces verticales, avec ou sans matériel d’escalade. Il peut aussi descendre en rappel.</p>\n<p>La friabilité de la surface, la présence de prises, le vent, la visibilité, la pluie, et ainsi de suite, peuvent avoir un impact sur la difficulté du test.</p>\n<p>Un échec sur le premier test indique que l’escalade prévue semble trop difficile à l’investigateur. Un échec sur un test redoublé entraînera probablement une chute, avec les dégâts afférents. Dans la plupart des cas, un seul test de grimper réussi suffit pour achever une escalade. Une tentative longue ou délicate se traduit par une difficulté plus élevée, plutôt que par plusieurs tests.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : les prises sont nombreuses, comme sur une corde ou une gouttière.</li>\n<li>Difficulté majeure : les prises sont rares, ou la surface glissante.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Réévaluer la difficulté ; opter pour une voie plus longue ; prendre plus de risques que d’habitude.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>L’investigateur tombe (la chute lui inflige 1D6 points de dégâts tous les 3 mètres s’il atterrit sur de l’herbe, ou 1D10 tous les 3 mètres s’il s’écrase sur du béton) ; il perd un objet précieux, qui glisse hors de sa poche (il peut ne le remarquer que bien plus tard) ; il arrive à un cul-de-sac, où il ne peut plus ni avancer, ni reculer.</p>\n<p>Si un investigateur dément rate un redoublement, il peut s’accrocher désespérément et refuser de bouger, hurlant à pleins poumons jusqu’à ce qu’on le déloge de force.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "20",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.PuoginxxUvH7Fiar"
+        }
+      }
+    },
+    {
+      "_id": "CGGNRUNNElLfpQ8o",
+      "name": "Histoire",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-history.svg",
+      "data": {
+        "skillName": "Histoire",
+        "specialization": "",
+        "description": {
+          "value": "<p>La compétence histoire permet de se souvenir de l’importance d’un pays, d’une ville, d’une région ou d’une personne. Un test réussi peut servir à identifier des outils, des techniques ou des idées autrefois courants, mais maintenant oubliés de tous, ou presque.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : se rappeler une information pertinente.</li>\n<li>Difficulté majeure : connaître un détail obscur et utile.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Prendre plus de temps pour réfléchir ; approfondir ses recherches ; consulter un autre expert ; engager des assistants pour mener une étude complète, ce qui prend des mois et coûte très cher.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>Les fouilles de l’investigateur attirent l’attention de ses adversaires, qui comprennent ses intentions ; les faits découverts sont erronés et peuvent conduire à des déductions dangereuses ; l’argent et le temps sont dépensés en vain.</p>\n<p>Si un investigateur dément rate un redoublement, il peut être convaincu qu’il a voyagé dans le temps, ou qu’il vit dans une autre période historique. Il s’habille et se comporte alors en conséquence.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": "",
+          "notes": "<p>A la connaissance d'une spécialité :</p>\n<ul>\n<li>Histoire des Rêves</li>\n<li>Histoire des&nbsp; Vampire</li>\n<li>Histoire des Loup-Garous</li>\n</ul>\n<p>Notez que des points d'intérêt professionnel et/ou personnel doivent être investis dans cette compétence.&nbsp;</p>"
+        },
+        "base": "5",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {
+          "occupation": true
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.CDSmZMids4uAvBj9"
+        }
+      }
+    },
+    {
+      "_id": "ThgIdCaXgAgB0S4g",
+      "name": "Imposture",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-disguise.svg",
+      "data": {
+        "skillName": "Imposture",
+        "specialization": "",
+        "description": {
+          "value": "<p>L’imposture sert à se faire passer pour ce que l’on n’est pas. L’investigateur adapte sa posture, son costume et sa voix pour ressembler à une personne en particulier ou une profession en général. Un maquillage de théâtre est un atout, ainsi que des faux papiers.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Cette compétence présente deux facettes : camoufler son identité, par exemple pour éviter d’être repéré par la police, et prétendre être quelqu’un d’autre.</p>\n<ul>\n<li>Difficulté ordinaire : convaincre des inconnus de sa (fausse) identité. Par exemple, revenir sur les lieux d’un crime commis la veille sans être reconnu.</li>\n<li>Difficulté majeure : convaincre des professionnels, lors d’un entretien, de sa (fausse) identité. Par exemple, se faire passer pour un employé de banque et accéder à leur coffre.</li>\n</ul>\n<p>Notez que cette compétence ne permet pas de passer pour une personne auprès d’individus qui la connaissent personnellement. Un plan aussi audacieux nécessitera un test combiné (avec Persuasion, Charme ou Baratin), et la difficulté sera plus élevée.</p>\n<h2>Comment redoubler ?</h2>\n<p>Suivre une préparation intense et en profondeur, pour plonger dans le rôle ; voler des effets personnels et les utiliser pour se déguiser ; surjouer pour troubler la cible ; feindre une attaque pour désorienter les observateurs.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>Se faire arrêter ; être ridiculisé en public ; découvrir que la personne imitée est recherchée par un gang, et pas pour la féliciter.</p>\n<p>Si un investigateur dément rate un redoublement, il peut ne plus se reconnaître dans le miroir, même une fois le déguisement retiré.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "5",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.rSerXz4Ng8Kbqc65"
+        }
+      }
+    },
+    {
+      "_id": "dRixKUhuXZRgGfcB",
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-intimidate.svg",
+      "data": {
+        "skillName": "Intimidation",
+        "specialization": "",
+        "description": {
+          "value": "<p>L’Intimidation peut prendre de nombreuses formes, parmi la violence physique, la manipulation psychologique et les menaces. Son but est de faire peur ou de contraindre une personne à agir d’une certaine façon. Le test de compétence est opposé par Intimidation ou Psychologie.</p>\n<p>La difficulté du test peut être réduite si l’on présente une arme ou un autre moyen de pression. Par contre, en cas d’échec sur un test redoublé, les conséquences seront d’autant plus graves, allant peut-être au-delà de ce qu’envisageait le joueur au départ.</p>\n<p>La compétence sert aussi à imposer un rabais auprès d’un vendeur. En cas de succès, il baisse ses prétentions ou offre le bien ou le service pour se débarrasser de ce client violent. Evidemment, il risque ensuite de faire appel à la police ou à la pègre locale.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Consultez Fixer la difficulté des compétences sociales, page 82.</p>\n<h2>Comment redoubler ?</h2>\n<p>Faire du mal à la cible ou à quelqu’un à qui elle tient. Gardez à l’esprit qu’il s’agit d’Intimidation. Si un investigateur change d’approche en cours de route, le gardien peut demander un test d’une compétence différente. S’il retire ses menaces et tente d’amadouer la cible, ce sera Charme. S’il enchaîne sur une longue discussion paisible, cela peut devenir de la Persuasion. Passer de l’un à l’autre pour obtenir une deuxième chance constitue un redoublement.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>L’investigateur appuie par mégarde sur la pression de l’arme qu’il braque sous le nez de sa cible ; son interlocuteur s’énerve à son tour ou perd momentanément les pédales, ce qui fait que l’investigateur n’obtient rien de lui ; il se met à rire et refuse de céder aux menaces ; la cible parvient à retourner la situation et intimider l’investigateur.</p>\n<p>Il est important de noter que, pour redoubler un test d’Intimidation, il ne faut pas prendre de gants. Cela peut se traduire par un interrogatoire de plusieurs heures, ou un ultimatum avec un revolver sur la tempe. Après un redoublement, soit l’investigateur obtient ce qu’il désire, soit la situation se termine mal, très mal.</p>\n<p>Si un investigateur dément rate un redoublement, il est terrifié par la cible et fait ce qu’elle lui demande.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "15",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.VJxaSVsemM9ptQxL"
+        }
+      }
+    },
+    {
+      "_id": "UyQBSdnWNVSh3Hvd",
+      "name": "Combat à distance (Lancer)",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-throw.svg",
+      "data": {
+        "skillName": "Lancer",
+        "specialization": "Combat à distance",
+        "description": {
+          "value": "<p>Pour atteindre une cible avec un projectile, et plus exactement avec la bonne partie de ce projectile, comme la lame d’un couteau ou le tranchant d’une hachette, il faut maîtriser Lancer. Un objet tenant dans la main et correctement équilibré peut être lancé à une distance égale à la FOR en mètres. Si le test de Lancer échoue, le projectile tombe à côté de sa cible, à une distance aléatoire. Pour avoir un ordre d’idée, le gardien peut comparer le résultat des dés au seuil requis, et choisir une Compétences 61 distance qu’il estime comparable. En combat, la compétence sert à jeter des pierres, des javelines, des grenades ou des boomerangs.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Des modificateurs peuvent s’appliquer en fonction du poids de l’objet lancé ou, surtout pour les objets légers, de la force du vent.</p>\n<ul>\n<li>Difficulté ordinaire : réussir un panier au basket.</li>\n<li>Difficulté majeure : rester précis même de loin ; réussir un panier depuis le centre du terrain.</li>\n</ul>\n<p>Une fois un projectile lancé, il est littéralement hors de portée de l’investigateur. Le joueur ne peut plus rien faire pour redoubler le test. S’il a plusieurs projectiles à disposition et que l’échec n’est pas dangereux, ce n’est plus qu’une question de temps et de chance avant que l’un d’eux n’atteigne sa cible. Par contre, si l’investigateur possède plusieurs projectiles, mais que chaque échec lui fait courir un danger, alors le gardien peut demander un redoublement.</p>\n<h2>Comment redoubler ?</h2>\n<p>Prendre plus de temps pour évaluer la distance ou attendre des conditions favorables ; mettre toute sa force dans le lancer ; lancer rapidement une multitude d’objets dans l’espoir que l’un d’eux touche ; prendre de l’élan, au risque d’être entraîné dans le ravin.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>L’investigateur trébuche au dernier moment et s’écrase contre le sol, pendant que le projectile quitte sa main pour se diriger vers l’un de ses camarades ; il met trop de force dans son lancer, et le projectile passe au-dessus du mur de l’église pour atterrir dans le cimetière ; la dynamite lui échappe des mains, et l’investigateur ne la retrouve plus… Elle est dans sa capuche, mais il ne s’en rend compte qu’en sentant l’odeur de la mèche.</p>\n<p>Si un investigateur dément rate un redoublement, il peut refuser de lâcher le projectile.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "20",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true,
+          "fighting": false,
+          "firearm": true,
+          "combat": true,
+          "special": false
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.vucTrP4fZQuYR6RX"
+        }
+      }
+    },
+    {
+      "_id": "2TDIP9snxij4acFA",
+      "name": "Langue maternelle",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-languageown.svg",
+      "data": {
+        "skillName": "Langue maternelle",
+        "specialization": "",
+        "description": {
+          "value": "<p>En achetant cette compétence, précisez la langue sur la fiche d’investigateur. Pendant l’enfance, la plupart des humains n’utilisent qu’une langue. Celle-ci commence à un niveau de base égal à l’EDU. Elle peut être augmentée comme n’importe quelle autre compétence. Par ailleurs, cette compétence fonctionne exactement comme langues.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>En temps normal, aucun test de Langue maternelle n’est nécessaire. Même face à des termes techniques, archaïques ou ésotériques, tant que les deux locuteurs sont en bons termes et qu’ils ont le temps de s’expliquer, un seul test suffit à couvrir toute la conversation.</p>\n<p>Le gardien peut exiger un test pour lire un texte particulièrement alambiqué ou comprendre un accent à couper au couteau.</p>\n<h2>Comment redoubler ?</h2>\n<p>Voir Langues</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": 55,
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.hBpIf5530azwzKw3"
+        }
+      }
+    },
+    {
+      "_id": "ji4hCinUfH4WOtOb",
+      "name": "Langues (Italien)",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-languageother.svg",
+      "data": {
+        "skillName": "Italien",
+        "specialization": "Langues",
+        "description": {
+          "value": "<p>En achetant cette compétence, précisez la langue choisie sur la fiche d’investigateur. Il n’y a pas de limite au nombre de langues qu’un investigateur peut connaître. Son niveau représente ses chances de comprendre, parler, lire et écrire une autre langue que la sienne. Des langues anciennes ou inconnues, comme l’aklo ou l’hyperboréen, ne peuvent être sélectionnées qu’avec l’accord du gardien. Ce n’est pas nécessaire pour les langues humaines ordinaires. Le gardien peut augmenter la difficulté lorsque l’investigateur rencontre une forme archaïque de la langue. Un seul test de compétence suffit généralement à comprendre un livre entier.</p>\n<h2>Suggestions sur le niveau de Langues</h2>\n<ul>\n<li>À 5 %, l’investigateur peut identifier la langue sans jet de dés.</li>\n<li>À 10 %, il peut exprimer des idées simples.</li>\n<li>À 30 %, les discussions et les pourparlers sont possibles.</li>\n<li>À 50 %, l’investigateur parle correctement la langue.</li>\n<li>À 75 %, il n’a plus d’accent perceptible.</li>\n<li>Pour identifier une langue vivante inconnue, faites un test de Connaissance.</li>\n<li>Pour identifier une langue morte, faites un test d’Archéologie ou d’Histoire.</li>\n<li>Pour identifier une langue non humaine, faites un test de Mythe de Cthulhu ou peut-être d’Occultisme.</li>\n</ul>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Une conversation banale ne nécessite aucun test à des investigateurs parlant couramment une langue. Tout juste auront-ils besoin d’interrompre leur interlocuteur pour le faire répéter ou lui demander des éclaircissements si celui-ci ne parle pas la langue aussi bien qu’eux.</p>\n<ul>\n<li>Difficulté ordinaire : une conversation un peu rapide ; des textes contenant des termes techniques ou rares.</li>\n<li>Difficulté majeure : forte densité de termes techniques inconnus ; construction de phrases archaïques ; accent prononcé et inhabituel.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Tourner sept fois sa langue dans sa bouche ; faire de longues pauses avant de répondre aux questions ; vérifier ses traductions dans d’autres dictionnaires.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>La discussion animée attire l’attention d’une faction ennemie ; un mot ou une expression mal utilisé change le sens de la phrase du tout au tout ; l’interlocuteur est offensé par ce qu’il perçoit comme une injure et devient violent ou tourne la foule contre l’investigateur.</p>\n<p>Si un investigateur dément rate un redoublement, il peut se mettre à parler la langue des anges, l’énochien.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "1",
+        "adjustments": {
+          "personal": null,
+          "occupation": 30,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "special": true,
+          "push": true
+        },
+        "eras": {},
+        "flags": {
+          "occupation": true
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.j352qRzrR1oIcyDY"
+        }
+      }
+    },
+    {
+      "_id": "n5yqkBSSiniAmL3r",
+      "name": "Mécanique",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-mechanicalrepair.svg",
+      "data": {
+        "skillName": "Mécanique",
+        "specialization": "",
+        "description": {
+          "value": "<p>Gr&acirc;ce &agrave; cette compétence, un investigateur peut réparer une machine en panne ou en créer une nouvelle. Elle couvre les bases de la charpenterie et de la plomberie, ainsi que la fabrication d&rsquo;outils (comme des poulies) ou la réparation d&rsquo;objets (comme les pompes &agrave; vapeur). Des outils spéciaux peuvent &ecirc;tre nécessaires. La compétence sert également &agrave; forcer des serrures d&rsquo;entrée de gamme, mais il faut faire appel &agrave; crochetage dès qu&rsquo;elles deviennent plus complexes. Les compétences Mécanique et électricité vont de pair. Les deux sont nécessaires pour réparer des appareils complexes, comme une voiture ou un avion.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : réparer ou fabriquer une machine simple ; ouvrir une serrure élémentaire.</li>\n<li>Difficulté majeure : réparer une machine sérieusement endommagée ; fabriquer une machine complexe &agrave; l&rsquo;aide de ressources limitées.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Démonter entièrement la machine ; prendre son temps ; prendre le risque de secouer la machine jusqu&rsquo;&agrave; ce qu&rsquo;elle fonctionne (par ex, taper dessus).</p>\n<h2>Conséquences d&rsquo;un redoublement raté ?</h2>\n<p>L&rsquo;état de l&rsquo;appareil empire, il est maintenant impossible &agrave; réparer ; l&rsquo;investigateur se coupe la main ou se blesse d&rsquo;une autre fa&ccedil;on ; il est obsédé par la réparation et passe toute la journée dessus, puis la nuit s&rsquo;il le faut.</p>\n<p>Si un investigateur dément rate un redoublement, il peut commencer &agrave; remplir un carnet épais comme un annuaire de croquis et de schémas, et finir par créer un dispositif étrange, combinaison de matière organique et d&rsquo;appareils ménagers.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "10",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.EnvTSGhhcUlH07cq"
+        }
+      }
+    },
+    {
+      "_id": "eVlhmFB6WqopRjSp",
+      "name": "Mythe de Cthulhu",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-cthulhumythos.svg",
+      "data": {
+        "skillName": "Mythe de Cthulhu",
+        "specialization": "",
+        "description": {
+          "value": "<p>Cette compétence reflète la compréhension transcendantale de l’inhumain Mythe de Cthulhu. Contrairement aux compétences universitaires, elle ne mesure pas l’accumulation de connaissances, mais l’éveil et l’accord de l’investigateur aux mystères du Mythe. Ainsi, les points gagnés après avoir rencontré des Profonds (par exemple) s’appliquent également à d’autres situations ou créatures. Aussi appelé « ce que l’humanité n’est pas prête à connaître », le Mythe de Cthulhu est fondamentalement inconcevable pour un esprit sain. Il détruit la raison et l’équilibre de ceux qui s’y intéressent de trop près.</p>\n<p>Un investigateur débutant ne peut pas mettre de points dans cette compétence, à moins d’avoir l’accord du gardien. De plus, elle ne progresse pas par l’expérience. D’ailleurs, il n’y a pas de case à cocher sur sa ligne de la fiche d’investigateur. Elle n’augmente qu’en faisant une crise de démence suite à une rencontre avec le Mythe, en ayant un aperçu de la véritable nature de l’univers ou en lisant des ouvrages interdits. La Santé Mentale d’un investigateur ne peut jamais être supérieure à 99 moins son niveau de Mythe de Cthulhu. À mesure qu’il entasse les points de compétence, sa Santé Mentale s’effrite, le laissant vulnérable.</p>\n<p>S’il trouve des empreintes ou d’autres traces laissées par un monstre du Mythe, un investigateur peut faire un test de compétence pour identifier l’entité et en déduire en partie son comportement ou ses caractéristiques. Un test réussi peut également permettre de se rappeler des faits concernant le Mythe, d’identifier un sort en train d’être lancé, de se souvenir dans quel ouvrage trouver des informations sur un sort ou une créature, entre autres. Enfin, la compétence Mythe de Cthulhu peut servir à manifester des effets magiques, semblables à des sorts.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Les chances de base étant de 0 et restant basses par la suite, la majorité des tests devraient se faire à une difficulté ordinaire.</p>\n<ul>\n<li>Difficulté ordinaire : identifier correctement une entité du Mythe à partir d’indices indirects (empreintes, blessures, témoignages).</li>\n<li>Difficulté majeure : identifier une entité du Mythe sur la base de rumeurs, de légendes ou d’indices ténus ; deviner une faiblesse ou un secret conférant un avantage mineur contre une entité du Mythe grâce à des recherches ou une rencontre.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Se rapprocher de la créature pour mieux la voir ; consulter des ouvrages impies ou des experts humains ; pratiquer une autopsie pour en apprendre plus ; lire à haute voix en parcourant d’étranges cryptogrammes.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>L’investigateur s’approche si près, s’exposant aux attaques ou à la suspicion ; la lecture à haute voix d’un extrait d’un tome déclenche un sort d’invocation ; il détruit par maladresse les preuves étudiées.</p>\n<p>Si un investigateur dément rate un redoublement, il reçoit une vision ou une révélation qui lui dévoile de nouvelles vérités sur le Mythe de Cthulhu, similaire à un éclair de folie (cf. page 153), qui peut s’accompagner d’une augmentation de compétence et d’une perte de Santé Mentale.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "0",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "noxpgain": true,
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.3tFep79TwEUMosY0"
+        }
+      }
+    },
+    {
+      "_id": "5bUqa3sV2FzhT3wt",
+      "name": "Médecine",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-medicine.svg",
+      "data": {
+        "skillName": "Médecine",
+        "specialization": "",
+        "description": {
+          "value": "<p>Cette compétence permet de diagnostiquer et de soigner les maux, les blessures, les maladies, les empoisonnements et ainsi de suite, mais aussi de donner des conseils de santé pertinents. Si aucun remède n’est connu à cette époque, le résultat sera limité, aléatoire ou nul. La compétence Médecine s’accompagne d’une connaissance générale des médicaments et des potions, naturels ou industriels, avec leurs effets et contre-indications.</p>\n<p>Soigner un patient à l’aide de Médecine prend au moins une heure. Le traitement peut être appliqué n’importe quand après la blessure, mais si le médecin attend plus d’une journée, la difficulté augmente d’un cran, nécessitant une réussite majeure. En cas de succès, le patient récupère 1D3 points de vie, en plus de celui qu’il peut déjà avoir reçu grâce à Premiers soins. Les mourants sont une exception. Ils doivent impérativement être stabilisés avec Premiers soins avant qu’un test de Médecine ne soit envisageable.</p>\n<p>Un blessé ne peut recevoir qu’une application de Premiers soins et Médecine jusqu’à ce qu’il subisse d’autres dégâts (sauf dans le cas d’un mourant, qui peut être stabilisé plusieurs fois à l’aide de Premiers soins). Un test réussi de Médecine peut ranimer un patient inconscient.</p>\n<p>Si un médecin réussit un test de compétence en traitant des blessures graves, le patient bénéficie d’un dé bonus sur son test de récupération hebdomadaire.</p>\n<p>Le gardien peut accorder des succès automatiques aux traitements médicaux dans un hôpital contemporain et bien équipé.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : diagnostiquer et soigner des maux courants, dans un environnement adéquat et à l’aide d’un matériel approprié (au minimum une sacoche de médecin contenant des médicaments et des instruments).</li>\n<li>Difficulté majeure : de même, dans un environnement sordide et peu sûr, avec un matériel minimal.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Demander l’avis de collègues, approfondir ses recherches ; essayer une procédure expérimentale ou risquée ; faire d’autres d’examens cliniques.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>L’investigateur se trompe dans son diagnostic et l’état du patient empire, peut-être jusqu’à la mort ; les pratiques du médecin sont remises en question et il est convoqué devant le conseil de l’ordre. Dans le cas de soins à un mourant, si le test redoublé échoue, le patient meurt.</p>\n<p>Si un investigateur dément rate un redoublement, les résultats peuvent être singulièrement dérangeants, impliquant des amputations ou des empoisonnements sanguins, suite à des tentatives ratées pour greffer un organe animal sur le patient.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "1",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.foDWPxQcBoAiKo9D"
+        }
+      }
+    },
+    {
+      "_id": "4FIo61P83Zho0Vdh",
+      "name": "Naturalisme",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-naturalworld.svg",
+      "data": {
+        "skillName": "Naturalisme",
+        "specialization": "",
+        "description": {
+          "value": "<p>À l’origine, les naturalistes étudiaient toutes les formes de vie animales et végétales, ainsi que leur environnement. Dès le 19e siècle, ils s’étaient scindés en de multiples disciplines scientifiques : biologie, botanique, etc. En tant que compétence, le naturalisme représente les connaissances traditionnelles (non scientifiques) et l’observation personnelle des fermiers, des pêcheurs, des amateurs et des passionnés. Compétences Elle permet d’identifier les espèces, les habitudes et les habitats de façon générale, de reconnaître les empreintes, les cris et les déjections, et de deviner le comportement et les habitudes d’une espèce. Pour une approche plus scientifique, il faut se tourner vers les compétences Biologie, Botanique et Zoologie.</p>\n<p>Le naturalisme n’est pas toujours précis. C’est le règne de l’approximation, des avis personnels, du folklore et de l’enthousiasme. On utilise cette compétence pour juger du meilleur cheval lors d’un marché régional ou pour déterminer si une collection de papillons vaut plus que le prix des cadres.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : identifier une espèce ; se souvenir d’informations courantes ; connaître un bon coin de pêche.</li>\n<li>Difficulté majeure : identifier une espèce inhabituelle ; localiser une espèce rare d’animal ou de plante ; se souvenir d’un fait ou d’un savoir obscur.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Passer vraiment longtemps à examiner l’environnement, quitte à perdre la notion du temps ; goûter une plante ou un champignon inconnu dans l’espoir de l’identifier ; interroger la vieille femme du village sur la faune locale.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>L’investigateur consacre des heures à consulter des livres pour identifier une espèce, en vain ; il se trompe et concocte un mélange de boue et d’herbes qui attire les guêpes au lieu de les repousser ; il cueille le mauvais champignon et se retrouve, des heures plus tard, nu, devant un policier.</p>\n<p>Si un investigateur dément rate un redoublement, il peut revenir à l’état sauvage et disparaître dans la nature jusqu’à ce que des amis viennent le chercher.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "10",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.YBmSJtTt6KgQObgd"
+        }
+      }
+    },
+    {
+      "_id": "wLGvfCaDnomKdgSV",
+      "name": "Nager",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-swim.svg",
+      "data": {
+        "skillName": "Nager",
+        "specialization": "",
+        "description": {
+          "value": "<p>La capacité à flotter et se déplacer dans l’eau ou d’autres liquides. Un test de Nager n’est nécessaire qu’en cas de danger ou d’effort particulier, à la discrétion du gardien. Rater un test redoublé peut conduire à une perte de points de vie, à un risque de noyade, ou à être emporté par les flots jusqu’à des rives lointaines.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>La difficulté peut être modifiée selon les conditions ou la situation. Faire des longueurs dans une piscine ne nécessite pas de test de compétence.</p>\n<ul>\n<li>Difficulté ordinaire : nager dans un courant fort.</li>\n<li>Difficulté majeure : nager dans un courant fort, en étant habillé ; nager dans une tempête.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Prendre une grande respiration et mettre toutes ses forces dans la bataille ; dépasser ses limites.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>Submergé, l’investigateur perd conscience, avant de se réveiller sur une plage inconnue ; le courant le projette contre des rochers ; il lutte pour atteindre le canot de sauvetage, mais, alors même qu’il est sur le point d’y arriver, il sent une force froide et visqueuse se refermer sur sa cheville.</p>\n<p>Si un investigateur dément rate un redoublement, il peut préférer continuer à nager, la terre ferme étant trop dangereuse, pour une raison ou une autre.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "20",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.dBc8xyiTsFwyCFuo"
+        }
+      }
+    },
+    {
+      "_id": "mTNlN3JDJc9RNg7L",
+      "name": "Occultisme",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-occult.svg",
+      "data": {
+        "skillName": "Occultisme",
+        "specialization": "",
+        "description": {
+          "value": "<p>L’investigateur reconnaît les concepts, les formules et les instruments occultes, ainsi que les traditions populaires. Il peut identifier les grimoires de magie et les codes hermétiques. Un occultiste connaît les savoirs secrets remontant à l’antiquité égyptienne et sumérienne, ayant traversé le Moyen Âge et la Renaissance, en passant peut-être par l’Asie et l’Afrique.</p>\n<p>La lecture et la compréhension de certains livres peuvent octroyer quelques points en Occultisme. Cette compétence ne s’applique pas aux sorts, aux ouvrages et à la magie du Mythe, même si les adorateurs des Grands Anciens adoptent parfois des idées occultes.</p>\n<p>Que la magie non liée au Mythe existe réellement ou pas dans le jeu est laissé à l’appréciation du gardien (cf. Chapitre 9 : Magie).</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : connaître le folklore et les théories occultes ; comprendre la signification de cartes de tarot ou d’autres techniques de divination.</li>\n<li>Difficulté majeure : identifier des ouvrages occultes rares ou uniques ; se souvenir des détails de rituels et de pratiques occultes.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Prendre le temps d’étudier le site ou l’objet ; effectuer des recherches complémentaires ; consulter un autre expert ; se purifier et entreprendre une préparation personnelle poussée pour se préparer au rituel.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>La mémoire de l’investigateur lui fait défaut, et le rituel est mal exécuté, avec des conséquences désastreuses (par exemple, sa maison peut prendre feu) ; en préparant le cercle de protection, l’investigateur utilise les mauvais ingrédients, ce qui fait qu’au lieu d’éloigner les esprits, il convoque une entité réellement malveillante ; sa recherche lève le voile sur un lien jusqu’ici inconnu avec le Mythe, ce qui foudroie l’esprit de l’investigateur (et cause une perte de SAN).</p>\n<p>Si un investigateur dément rate un redoublement, il va probablement manifester une forme d’obsession. Il peut se tatouer des symboles occultes sur les joues et les paumes, ou refuser d’agir sans avoir d’abord consulté une boule de cristal pour connaître son avenir.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "5",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.qYOl6BydYn1XMyGi"
+        }
+      }
+    },
+    {
+      "_id": "JidmXVB8Z9XM9z1n",
+      "name": "Orientation",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-navigate.svg",
+      "data": {
+        "skillName": "Orientation",
+        "specialization": "",
+        "description": {
+          "value": "<p>Permet de retrouver son chemin dans une tempête ou par temps clair, de jour ou de nuit. Un niveau élevé implique de connaître les tables astronomiques, les cartes, les instruments et les outils de géolocalisation, s’ils existent à l’époque. On peut aussi utiliser cette compétence pour mesurer et cartographier une région, que ce soit une île de plusieurs kilomètres carrés ou l’intérieur d’une pièce. Disposer d’un équipement moderne peut abaisser ou annuler la difficulté.</p>\n<p>Les tests d’Orientation doivent être effectués en secret par le gardien. De cette façon, les joueurs devront attendre pour constater le résultat.</p>\n<p>Si un investigateur connaît bien une région, il peut recevoir un dé bonus sur son test.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : conserver son cap ; repérer le nord en observant le soleil ou les étoiles ; cartographier les environs.</li>\n<li>Difficulté majeure : se diriger dans la bonne direction sans piste, ni points de repère ; cartographier une région étendue ou complexe.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Sortir la carte et faire une pause le temps de vérifier où l’on est exactement ; revenir sur ses pas et repartir à zéro.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>Non seulement l’investigateur se perd, mais il est surveillé ou même attaqué par un ours ; le groupe tourne en rond et les compagnons de l’investigateur décident de se débrouiller sans lui ; l’investigateur se trompe en observant les étoiles, et au lieu de s’éloigner des adorateurs qui le poursuivent, il tombe sur leur base secrète.</p>\n<p>Si un investigateur dément rate un redoublement, il peut jeter sa carte (c’est ce qui se passe dans Le Projet Blair Witch) et suivre son intuition, ce qui signifie qu’il sera rapidement totalement perdu.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "10",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.4ZQvZJRc5ny8dgqv"
+        }
+      }
+    },
+    {
+      "_id": "IoiTxuU1QGxJGj8T",
+      "name": "Persuasion",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-persuade.svg",
+      "data": {
+        "skillName": "Persuasion",
+        "specialization": "",
+        "description": {
+          "value": "<p>On utilise la Persuasion pour convaincre un interlocuteur d’adopter une idée, un projet ou une croyance, en discutant, en débattant et en exposant des arguments raisonnés. Il n’est pas obligatoire d’être convaincu soi-même. Une persuasion prend du temps, au moins une demi-heure. Pour aller plus vite, on utilise plutôt Baratin.</p>\n<p>Selon le but exprimé par le joueur et la réussite de l’investigateur, les effets de la persuasion peuvent persister des années, sans que la cible s’en rende compte, jusqu’à ce qu’on la persuade du contraire. La Persuasion peut aussi servir au marchandage, pour obtenir un rabais sur un prix. En cas de succès, le vendeur est convaincu d’avoir fait une bonne affaire.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Consultez Fixer la difficulté des compétences sociales, page 82.</p>\n<h2>Comment redoubler ?</h2>\n<p>S’approcher au plus près de sa cible pour avancer ses arguments ou faire appel à sa raison ; exposer en détail les exemples et la logique des arguments ; utiliser des techniques de suggestion préparée à l’avance (comme des messages subliminaux) pour rendre la cible aussi réceptive que possible ; organiser un grand spectacle (avec une scène, des feux d’artifice, des cadeaux, un bar gratuit, des pots-de-vin, etc.) pour conquérir un vaste public.</p>\n<p>Rappelez-vous qu’il s’agit de persuasion. Si un investigateur opte pour une autre approche en cours de route, le gardien peut demander un test d’une compétence différente. S’il profère des menaces, ce sera Intimidation. S’il opte pour un registre plus amical, il fait appel à son Charme. Passer de l’un à l’autre pour obtenir une deuxième chance constitue un redoublement.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>La cible se vexe et refuse d’avoir affaire à l’investigateur ; après avoir accepté son pot-de-vin, elle est prise de remords le lendemain, et son avocat engage un privé pour savoir ce que mijote l’investigateur ou l’attaque pour faute professionnelle ; la cible n’apprécie pas votre grand discours et, sans prévenir, elle sort un couteau ; l’investigateur convainc un garde de le laisser entrer par effraction, mais il perd son travail et finit par se suicider – la Santé Mentale de l’investigateur est affectée lorsqu’il réalise que ses actions ont mené à la mort d’un innocent.</p>\n<p>Si un investigateur dément rate un redoublement, il peut se retrouver à un coin de rue, haranguant les passants pour leur exposer ses arguments saugrenus.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "10",
+        "adjustments": {
+          "personal": null,
+          "occupation": 60,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {
+          "occupation": true
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.cxHnSjJPvVovOrs8"
+        }
+      }
+    },
+    {
+      "_id": "z1bVg9a2l9BYDHgR",
+      "name": "Pickpocket",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-sleightofhand.svg",
+      "data": {
+        "skillName": "Pickpocket",
+        "specialization": "",
+        "description": {
+          "value": "<p>Cette compétence aux multiples usages permet entre autres de soustraire un porte-monnaie ou des bijoux à un passant, de tricher aux cartes ou d’utiliser un téléphone portable sans se faire voir. Elle peut également servir à dissimuler un ou plusieurs objets de taille réduite, soit en les cachant derrière des déchets, du tissu ou au milieu d’un fouillis anodin, soit en les escamotant dans un faux compartiment ou sous un panneau dérobé.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>La compétence Pickpocket s’oppose généralement à Trouver Objet Caché. La difficulté doit être adaptée en fonction de la taille de l’objet. S’il tient dans une poche ou un manche, aucun ajustement n’est nécessaire. S’il est plus grand, le niveau de difficulté doit être augmenté.</p>\n<ul>\n<li>Difficulté ordinaire : faire les poches d’une personne dont la compétence Trouver Objet Caché est inférieure à 50 %.</li>\n<li>Difficulté majeure : idem, quand la compétence est comprise entre 50 et 89 %.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Prendre du temps pour étudier la cible et ses habitudes ; toucher la cible ou provoquer une bousculade ; coudre une poche secrète dans sa manche pour cacher un as ou des dés pipés ; demander à un acolyte de faire diversion.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>Un policier pose la main sur l’épaule de l’investigateur ; même si personne ne peut prouver que l’investigateur a subtilisé ce diamant inestimable, quelqu’un a des doutes et réalise qu’il a été suivi pendant une semaine par un mystérieux homme en noir ; le pickpocket est pris la main dans le sac, et le gangster n’apprécie guère la blague ! Il s’isole dans un coin avec le coupable pour lui expliquer sa façon de penser en s’aidant d’une batte de base-ball.</p>\n<p>Si un investigateur dément rate un redoublement, il peut devenir kleptomane.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "10",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.5xW9xjkREf9fB5pC"
+        }
+      }
+    },
+    {
+      "_id": "DGtgjVxU7s5jj1t0",
+      "name": "Pilotage (Pilotage)",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-pilot.svg",
+      "data": {
+        "skillName": "Pilotage",
+        "specialization": "Pilotage",
+        "description": {
+          "value": "<p>Compétence cousine de Conduite, elle sert &agrave; man&oelig;uvrer sur l&rsquo;eau ou dans les airs. Un joueur doit dépenser ses points dans les spécialités de son choix (comme piloter avion léger &agrave; hélice, piloter dirigeable, etc.), jamais directement en Pilotage. Vous pouvez choisir autant de spécialités que vous désirez et les noter dans les lignes prévues de la fiche d&rsquo;investigateur. Elles commencent toutes &agrave; 01 %.</p>\n<p>M&ecirc;me un niveau modeste suffit pour naviguer ou voler par temps calme avec une bonne visibilité. Des tests de compétence ne sont nécessaires qu&rsquo;en cas de temp&ecirc;te, de navigation aux instruments, de mauvaise visibilité ou d&rsquo;autres situations problématiques. Si plusieurs complications se présentent simultanément, la difficulté du test peut &ecirc;tre relevée.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : avec un avion de tourisme, effectuer un atterrissage d&rsquo;urgence dans un champ.</li>\n<li>Difficulté majeure : piloter l&rsquo;appareil dans de très mauvaises conditions (temp&ecirc;te, équipement défectueux, etc.).&nbsp;</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Redresser l&rsquo;avion et tenter un deuxième et dernier atterrissage ; pousser le véhicule dans ses retranchements ; essayer une man&oelig;uvre risquée pour blouser un poursuivant.</p>\n<h2>Conséquences d&rsquo;un redoublement raté ?&nbsp;</h2>\n<p>Elles dépendent de la situation. Le véhicule peut &ecirc;tre endommagé, au point de nécessiter des réparations avant de pouvoir repartir, réparations qui peuvent s&rsquo;avérer impossibles dans une contrée reculée ; les passagers sont blessés durant la man&oelig;uvre ou l&rsquo;accident ; l&rsquo;avion atterrit d&rsquo;urgence dans la jungle et vous vous réveillez attaché &agrave; de hautes pierres entourant une marmite bouillante. Les pires accidents doivent &ecirc;tre réservés &agrave; des circonstances exceptionnelles, quand le pilote est fou ou qu&rsquo;il prend des risques inconsidérés &agrave; grande vitesse, par exemple.</p>\n<p>Si un investigateur dément rate un redoublement, il peut se croire capable de pirouettes improbables, ce qui n&rsquo;est malheureusement pas le cas.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "1",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true,
+          "special": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.50F6irfjXP1NPR0x"
+        }
+      }
+    },
+    {
+      "_id": "UYozo9KLKjW96WDL",
+      "name": "Pister",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-track.svg",
+      "data": {
+        "skillName": "Pister",
+        "specialization": "",
+        "description": {
+          "value": "<p>Avec cette compétence, un investigateur peut suivre les traces laissées par une personne, un véhicule ou un animal sur un sol naturel. Des facteurs comme l’âge des traces, les précipitations et le type de terrain peuvent affecter la difficulté.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Si un investigateur suit une personne qui s’efforce d’effacer ses traces, la difficulté est fixée en fonction de la compétence Discrétion de cette personne. Elle peut être modifiée en fonction du climat et du terrain.</p>\n<ul>\n<li>Difficulté ordinaire : pister un animal ou un humain dans une forêt tempérée.</li>\n<li>Difficulté majeure : de même, mais les traces sont vieilles de plusieurs jours.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Revenir en arrière et examiner les lieux plus attentivement ; faire des cercles de plus en plus larges à la recherche de traces, ce qui va prendre du temps et augmenter le risque de se faire repérer.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>La piste croise le chemin d’un ours, d’un lion ou d’un cannibale ; alors que la nuit tombe, l’investigateur retombe sur ses pas et réalise qu’il est bel et bien perdu ; en suivant la piste, il tombe dans une embuscade ou dans un piège tendu par la créature qu’il suivait !</p>\n<p>Si un investigateur dément rate un redoublement, il peut suivre des traces imaginaires, persuadé qu’elles sont réelles, à moins d’être maîtrisé ou convaincu du contraire.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "10",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.G9h0a6uUV02QVoCv"
+        }
+      }
+    },
+    {
+      "_id": "anh7IfDxPRz1R2Fj",
+      "name": "Premiers soins",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-firstaid.svg",
+      "data": {
+        "skillName": "Premiers soins",
+        "specialization": "",
+        "description": {
+          "value": "<p>Grâce à cette compétence, un investigateur peut apporter des secours médicaux d’urgence : poser une attelle sur une jambe cassée, stopper une hémorragie, soigner une brûlure, ranimer un noyé, nettoyer une blessure et ainsi de suite. Par contre, elle ne permet pas de traiter les maladies. Pour cela, il faut la compétence Médecine.</p>\n<p>Pour être efficaces, les Premiers soins doivent intervenir dans l’heure. Ils s’accompagnent alors de la récupération de 1 point de vie. Une seule tentative est possible, les suivantes constituant un redoublement. Deux personnes peuvent administrer les soins de concert, la tentative étant un succès si au moins l’un des deux réussit son jet. Un blessé ne peut recevoir qu’une application de Premiers soins et médecine jusqu’à ce qu’il subisse d’autres dégâts.</p>\n<p>La compétence est également utile aux personnes inconscientes ou mourantes. Un mourant doit réussir un test de CON à la fin de chaque round, sans quoi il meurt. Un test réussi permet de ranimer une personne inconsciente ou de stabiliser un mourant pour une heure, tout en lui octroyant 1 point de vie temporaire (qui s’évapore au bout d’une heure). Seuls les Premiers soins peuvent lui donner une chance, mais il doit ensuite recevoir un test de Médecine ou être hospitalisé dans l’heure. Dans le cas contraire, quand le point de vie temporaire disparaît, le personnage est à nouveau mourant et recommence à faire des tests de CON chaque round. Il est possible de le stabiliser à l’aide de Premiers soins, comme précédemment. Le test peut même être répété sans que cela ne constitue un redoublement. Comme vous pouvez le voir, cette compétence est un complément utile à médecine, si vous désirez que votre investigateur sauve des vies.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>L’application des Premiers soins à un être humain est toujours un test ordinaire. Si un investigateur traite un extra-terrestre à la physiologie inhabituelle, la difficulté sera plus élevée.</p>\n<h2>Comment redoubler ?</h2>\n<p>Prendre son temps pour soigner le patient ; employer des méthodes risquées pour stabiliser la blessure.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>L’état du patient empire, provoquant 1 point de dégât supplémentaire.</p>\n<p>Si un investigateur dément rate un redoublement, il peut se sentir obligé de soigner la personne par n’importe quel moyen, jusqu’à l’amputation ou pire. En réalité, ses actions constituent des attaques qui peuvent aller jusqu’au meurtre si personne ne l’arrête.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "30",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.YJyrozMaRDezuK8H"
+        }
+      }
+    },
+    {
+      "_id": "9YfLMBvcTQ0ULhKz",
+      "name": "Psychanalyse",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-psychoanalysis.svg",
+      "data": {
+        "skillName": "Psychanalyse",
+        "specialization": "",
+        "description": {
+          "value": "<p>Cette compétence couvre toutes les thérapies émotionnelles, pas seulement la version freudienne. La psychothérapie était encore une science naissante dans les années 1890, mais certaines techniques sont aussi anciennes que l’humanité. Même dans les années 1920, elle est parfois considérée comme une discipline frauduleuse. Les analystes ou spécialistes des désordres émotionnels étaient appelés « aliénistes ». De nos jours, les méthodes thérapeutiques ont évolué, et la compétence pourrait s’appeler simplement « Traitement psychiatrique ».</p>\n<p>Une psychanalyse suivie permet de récupérer des points de Santé Mentale. Une fois par mois (du point de vue de l’investigateur), l’analyste peut faire un test de compétence pour jauger les progrès de la thérapie. En cas de succès, le patient regagne 1D3 points de Santé Mentale. En cas d’échec, il ne gagne rien. Par contre, en cas de maladresse, il perd 1D6 points de Santé Mentale et le traitement doit cesser avec cet analyste. Un incident s’est produit, par exemple l’émergence d’un souvenir dramatique. La relation entre le patient et le thérapeute est définitivement détériorée.</p>\n<p>En jeu, la Psychanalyse ne suffit pas pour récupérer d’une folie persistante, qui exige 1D6 mois d’internement dans un hôpital psychiatrique ou un établissement similaire, où la psychothérapie ne sera qu’une partie du traitement.</p>\n<p>Cette compétence peut également servir à aider une autre personne à surmonter ses peurs inconscientes ou à reconnaître des délires pour ce qu’ils sont, du moins pendant un certain temps. En jeu, un test réussi permet à un investigateur dément d’ignorer les effets d’une phobie ou d’une manie pendant un bref moment. Par exemple, un claustrophobe pourrait se cacher dans un cagibi pendant une dizaine de minutes. De même, la compétence pourrait aider un investigateur à gérer ses hallucinations, même si ce n’est que temporaire.</p>\n<p>Le traitement par un psychothérapeute peut ajouter des points de Santé Mentale durant une folie persistante (cf. Santé Mentale, page 138).</p>\n<p>Par contre, il ne peut pas monter la Santé Mentale au-dessus de son maximum, c’est-à-dire 99–Mythe de Cthulhu.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : thérapie standard, menée dans un hôpital.</li>\n<li>Difficulté majeure : thérapie intermittente sur une longue période.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Cette compétence peut être renouvelée mois après mois sans faire appel à un redoublement. Toutefois, si le test échoue pour un mois donné, le joueur peut décider de le redoubler en tentant une intervention radicale le jour suivant (s’il a besoin de résultats rapides). Par exemple : mettre un patient face à sa peur pour le forcer à s’y confronter ; inviter les amis et les proches du patient à participer à la thérapie.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>Soigner la peur d’un patient pour les araignées en l’enfermant dans une salle pleine de tarentules n’était peut-être pas une si bonne idée que ça. Après une violente crise de rage, ayant fait des blessés (dont le patient lui-même), ce dernier est persuadé d’être le roi des araignées. Cette nouvelle manie s’accompagne d’une perte de Santé Mentale pour lui… et le thérapeute va devoir faire un test à son tour, puisqu’il est responsable de tout cela !</p>\n<p>Au royaume des aveugles, les borgnes sont rois, et il est possible à un individu dérangé de pratiquer une psychothérapie. S’il rate un redoublement, il peut décider de devenir un gourou, avec ses patients comme recrues.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "1",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.YnYE3zv1oUMtWEAx"
+        }
+      }
+    },
+    {
+      "_id": "WbvjzZ814ePvWfOh",
+      "name": "Psychologie",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-psychology.svg",
+      "data": {
+        "skillName": "Psychologie",
+        "specialization": "",
+        "description": {
+          "value": "<p>Compétence de perception commune à tous les humains, elle permet de deviner les motifs et la personnalité d’un individu, rien qu’en l’observant. Le gardien peut choisir de faire les tests de Psychologie en secret, à la place du joueur. Ainsi, il ne sait pas si les informations reçues sont justes ou erronées.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>La Psychologie s’oppose à toutes les compétences sociales : Baratin, Charme, Intimidation et Persuasion. Elle sert également à percer à jour les tentatives d’imposture.</p>\n<ul>\n<li>Difficulté ordinaire : deviner les intentions d’une personne ou déterminer si elle ment, à condition que sa compétence sociale soit inférieure à 50 %.</li>\n<li>Difficulté majeure : de même, pour une compétence sociale comprise entre 50 et 89 %.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Renoncer à la subtilité et poser des questions intimes ou directes à la cible ; s’immerger dans les données personnelles concernant la cible, afin de penser comme elle et de comprendre ses motivations.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>L’investigateur révèle ses propres desseins à sa cible ; celle-ci est vexée par les questions ou le regard inquisiteur de l’investigateur, et refuse de poursuivre la conversation ou prend des mesures plus drastiques, allant jusqu’à la violence ou le recours à la police ; l’investigateur ignore que la cible est liée à ses adversaires, et il lui révèle par inadvertance des détails sur ses propres projets ; passer des semaines enfermé dans son appartement à bâtir un profil psychologique a laissé l’investigateur dans un état physique et mental déplorable (un dé malus sur tous les tests jusqu’à ce qu’il récupère).</p>\n<p>Si un investigateur dément rate un redoublement, il peut croire qu’il entend les pensées maléfiques de la cible, et l’attaquer physiquement.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "10",
+        "adjustments": {
+          "personal": null,
+          "occupation": 60,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {
+          "occupation": true,
+          "developement": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.88Ev14QeiV37pFyN"
+        }
+      }
+    },
+    {
+      "_id": "eXmi5PtG87AspAsn",
+      "name": "Sauter",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-jump.svg",
+      "data": {
+        "skillName": "Sauter",
+        "specialization": "",
+        "description": {
+          "value": "<p>On fait appel à cette compétence pour sauter en longueur ou en hauteur, avec ou sans élan. Lors d’une chute, un test réussi permet de se préparer à l’impact, réduisant de moitié les dégâts.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Le gardien doit faire appel à son bon sens pour déterminer ce qui constitue un saut ordinaire, majeur ou extrême (nécessitant respectivement une réussite ordinaire, majeure ou extrême). Inutile de mesurer les distances précisément.</p>\n<ul>\n<li>Difficulté ordinaire : correspond à un saut vers le bas d’une hauteur équivalente à la taille de l’investigateur, à un saut horizontal d’une longueur équivalente à une fois sa taille sans élan ou deux fois sa taille avec élan.</li>\n<li>Difficulté majeure : comme précédemment, mais les distances sont majorées de 50 % ; par exemple, sauter à bas d’un toit et à travers la fenêtre d’un bâtiment voisin.</li>\n<li>Difficulté extrême : comme pour la difficulté ordinaire, mais les distances sont majorées de 100 %. Souvenezvous toutefois que le record du monde de saut en longueur est de moins de neuf mètres.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Prendre son temps pour jauger le saut ; mettre tout son poids et toutes ses forces dans le saut, se donner à fond. Dans certains cas, il n’est pas possible de redoubler le test. Si l’on saute par-dessus une crevasse, par exemple. Par contre, un investigateur coincé au fond d’un trou peut essayer d’en sortir autant de fois qu’il le veut, ce qu’on représente par un redoublement.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>L’investigateur tombe et se blesse ; il réussit son saut, mais il perd un bien précieux (au choix du gardien) en cours de route.</p>\n<p>Si un investigateur dément rate un redoublement, il peut se convaincre qu’il est capable de voler.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "20",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.mW5nUQKmIRhXS4Z4"
+        }
+      }
+    },
+    {
+      "_id": "OAFSPmotbvnU91yu",
+      "name": "Sciences (Sciences)",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-science.svg",
+      "data": {
+        "skillName": "Sciences",
+        "specialization": "Sciences",
+        "description": {
+          "value": "<p>La connaissance théorique et pratique d’un domaine scientifique s’acquiert généralement au cours d’études approfondies, mais il existe aussi des amateurs éclairés. Les informations connues grâce à cette compétence sont limitées à celles connues à l’époque à laquelle vit l’investigateur.</p>\n<p>Un joueur doit dépenser ses points dans les spécialités de son choix, jamais directement en Sciences. À chaque discipline scientifique correspond une spécialité. La liste ci-après n’est pas exhaustive. Certaines se recoupent en partie, comme Mathématiques et Cryptographie, Botanique et Biologie ou Chimie et Pharmacologie. Si un investigateur ne possède pas la spécialité juste, il peut s’appuyer sur une discipline cousine, sans doute avec un niveau de difficulté rehaussé par le gardien.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : mener une expérience ; se tenir au courant des théories scientifiques actuelles dans son domaine ; se servir d’un équipement de qualité.</li>\n<li>Difficulté majeure : mener une expérience particulièrement exigeante ; décrypter des notes désorganisées ou partielles ; se servir d’un équipement improvisé.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Passer plus de temps à étudier ; approfondir ses recherches, peut-être dans un laboratoire mieux équipé ; consulter un autre expert ; prendre des risques. Compétences 68</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>L’expérience tourne mal et provoque des dommages plus ou moins importants (explosions, incendie, électrocution, expulsion vers la sixième dimension, etc.) ; l’investigateur interprète la formule de sa potion de travers, avec des résultats désastreux.</p>\n<p>Si un investigateur dément rate un redoublement, il peut se transformer en savant fou. Cela peut conduire à des évènements similaires à ceux qu’a déclenchés Crawford Tillinghast, dans la nouvelle de H. P. Lovecraft, <em>De l’au-delà</em>.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "1",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "special": true,
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.nZfmw3UhPRS9z31T"
+        }
+      }
+    },
+    {
+      "_id": "zfIPnEkKsAnBXUfX",
+      "name": "Survie (Survie)",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-survival.svg",
+      "data": {
+        "skillName": "Survie",
+        "specialization": "Survie",
+        "description": {
+          "value": "<p>Cette compétence confère l’expertise nécessaire pour survivre dans des environnements extrêmes, comme les déserts arides, les étendues glacées de l’Arctique ou les ondes sans fin de l’océan. Elle permet de construire des abris, de trouver de l’eau et de la nourriture en chassant ou en pêchant, d’éviter les dangers, comme les plantes vénéneuses, inhérents à un environnement donné.</p>\n<p>Un joueur doit dépenser ses points dans les spécialités de son choix, jamais directement en Survie. Les spécialités possibles sont, entre autres, <em><strong>désert</strong></em>, <em><strong>mer </strong></em>ou <em><strong>Arctique</strong></em>. À la discrétion du gardien, si un investigateur ne possède pas la spécialité appropriée, il peut tenter certaines tâches à l’aide d’une spécialité voisine, à une difficulté plus élevée.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Des modificateurs peuvent s’appliquer selon les conditions et les situations, ou quand l’investigateur n’a pas la spécialité correspondant à l’environnement.</p>\n<ul>\n<li>Difficulté ordinaire : trouver ou construire un abri ; trouver de l’eau et de quoi manger.</li>\n<li>Difficulté majeure : de même, mais dans des conditions climatiques extrêmes ou en étant blessé.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Prendre des choix dangereux, comme boire de l’eau sans la purifier ou manger des baies non identifiées ; sacrifier ses vêtements pour se fabriquer un abri ; brûler toutes ses possessions pour signaler sa position.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>Il s’avère que la grotte où l’investigateur comptait passer la nuit est déjà habitée par un ours, et qu’il n’aime pas la compagnie ; quelqu’un a repéré votre signal… dont vos poursuivants ! Qui arriveront les premiers, eux ou les secours ?</p>\n<p>Si un investigateur dément rate un redoublement, il peut se croire parfaitement adapté à son environnement et capable d’inédit, le fait de survivre sans boire ni manger.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "10",
+        "adjustments": {
+          "personal": null,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "special": true,
+          "push": true
+        },
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.f8cr9BiIiK73YgtT"
+        }
+      }
+    },
+    {
+      "_id": "Y2WCaEA71tuSu2ti",
+      "name": "Trouver Objet Caché",
+      "type": "skill",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-spothidden.svg",
+      "data": {
+        "skillName": "Trouver Objet Caché",
+        "specialization": "",
+        "description": {
+          "value": "<p>Compétence privilégiée des investigateurs, elle sert à découvrir les passages secrets, à s’apercevoir de la présence d’un intrus, à récolter des indices vitaux, à reconnaître une automobile repeinte, à pressentir une embuscade, à remarquer une déformation suspecte dans une poche, et ainsi de suite.</p>\n<p>Quand un investigateur tente de repérer un personnage non-joueur furtif, on base la difficulté de son test sur la compétence Discrétion de ce dernier. Le gardien peut augmenter la difficulté s’il estime que le personnage n’est pas attentif, parce qu’il est concentré sur autre chose ou qu’il passe sans s’arrêter. Inversement, une fouille systématique peut valoir une réussite automatique. La difficulté doit également refléter l’environnement. Il est plus difficile de repérer quelque chose dans une chambre en désordre.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Lorsqu’un adversaire des investigateurs tente de passer inaperçu, la difficulté du test de Trouver Objet Caché des seconds est déterminée à partir de la compétence Discrétion du premier.</p>\n<ul>\n<li>Difficulté ordinaire : fouiller une pièce à la recherche d’indices.</li>\n<li>Difficulté majeure : chercher un objet dissimulé à dessein.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Prendre plus de temps pour observer les lieux ; saccager les lieux, éventrer les meubles et briser les statuettes de porcelaine.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>L’investigateur perd quelque chose lors de sa fouille, qui trahit son passage, ce qu’il ne réalise pas immédiatement ; comme il ne voit pas l’empreinte de patte dans la boue, l’investigateur est surpris quand la bête aux yeux rouges lui saute dessus depuis la frondaison ; il trouve bien l’indice, mais n’a pas entendu les adorateurs s’approcher !</p>\n<p>Si un investigateur dément rate un redoublement, il peut se convaincre qu’il y a un trésor caché quelque part, derrière le papier peint, dans le plâtre ou sous le parquet.</p>",
+          "opposingDifficulty": "",
+          "pushedFaillureConsequences": "",
+          "chat": "",
+          "keeper": ""
+        },
+        "base": "25",
+        "adjustments": {
+          "personal": 35,
+          "occupation": null,
+          "archetype": null,
+          "experience": null
+        },
+        "value": null,
+        "attributes": {},
+        "properties": {
+          "push": true
+        },
+        "eras": {},
+        "flags": {
+          "developement": true
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_xub1cgnlmbo",
+          "path": "Références#/CF_SEP/Compétences",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.competences.kdVwgkab2AaC5l9O"
+        }
+      }
+    },
+    {
+      "_id": "z6kQGLp0Lcp2BXV0",
+      "name": "Religieux",
+      "type": "occupation",
+      "img": "modules/coc7-module-fr-toc-full/icones/ico-occupation.svg",
+      "data": {
+        "description": {
+          "value": "<p>Un prêtre peut être assigné à une paroisse, ou envoyé porter la bonne parole de par le monde, généralement dans des pays étrangers (cf. Missionnaire).</p>\n<p>Chaque Église a ses propres priorités et hiérarchies. Par exemple, un prêtre catholique espère s’élever au titre d’évêque, d’archevêque ou même de cardinal, tandis qu’un pasteur méthodiste devient d’abord surintendant de district, puis évêque.</p>\n<p>Les prêtres catholiques ne sont pas les seuls à entendre leurs ouailles en confession. S’ils ne peuvent répéter ce qu’on leur dit, ils peuvent réagir.</p>\n<p>De nombreux religieux sont formés à des métiers laïcs, exerçant comme docteurs, avocats et érudits au sein de l’Église. Utilisez l’occupation adéquate en fonction du travail de l’investigateur.</p>\n<p><strong>Idées de contacts : </strong></p>\n<ul>\n<li>hiérarchie religieuse</li>\n<li>paroissiens</li>\n<li>notables</li>\n</ul>",
+          "keeper": ""
+        },
+        "source": "",
+        "type": {
+          "classic": false,
+          "lovecraftian": false,
+          "modern": false,
+          "pulp": false
+        },
+        "related": null,
+        "occupationSkillPoints": {
+          "str": {
+            "multiplier": null,
+            "selected": false,
+            "optional": false,
+            "active": false,
+            "name": "Force",
+            "value": 60
+          },
+          "con": {
+            "multiplier": null,
+            "selected": false,
+            "optional": false,
+            "active": false,
+            "name": "Constitution",
+            "value": 85
+          },
+          "siz": {
+            "multiplier": null,
+            "selected": false,
+            "optional": false,
+            "active": false,
+            "name": "Taille",
+            "value": 70
+          },
+          "dex": {
+            "multiplier": null,
+            "selected": false,
+            "optional": false,
+            "active": false,
+            "name": "Dextérité",
+            "value": 75
+          },
+          "app": {
+            "multiplier": null,
+            "selected": false,
+            "optional": false,
+            "active": false,
+            "name": "Apparence",
+            "value": 70
+          },
+          "int": {
+            "multiplier": null,
+            "selected": false,
+            "optional": false,
+            "active": false,
+            "name": "Intelligence",
+            "value": 85
+          },
+          "pow": {
+            "multiplier": null,
+            "selected": false,
+            "optional": false,
+            "active": false,
+            "name": "Pouvoir",
+            "value": 50
+          },
+          "edu": {
+            "multiplier": 4,
+            "selected": true,
+            "optional": false,
+            "active": false,
+            "name": "Éducation",
+            "value": 55,
+            "total": 220
+          }
+        },
+        "creditRating": {
+          "min": "9",
+          "max": "60"
+        },
+        "suggestedContacts": "",
+        "skills": [
+          {
+            "_id": "q68uO6oljUfjh5wY",
+            "name": "Bibliothèque",
+            "permission": {
+              "default": 0,
+              "6Y6opwuMdxc52cY3": 3
+            },
+            "type": "skill",
+            "data": {
+              "specialization": "",
+              "description": {
+                "value": "<p>Cette compétence permet &agrave; un investigateur de trouver une information, un livre précis, un journal ou une référence, dans une bibliothèque, une collection, des archives ou une base de données. Bien s&ucirc;r, pour qu&rsquo;il trouve quelque chose, il faut d&rsquo;abord que cela existe ! Un jet de compétence sanctionne plusieurs heures de recherches continues.</p>\n<p>Toutefois, cette compétence ne fait que localiser ce que l&rsquo;on cherche. Il faudra peut-&ecirc;tre faire appel &agrave; Baratin, Charme, Persuasion, Intimidation, Crédit ou &agrave; des arguments convaincants pour obtenir le droit d&rsquo;y accéder.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : trouver un livre ou une information dans une bibliothèque.</li>\n<li>Difficulté majeure : localiser une information dans une bibliothèque mal rangée ; &ecirc;tre extr&ecirc;mement pressé.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Insister auprès des bibliothécaires pour obtenir leur aide ; prendre le temps d&rsquo;examiner chaque livre des rayonnages.</p>\n<h2>Conséquences d&rsquo;un redoublement raté ?</h2>\n<p>Trouver un livre similaire, contenant des informations erronées qui risquent de mettre les investigateurs en danger ; une confrontation avec un ennemi, qui peut vous mettre des b&acirc;tons dans les roues ou s&rsquo;intéresser &agrave; son tour au livre que vous cherchez, voire arracher les pages en question ; se f&acirc;cher avec le bibliothécaire, qui révoque votre droit d&rsquo;entrée. Si un investigateur dément rate un redoublement, il peut se mettre &agrave; entasser les livres chez lui, en arrachant des pages qu&rsquo;il agrafe sur les murs, en gribouillant des notes inquiétantes dans les marges et en créant un réseau de liens &agrave; l&rsquo;aide d&rsquo;épingles et de ficelle. Il peut aussi &ecirc;tre obsédé par la recherche du &laquo; bon &raquo; livre et consacrer tout son temps &agrave; le retrouver.</p>",
+                "opposingDifficulty": "",
+                "pushedFaillureConsequences": "",
+                "chat": ""
+              },
+              "base": "20",
+              "value": -1,
+              "attributes": {},
+              "properties": {
+                "push": true
+              },
+              "eras": {},
+              "flags": {},
+              "skillName": "Bibliothèque"
+            },
+            "flags": {},
+            "img": "modules/coc7-module-fr-toc-full/icones/competences-libraryuse.svg"
+          },
+          {
+            "_id": "UBiLkEs5qiAmAgbw",
+            "name": "Comptabilité",
+            "permission": {
+              "default": 0,
+              "6Y6opwuMdxc52cY3": 3
+            },
+            "type": "skill",
+            "data": {
+              "specialization": "",
+              "description": {
+                "value": "<p>Connaissance et compréhension des procédures comptables et de la gestion financière des entreprises et des individus. En inspectant les comptes, on peut découvrir des employés fictifs, des fonds secrets, le paiement de dessous-de-table, et l’état réel du budget. En sondant les archives, on peut voir quelle était la nature des bénéfices et des pertes (céréales, esclaves, alcool, etc.) et à qui ont été adressées les factures.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Si quelqu’un cache quelque chose, la difficulté sera basée sur le niveau de comptabilité de cette personne.</p>\n<ul>\n<li>Difficulté ordinaire : les livres de compte sont complets et bien tenus.</li>\n<li>Difficulté majeure : les comptes sont partiels et désorganisés.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Prendre plus de temps pour compulser les documents ; se rendre dans des banques ou des entreprises pour vérifier les découvertes ; refaire les calculs.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>Les discussions entre les investigateurs et des tiers alertent une faction ennemie ; des documents capitaux sont détruits ou égarés, peutêtre parce que l’investigateur est si fatigué qu’il renverse du café dessus.</p>\n<p>Si un investigateur dément rate un redoublement, il peut dévorer une partie des papiers.</p>",
+                "opposingDifficulty": "",
+                "pushedFaillureConsequences": "",
+                "chat": ""
+              },
+              "base": "5",
+              "value": -1,
+              "attributes": {},
+              "properties": {
+                "push": true
+              },
+              "eras": {},
+              "flags": {},
+              "skillName": "Comptabilité"
+            },
+            "flags": {},
+            "img": "modules/coc7-module-fr-toc-full/icones/competences-accounting.svg"
+          },
+          {
+            "_id": "TrWitVugb1ev542H",
+            "name": "Écouter",
+            "permission": {
+              "default": 0,
+              "6Y6opwuMdxc52cY3": 3
+            },
+            "type": "skill",
+            "data": {
+              "specialization": "",
+              "description": {
+                "value": "<p>Cette compétence mesure la capacité d’un investigateur à interpréter et comprendre les bruits, par exemple pour espionner une conversation à travers une porte fermée ou à la table d’à côté dans un café bondé. Le gardien peut demander un test pour éviter d’être pris par surprise : l’investigateur a-t-il été réveillé parce que quelque chose a marché sur une brindille ? Par extension, le niveau en écouter exprime également le sens de l’observation et la réactivité.</p>\n<p>Compétence opposée / Niveau de difficulté :</p>\n<p>La compétence écouter d ’un investigateur s’oppose à la Discrétion d’un individu cherchant à s’approcher de lui subrepticement.</p>\n<ul>\n<li>Difficulté ordinaire : entendre une personne qui s’approche (et dont la compétence Discrétion est inférieure à 50 %) ; espionner une conversation proche.</li>\n<li>Difficulté majeure : entendre une personne qui s’approche (et dont la compétence Discrétion est comprise entre 50 et 89 %) ; espionner une conversation menée à voix basse.</li>\n</ul>\n<p>Comment redoubler ?</p>\n<p>S’arrêter complètement de bouger pour mieux écouter ; s’approcher de la source des bruits, par exemple en collant l’oreille sur les rails ou contre la porte ; demander à tout le monde de se taire, quitte à faire du bruit soi-même, avant d’écouter.</p>\n<p>Conséquences d’un redoublement raté ?</p>\n<p>La chose prend l’investigateur par surprise; il comprend l a conversation de travers, et en tire de fausses déductions ; les personnes qu’il espionne s’en rendent compte, ce qui le plonge dans l’embarras.</p>\n<p>Si un investigateur dément rate un redoublement, il peut devenir affreusement sensible aux bruits, ce qui l’oblige à porter des boules quiès ou d’autres protections auditives.</p>",
+                "opposingDifficulty": "",
+                "pushedFaillureConsequences": "",
+                "chat": ""
+              },
+              "base": "20",
+              "value": -1,
+              "attributes": {},
+              "properties": {
+                "push": true
+              },
+              "eras": {},
+              "flags": {},
+              "skillName": "Écouter"
+            },
+            "flags": {},
+            "img": "modules/coc7-module-fr-toc-full/icones/competences-listen.svg"
+          },
+          {
+            "_id": "CDSmZMids4uAvBj9",
+            "name": "Histoire",
+            "permission": {
+              "default": 0,
+              "6Y6opwuMdxc52cY3": 3
+            },
+            "type": "skill",
+            "data": {
+              "specialization": "",
+              "description": {
+                "value": "<p>La compétence histoire permet de se souvenir de l’importance d’un pays, d’une ville, d’une région ou d’une personne. Un test réussi peut servir à identifier des outils, des techniques ou des idées autrefois courants, mais maintenant oubliés de tous, ou presque.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<ul>\n<li>Difficulté ordinaire : se rappeler une information pertinente.</li>\n<li>Difficulté majeure : connaître un détail obscur et utile.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Prendre plus de temps pour réfléchir ; approfondir ses recherches ; consulter un autre expert ; engager des assistants pour mener une étude complète, ce qui prend des mois et coûte très cher.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>Les fouilles de l’investigateur attirent l’attention de ses adversaires, qui comprennent ses intentions ; les faits découverts sont erronés et peuvent conduire à des déductions dangereuses ; l’argent et le temps sont dépensés en vain.</p>\n<p>Si un investigateur dément rate un redoublement, il peut être convaincu qu’il a voyagé dans le temps, ou qu’il vit dans une autre période historique. Il s’habille et se comporte alors en conséquence.</p>",
+                "chat": "",
+                "notes": "<p>A la connaissance d'une spécialité :</p>\n<ul>\n<li>Histoire des Rêves</li>\n<li>Histoire des&nbsp; Vampire</li>\n<li>Histoire des Loup-Garous</li>\n</ul>\n<p>Notez que des points d'intérêt professionnel et/ou personnel doivent être investis dans cette compétence.&nbsp;</p>",
+                "opposingDifficulty": "",
+                "pushedFaillureConsequences": ""
+              },
+              "base": "5",
+              "value": -1,
+              "attributes": {},
+              "properties": {
+                "push": true
+              },
+              "eras": {},
+              "flags": {},
+              "skillName": "Histoire"
+            },
+            "flags": {},
+            "img": "modules/coc7-module-fr-toc-full/icones/competences-history.svg"
+          },
+          {
+            "_id": "j352qRzrR1oIcyDY",
+            "name": "Langues (Langues)",
+            "permission": {
+              "default": 0,
+              "6Y6opwuMdxc52cY3": 3
+            },
+            "type": "skill",
+            "data": {
+              "specialization": "Langues",
+              "description": {
+                "value": "<p>En achetant cette compétence, précisez la langue choisie sur la fiche d’investigateur. Il n’y a pas de limite au nombre de langues qu’un investigateur peut connaître. Son niveau représente ses chances de comprendre, parler, lire et écrire une autre langue que la sienne. Des langues anciennes ou inconnues, comme l’aklo ou l’hyperboréen, ne peuvent être sélectionnées qu’avec l’accord du gardien. Ce n’est pas nécessaire pour les langues humaines ordinaires. Le gardien peut augmenter la difficulté lorsque l’investigateur rencontre une forme archaïque de la langue. Un seul test de compétence suffit généralement à comprendre un livre entier.</p>\n<h2>Suggestions sur le niveau de Langues</h2>\n<ul>\n<li>À 5 %, l’investigateur peut identifier la langue sans jet de dés.</li>\n<li>À 10 %, il peut exprimer des idées simples.</li>\n<li>À 30 %, les discussions et les pourparlers sont possibles.</li>\n<li>À 50 %, l’investigateur parle correctement la langue.</li>\n<li>À 75 %, il n’a plus d’accent perceptible.</li>\n<li>Pour identifier une langue vivante inconnue, faites un test de Connaissance.</li>\n<li>Pour identifier une langue morte, faites un test d’Archéologie ou d’Histoire.</li>\n<li>Pour identifier une langue non humaine, faites un test de Mythe de Cthulhu ou peut-être d’Occultisme.</li>\n</ul>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Une conversation banale ne nécessite aucun test à des investigateurs parlant couramment une langue. Tout juste auront-ils besoin d’interrompre leur interlocuteur pour le faire répéter ou lui demander des éclaircissements si celui-ci ne parle pas la langue aussi bien qu’eux.</p>\n<ul>\n<li>Difficulté ordinaire : une conversation un peu rapide ; des textes contenant des termes techniques ou rares.</li>\n<li>Difficulté majeure : forte densité de termes techniques inconnus ; construction de phrases archaïques ; accent prononcé et inhabituel.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Tourner sept fois sa langue dans sa bouche ; faire de longues pauses avant de répondre aux questions ; vérifier ses traductions dans d’autres dictionnaires.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>La discussion animée attire l’attention d’une faction ennemie ; un mot ou une expression mal utilisé change le sens de la phrase du tout au tout ; l’interlocuteur est offensé par ce qu’il perçoit comme une injure et devient violent ou tourne la foule contre l’investigateur.</p>\n<p>Si un investigateur dément rate un redoublement, il peut se mettre à parler la langue des anges, l’énochien.</p>",
+                "opposingDifficulty": "",
+                "pushedFaillureConsequences": "",
+                "chat": ""
+              },
+              "base": "1",
+              "value": -1,
+              "attributes": {},
+              "properties": {
+                "special": true,
+                "push": true
+              },
+              "eras": {},
+              "flags": {},
+              "skillName": "Langues"
+            },
+            "flags": {},
+            "img": "modules/coc7-module-fr-toc-full/icones/competences-languageother.svg"
+          },
+          {
+            "_id": "cxHnSjJPvVovOrs8",
+            "name": "Persuasion",
+            "permission": {
+              "default": 0,
+              "6Y6opwuMdxc52cY3": 3
+            },
+            "type": "skill",
+            "data": {
+              "specialization": "",
+              "description": {
+                "value": "<p>On utilise la Persuasion pour convaincre un interlocuteur d’adopter une idée, un projet ou une croyance, en discutant, en débattant et en exposant des arguments raisonnés. Il n’est pas obligatoire d’être convaincu soi-même. Une persuasion prend du temps, au moins une demi-heure. Pour aller plus vite, on utilise plutôt Baratin.</p>\n<p>Selon le but exprimé par le joueur et la réussite de l’investigateur, les effets de la persuasion peuvent persister des années, sans que la cible s’en rende compte, jusqu’à ce qu’on la persuade du contraire. La Persuasion peut aussi servir au marchandage, pour obtenir un rabais sur un prix. En cas de succès, le vendeur est convaincu d’avoir fait une bonne affaire.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Consultez Fixer la difficulté des compétences sociales, page 82.</p>\n<h2>Comment redoubler ?</h2>\n<p>S’approcher au plus près de sa cible pour avancer ses arguments ou faire appel à sa raison ; exposer en détail les exemples et la logique des arguments ; utiliser des techniques de suggestion préparée à l’avance (comme des messages subliminaux) pour rendre la cible aussi réceptive que possible ; organiser un grand spectacle (avec une scène, des feux d’artifice, des cadeaux, un bar gratuit, des pots-de-vin, etc.) pour conquérir un vaste public.</p>\n<p>Rappelez-vous qu’il s’agit de persuasion. Si un investigateur opte pour une autre approche en cours de route, le gardien peut demander un test d’une compétence différente. S’il profère des menaces, ce sera Intimidation. S’il opte pour un registre plus amical, il fait appel à son Charme. Passer de l’un à l’autre pour obtenir une deuxième chance constitue un redoublement.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>La cible se vexe et refuse d’avoir affaire à l’investigateur ; après avoir accepté son pot-de-vin, elle est prise de remords le lendemain, et son avocat engage un privé pour savoir ce que mijote l’investigateur ou l’attaque pour faute professionnelle ; la cible n’apprécie pas votre grand discours et, sans prévenir, elle sort un couteau ; l’investigateur convainc un garde de le laisser entrer par effraction, mais il perd son travail et finit par se suicider – la Santé Mentale de l’investigateur est affectée lorsqu’il réalise que ses actions ont mené à la mort d’un innocent.</p>\n<p>Si un investigateur dément rate un redoublement, il peut se retrouver à un coin de rue, haranguant les passants pour leur exposer ses arguments saugrenus.</p>",
+                "opposingDifficulty": "",
+                "pushedFaillureConsequences": "",
+                "chat": ""
+              },
+              "base": "10",
+              "value": -1,
+              "attributes": {},
+              "properties": {
+                "push": true
+              },
+              "eras": {},
+              "flags": {},
+              "skillName": "Persuasion"
+            },
+            "flags": {},
+            "img": "modules/coc7-module-fr-toc-full/icones/competences-persuade.svg",
+            "displayName": "Persuasion",
+            "selected": true
+          },
+          {
+            "_id": "88Ev14QeiV37pFyN",
+            "name": "Psychologie",
+            "permission": {
+              "default": 0,
+              "6Y6opwuMdxc52cY3": 3
+            },
+            "type": "skill",
+            "data": {
+              "specialization": "",
+              "description": {
+                "value": "<p>Compétence de perception commune à tous les humains, elle permet de deviner les motifs et la personnalité d’un individu, rien qu’en l’observant. Le gardien peut choisir de faire les tests de Psychologie en secret, à la place du joueur. Ainsi, il ne sait pas si les informations reçues sont justes ou erronées.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>La Psychologie s’oppose à toutes les compétences sociales : Baratin, Charme, Intimidation et Persuasion. Elle sert également à percer à jour les tentatives d’imposture.</p>\n<ul>\n<li>Difficulté ordinaire : deviner les intentions d’une personne ou déterminer si elle ment, à condition que sa compétence sociale soit inférieure à 50 %.</li>\n<li>Difficulté majeure : de même, pour une compétence sociale comprise entre 50 et 89 %.</li>\n</ul>\n<h2>Comment redoubler ?</h2>\n<p>Renoncer à la subtilité et poser des questions intimes ou directes à la cible ; s’immerger dans les données personnelles concernant la cible, afin de penser comme elle et de comprendre ses motivations.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>L’investigateur révèle ses propres desseins à sa cible ; celle-ci est vexée par les questions ou le regard inquisiteur de l’investigateur, et refuse de poursuivre la conversation ou prend des mesures plus drastiques, allant jusqu’à la violence ou le recours à la police ; l’investigateur ignore que la cible est liée à ses adversaires, et il lui révèle par inadvertance des détails sur ses propres projets ; passer des semaines enfermé dans son appartement à bâtir un profil psychologique a laissé l’investigateur dans un état physique et mental déplorable (un dé malus sur tous les tests jusqu’à ce qu’il récupère).</p>\n<p>Si un investigateur dément rate un redoublement, il peut croire qu’il entend les pensées maléfiques de la cible, et l’attaquer physiquement.</p>",
+                "opposingDifficulty": "",
+                "pushedFaillureConsequences": "",
+                "chat": ""
+              },
+              "base": "10",
+              "value": -1,
+              "attributes": {},
+              "properties": {
+                "push": true
+              },
+              "eras": {},
+              "flags": {},
+              "skillName": "Psychologie"
+            },
+            "flags": {},
+            "img": "modules/coc7-module-fr-toc-full/icones/competences-psychology.svg"
+          }
+        ],
+        "groups": [
+          {
+            "options": "1",
+            "skills": [
+              {
+                "_id": "jlpedK4fSGsh9nVQ",
+                "name": "Charme",
+                "permission": {
+                  "default": 0,
+                  "6Y6opwuMdxc52cY3": 3
+                },
+                "type": "skill",
+                "data": {
+                  "specialization": "",
+                  "description": {
+                    "value": "<p>L’attraction physique, la séduction, la flatterie ou simplement une personnalité avenante sont toutes des aspects de cette compétence. En usant de son charme, on pousse une personne à agir d’une certaine façon, tant qu’elle reste dans le cadre de son comportement habituel. Les tests de Charme sont opposés par le Charme ou la Psychologie.</p>\n<p>Le Charme peut servir à marchander, pour obtenir une remise sur le prix d’un bien ou d’un service. En cas de succès, le vendeur, ému, consent à une petite réduction.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Consultez Fixer la difficulté des compétences sociales, page 82.</p>\n<h2>Comment redoubler ?</h2>\n<p>Flatter ostensiblement la cible ; lui offrir un cadeau coûteux ; lui confier un secret pour créer un climat de confiance.</p>\n<p>Souvenez-vous d’une chose : si un investigateur commence une interaction en étant charmant, mais qu’il opte pour une autre approche en cours de route, le gardien peut demander un test d’une compétence différente. S’il profère des menaces, ce sera Intimidation. S’il enchaîne sur une longue discussion, cela peut devenir de la Persuasion. Passer de l’un à l’autre pour obtenir une deuxième chance constitue un redoublement.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>La cible se vexe et ne veut plus avoir affaire à vous ; la cible est liée à vos ennemis, ce qui fait qu’elle joue le jeu, mais leur transmettra vos dires ; le petit ami de la femme que vous tentez de séduire vient vous expliquer sa façon de penser.</p>\n<p>Si un investigateur dément rate un redoublement, il peut tomber éperdument amoureux de sa cible, agissant comme s’il était victime d’un sort de domination (cf. page 239).</p>",
+                    "opposingDifficulty": "",
+                    "pushedFaillureConsequences": "",
+                    "chat": ""
+                  },
+                  "base": "15",
+                  "value": -1,
+                  "attributes": {},
+                  "properties": {
+                    "push": true
+                  },
+                  "eras": {},
+                  "flags": {},
+                  "skillName": "Charme"
+                },
+                "flags": {},
+                "img": "modules/coc7-module-fr-toc-full/icones/competences-charm.svg",
+                "displayName": "Charme"
+              },
+              {
+                "_id": "GH4LKEwyTE2izw8u",
+                "name": "Baratin",
+                "permission": {
+                  "default": 0,
+                  "6Y6opwuMdxc52cY3": 3
+                },
+                "type": "skill",
+                "data": {
+                  "specialization": "",
+                  "description": {
+                    "value": "<p>Cette comp&eacute;tence permet de bluffer, emberlificoter, ... En un mot, faire prendre des vessies pour des lanternes &agrave; son interlocuteur... Contrairement &agrave; la comp&eacute;tence <strong>Persuasion</strong>, elle n'a qu'un effet temporaire : La personne, quand elle aura le temps de r&eacute;fl&eacute;chir calmement au flot de paroles et d'arguments plus ou moins fallacieux que vous lui avez servi, prendra conscience qu'elle s'est fait rouler dans la farine.</p>\n<p><strong>Baratin </strong>est tr&egrave;s utile pour passer un garde de la s&eacute;curit&eacute;, un douanier, faire du plat &agrave; une personne du sexe opppos&eacute; pour passer la nuit avec elle, ou vendre la potion magique qui gu&eacute;rit de tous les maux et fait repousser les cheveux. Cependant, il ne faut pas esp&eacute;rer convaincre sur le long terme, et &eacute;viter d'&ecirc;tre dans les parages lorsqu'un &eacute;clair de lucidit&eacute; r&eacute;v&egrave;lera la supercherie.</p>\n<p><strong>Degr&eacute; de ma&icirc;trise :</strong></p>\n<p><strong>Un amateur </strong>saura embobiner des gens simples,</p>\n<p><strong>Un professionnel </strong>parviendra &agrave; vendre quelque chose de totalement inutile &agrave; la plupart des gens,</p>\n<p><strong>Un expert </strong>sera en capacit&eacute; de faire croire les choses les plus incroyables m&ecirc;mes aux personnes les plus sens&eacute;es, comme le fait de vendre la Tour Eiffel...</p>\n<p><strong>Comp&eacute;tences connexes :</strong> N&eacute;gociation, Persuasion, Cr&eacute;dit, Relations, Pratique Artistique : jouer la Com&eacute;die, ...&nbsp;</p>\n<p>&nbsp;</p>",
+                    "opposingDifficulty": "",
+                    "pushedFaillureConsequences": "",
+                    "chat": ""
+                  },
+                  "base": "5",
+                  "value": -1,
+                  "attributes": {},
+                  "properties": {
+                    "special": false,
+                    "push": true
+                  },
+                  "eras": {},
+                  "flags": {},
+                  "skillName": "Baratin"
+                },
+                "flags": {},
+                "img": "modules/coc7-module-fr-toc-full/icones/competences-fasttalk.svg",
+                "displayName": "Baratin"
+              },
+              {
+                "_id": "VJxaSVsemM9ptQxL",
+                "name": "Intimidation",
+                "permission": {
+                  "default": 0,
+                  "6Y6opwuMdxc52cY3": 3
+                },
+                "type": "skill",
+                "data": {
+                  "specialization": "",
+                  "description": {
+                    "value": "<p>L’Intimidation peut prendre de nombreuses formes, parmi la violence physique, la manipulation psychologique et les menaces. Son but est de faire peur ou de contraindre une personne à agir d’une certaine façon. Le test de compétence est opposé par Intimidation ou Psychologie.</p>\n<p>La difficulté du test peut être réduite si l’on présente une arme ou un autre moyen de pression. Par contre, en cas d’échec sur un test redoublé, les conséquences seront d’autant plus graves, allant peut-être au-delà de ce qu’envisageait le joueur au départ.</p>\n<p>La compétence sert aussi à imposer un rabais auprès d’un vendeur. En cas de succès, il baisse ses prétentions ou offre le bien ou le service pour se débarrasser de ce client violent. Evidemment, il risque ensuite de faire appel à la police ou à la pègre locale.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Consultez Fixer la difficulté des compétences sociales, page 82.</p>\n<h2>Comment redoubler ?</h2>\n<p>Faire du mal à la cible ou à quelqu’un à qui elle tient. Gardez à l’esprit qu’il s’agit d’Intimidation. Si un investigateur change d’approche en cours de route, le gardien peut demander un test d’une compétence différente. S’il retire ses menaces et tente d’amadouer la cible, ce sera Charme. S’il enchaîne sur une longue discussion paisible, cela peut devenir de la Persuasion. Passer de l’un à l’autre pour obtenir une deuxième chance constitue un redoublement.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>L’investigateur appuie par mégarde sur la pression de l’arme qu’il braque sous le nez de sa cible ; son interlocuteur s’énerve à son tour ou perd momentanément les pédales, ce qui fait que l’investigateur n’obtient rien de lui ; il se met à rire et refuse de céder aux menaces ; la cible parvient à retourner la situation et intimider l’investigateur.</p>\n<p>Il est important de noter que, pour redoubler un test d’Intimidation, il ne faut pas prendre de gants. Cela peut se traduire par un interrogatoire de plusieurs heures, ou un ultimatum avec un revolver sur la tempe. Après un redoublement, soit l’investigateur obtient ce qu’il désire, soit la situation se termine mal, très mal.</p>\n<p>Si un investigateur dément rate un redoublement, il est terrifié par la cible et fait ce qu’elle lui demande.</p>",
+                    "opposingDifficulty": "",
+                    "pushedFaillureConsequences": "",
+                    "chat": ""
+                  },
+                  "base": "15",
+                  "value": -1,
+                  "attributes": {},
+                  "properties": {
+                    "push": true
+                  },
+                  "eras": {},
+                  "flags": {},
+                  "skillName": "Intimidation"
+                },
+                "flags": {},
+                "img": "modules/coc7-module-fr-toc-full/icones/competences-intimidate.svg",
+                "displayName": "Intimidation"
+              },
+              {
+                "_id": "cxHnSjJPvVovOrs8",
+                "name": "Persuasion",
+                "permission": {
+                  "default": 0,
+                  "6Y6opwuMdxc52cY3": 3
+                },
+                "type": "skill",
+                "data": {
+                  "specialization": "",
+                  "description": {
+                    "value": "<p>On utilise la Persuasion pour convaincre un interlocuteur d’adopter une idée, un projet ou une croyance, en discutant, en débattant et en exposant des arguments raisonnés. Il n’est pas obligatoire d’être convaincu soi-même. Une persuasion prend du temps, au moins une demi-heure. Pour aller plus vite, on utilise plutôt Baratin.</p>\n<p>Selon le but exprimé par le joueur et la réussite de l’investigateur, les effets de la persuasion peuvent persister des années, sans que la cible s’en rende compte, jusqu’à ce qu’on la persuade du contraire. La Persuasion peut aussi servir au marchandage, pour obtenir un rabais sur un prix. En cas de succès, le vendeur est convaincu d’avoir fait une bonne affaire.</p>\n<h2>Compétence opposée / Niveau de difficulté :</h2>\n<p>Consultez Fixer la difficulté des compétences sociales, page 82.</p>\n<h2>Comment redoubler ?</h2>\n<p>S’approcher au plus près de sa cible pour avancer ses arguments ou faire appel à sa raison ; exposer en détail les exemples et la logique des arguments ; utiliser des techniques de suggestion préparée à l’avance (comme des messages subliminaux) pour rendre la cible aussi réceptive que possible ; organiser un grand spectacle (avec une scène, des feux d’artifice, des cadeaux, un bar gratuit, des pots-de-vin, etc.) pour conquérir un vaste public.</p>\n<p>Rappelez-vous qu’il s’agit de persuasion. Si un investigateur opte pour une autre approche en cours de route, le gardien peut demander un test d’une compétence différente. S’il profère des menaces, ce sera Intimidation. S’il opte pour un registre plus amical, il fait appel à son Charme. Passer de l’un à l’autre pour obtenir une deuxième chance constitue un redoublement.</p>\n<h2>Conséquences d’un redoublement raté ?</h2>\n<p>La cible se vexe et refuse d’avoir affaire à l’investigateur ; après avoir accepté son pot-de-vin, elle est prise de remords le lendemain, et son avocat engage un privé pour savoir ce que mijote l’investigateur ou l’attaque pour faute professionnelle ; la cible n’apprécie pas votre grand discours et, sans prévenir, elle sort un couteau ; l’investigateur convainc un garde de le laisser entrer par effraction, mais il perd son travail et finit par se suicider – la Santé Mentale de l’investigateur est affectée lorsqu’il réalise que ses actions ont mené à la mort d’un innocent.</p>\n<p>Si un investigateur dément rate un redoublement, il peut se retrouver à un coin de rue, haranguant les passants pour leur exposer ses arguments saugrenus.</p>",
+                    "opposingDifficulty": "",
+                    "pushedFaillureConsequences": "",
+                    "chat": ""
+                  },
+                  "base": "10",
+                  "value": -1,
+                  "attributes": {},
+                  "properties": {
+                    "push": true
+                  },
+                  "eras": {},
+                  "flags": {},
+                  "skillName": "Persuasion"
+                },
+                "flags": {},
+                "img": "modules/coc7-module-fr-toc-full/icones/competences-persuade.svg",
+                "displayName": "Persuasion",
+                "selected": true
+              }
+            ]
+          }
+        ],
+        "personal": null,
+        "attributes": {},
+        "properties": {},
+        "eras": {},
+        "flags": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "journal-links": {
+          "references": {}
+        },
+        "cf": {
+          "id": "temp_1i49kaph8oni",
+          "path": "Occupations",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.occupations.ucGpek6WA2NnkguF"
+        }
+      }
+    },
+    {
+      "_id": "R5NQWRLqJjnzxFvk",
+      "name": "Petit couteau (cran d'arrêt)",
+      "type": "weapon",
+      "img": "modules/coc7-module-fr-toc-full/icones/ico-armes-blanches.svg",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "special": "",
+          "keeper": ""
+        },
+        "wpnType": "",
+        "skill": {
+          "main": {
+            "name": "Corps à corps",
+            "id": "Mphjl0CwO61dopDI"
+          },
+          "alternativ": {
+            "name": "",
+            "id": ""
+          }
+        },
+        "range": {
+          "normal": {
+            "value": 0,
+            "units": "",
+            "damage": "1D4"
+          },
+          "long": {
+            "value": 0,
+            "units": "",
+            "damage": ""
+          },
+          "extreme": {
+            "value": 0,
+            "units": "",
+            "damage": ""
+          }
+        },
+        "usesPerRound": {
+          "normal": "1",
+          "max": "",
+          "burst": null
+        },
+        "bullets": "",
+        "ammo": 0,
+        "malfunction": "",
+        "blastRadius": null,
+        "properties": {
+          "addb": true,
+          "melee": true,
+          "rngd": false,
+          "impl": true
+        },
+        "eras": {
+          "1920": true,
+          "nvct": false,
+          "drka": false,
+          "ddts": false,
+          "glit": false,
+          "pulp": false,
+          "mdrn": true
+        },
+        "price": {
+          "1920": "2",
+          "mdrn": "6"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.armes-blanches.txRZZaSRMmxvNvLJ"
+        },
+        "cf": {
+          "id": "temp_2kpcj1yag5z",
+          "path": "Râtelier#/CF_SEP/Armes blanches / de trait",
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "_id": "DDVW0eqqgyDadzk4",
+      "name": "Calibre 12 (2C, canon scié)",
+      "type": "weapon",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-rifle.svg",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "special": "",
+          "keeper": ""
+        },
+        "wpnType": "",
+        "skill": {
+          "main": {
+            "name": "Combat à distance (Fusils)",
+            "id": "JDmUOdPsCblYwKXM"
+          },
+          "alternativ": {
+            "name": "",
+            "id": ""
+          }
+        },
+        "range": {
+          "normal": {
+            "value": "5",
+            "units": "",
+            "damage": "4D6"
+          },
+          "long": {
+            "value": "10",
+            "units": "",
+            "damage": "1D6"
+          },
+          "extreme": {
+            "value": "",
+            "units": "",
+            "damage": ""
+          }
+        },
+        "usesPerRound": {
+          "normal": "1 ou 2",
+          "max": "2",
+          "burst": null
+        },
+        "bullets": "2",
+        "ammo": 2,
+        "malfunction": "100",
+        "blastRadius": null,
+        "properties": {
+          "rngd": true,
+          "melee": false,
+          "shotgun": true,
+          "rare": false,
+          "dbrl": true
+        },
+        "eras": {
+          "1920": true,
+          "nvct": false,
+          "drka": false,
+          "ddts": false,
+          "glit": false,
+          "pulp": false,
+          "mdrn": true
+        },
+        "price": {
+          "1920": "40",
+          "nvct": 0,
+          "drka": 0,
+          "ddts": 0,
+          "glit": 0,
+          "pulp": 0,
+          "mdrn": "200"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.armes-fusils.Bxe0llCBViNQlLaM"
+        },
+        "cf": {
+          "id": "temp_x633ekmm0m",
+          "path": "Râtelier#/CF_SEP/Fusils",
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "_id": "bYMVObCbADG8xuoX",
+      "name": "Bible",
+      "type": "item",
+      "img": "modules/coc7-module-fr-toc-full/icones/ico-equipement.svg",
+      "data": {
+        "description": {
+          "value": "<b>Prix</b> 3.98",
+          "keeper": ""
+        },
+        "quantity": 1,
+        "weight": 0,
+        "attributes": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_pz9khbopqw",
+          "path": "Équipement#/CF_SEP/Equipement divers",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.1920-equipement-divers.gvAAuZiOv18WpYsm"
+        }
+      }
+    },
+    {
+      "_id": "WNVxOK37Zx3vKxai",
+      "name": "Bagage en cuir verni",
+      "type": "item",
+      "img": "modules/coc7-module-fr-toc-full/icones/ico-equipement.svg",
+      "data": {
+        "description": {
+          "value": "<b>Prix</b> 12.50",
+          "keeper": ""
+        },
+        "quantity": 1,
+        "weight": 0,
+        "attributes": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_y1rytyf2zck",
+          "path": "Équipement#/CF_SEP/Bagages",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.1920-bagages.8DVgltikE7YZ6AjB"
+        }
+      }
+    },
+    {
+      "_id": "rKYcPZPcbhe9cqAz",
+      "name": "Trousse de toilette pour homme (10 pièces)",
+      "type": "item",
+      "img": "modules/coc7-module-fr-toc-full/icones/ico-equipement.svg",
+      "data": {
+        "description": {
+          "value": "<b>Prix</b> 9.98",
+          "keeper": ""
+        },
+        "quantity": 1,
+        "weight": 0,
+        "attributes": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_np289krtj9s",
+          "path": "Équipement#/CF_SEP/Articles de toilette",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.1920-articles-de-toilette.56dUl0i6Py6QUXfX"
+        }
+      }
+    },
+    {
+      "_id": "hHzFZYRNNCdbt2Me",
+      "name": "Pied-de-biche",
+      "type": "item",
+      "img": "modules/coc7-module-fr-toc-full/icones/ico-equipement.svg",
+      "data": {
+        "description": {
+          "value": "<b>Prix</b> 2.25",
+          "keeper": ""
+        },
+        "quantity": 1,
+        "weight": 0,
+        "attributes": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_3btgl3gblmm",
+          "path": "Équipement#/CF_SEP/Outils",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.1920-outils.RTRJbaBZhSnLpjFh"
+        }
+      }
+    },
+    {
+      "_id": "A8XyDRzMmrdYVYgC",
+      "name": "Jeu de cartes",
+      "type": "item",
+      "img": "modules/coc7-module-fr-toc-full/icones/ico-equipement.svg",
+      "data": {
+        "description": {
+          "value": "<b>Prix</b> 0.59",
+          "keeper": ""
+        },
+        "quantity": 1,
+        "weight": 0,
+        "attributes": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_npddoajh67e",
+          "path": "Équipement#/CF_SEP/Jeux",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.1920-jeux.COhzpHL0GASB8804"
+        }
+      }
+    },
+    {
+      "_id": "r9gpMZXrCLxteXzt",
+      "name": "Crucifix",
+      "type": "item",
+      "img": "icons/svg/item-bag.svg",
+      "data": {
+        "description": {
+          "value": "",
+          "keeper": ""
+        },
+        "quantity": 1,
+        "weight": 0,
+        "attributes": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6Qb3SO8NzrEUmJza",
+      "name": "Automatique cal. 32 ou 7,65 mm",
+      "type": "weapon",
+      "img": "modules/coc7-module-fr-toc-full/icones/competences-handgun.svg",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "special": "",
+          "keeper": ""
+        },
+        "wpnType": "",
+        "skill": {
+          "main": {
+            "name": "Armes de poing",
+            "id": "9KgjpDQBaoq8eKdX"
+          },
+          "alternativ": {
+            "name": "",
+            "id": ""
+          }
+        },
+        "range": {
+          "normal": {
+            "value": "15",
+            "units": "",
+            "damage": "1D8"
+          },
+          "long": {
+            "value": 0,
+            "units": "",
+            "damage": ""
+          },
+          "extreme": {
+            "value": 0,
+            "units": "",
+            "damage": ""
+          }
+        },
+        "usesPerRound": {
+          "normal": "1",
+          "max": "3",
+          "burst": null
+        },
+        "bullets": "8",
+        "ammo": 8,
+        "malfunction": "99",
+        "blastRadius": null,
+        "properties": {
+          "melee": false,
+          "rngd": true,
+          "impl": true
+        },
+        "eras": {
+          "1920": true,
+          "nvct": false,
+          "drka": false,
+          "ddts": false,
+          "glit": false,
+          "pulp": false,
+          "mdrn": true
+        },
+        "price": {
+          "1920": "20",
+          "mdrn": "350"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "cyefC9RG9awp41sM": 3,
+        "8YnAZMq8wAoV3jAY": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.CoC7-compendiums-fr.armes-poing.WK5k4nF2q35USiXA"
+        },
+        "cf": {
+          "id": "temp_mla5iy3nqo",
+          "path": "Râtelier#/CF_SEP/Armes de poing",
+          "color": "#000000"
+        }
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "CoC7": {
+      "skillListMode": false,
+      "skillShowUncommon": true
+    },
+    "library-use": {
+      "languages": []
+    },
+    "exportSource": {
+      "world": "cthul",
+      "system": "CoC7",
+      "coreVersion": "9.280",
+      "systemVersion": "0.8.2"
+    }
+  }
+}
