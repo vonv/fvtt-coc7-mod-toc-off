@@ -1,7 +1,7 @@
-2023/12/21-21:44:57.499757 b2bfd400 Recovering log #230
-2023/12/21-21:44:57.521969 b2bfd400 Delete type=0 #230
-2023/12/21-21:44:57.524394 b2bfd400 Delete type=3 #228
-2023/12/21-21:45:54.616350 affff400 Level-0 table #235: started
-2023/12/21-21:45:54.617557 affff400 Level-0 table #235: 0 bytes OK
-2023/12/21-21:45:54.621176 affff400 Delete type=0 #233
-2023/12/21-21:45:54.623653 affff400 Manual compaction at level-0 from '!adventures!0FqCqqwmZA2Wm8fu' @ 72057594037927935 : 1 .. '!folders!oK67FEpO8c6ywPij' @ 0 : 0; will stop at (end)
+2023/12/22-00:05:41.919133 b23fc400 Recovering log #246
+2023/12/22-00:05:41.941894 b23fc400 Delete type=0 #246
+2023/12/22-00:05:41.944283 b23fc400 Delete type=3 #244
+2023/12/22-16:12:26.424665 af3ff400 Level-0 table #251: started
+2023/12/22-16:12:26.428981 af3ff400 Level-0 table #251: 0 bytes OK
+2023/12/22-16:12:26.433853 af3ff400 Delete type=0 #249
+2023/12/22-16:12:26.458189 af3ff400 Manual compaction at level-0 from '!adventures!0FqCqqwmZA2Wm8fu' @ 72057594037927935 : 1 .. '!folders!oK67FEpO8c6ywPij' @ 0 : 0; will stop at (end)
