@@ -1,24 +1,25 @@
 {
-  "title": "CoC7 Compendiums en français Toc",
-  "description": "<p>Une collection de compendiums pour l'Appel de Cthulhu en français.</p>",
+  "id": "coc7-module-fr-toc",
+  "version": "1.1.6",
+  "title": "CoC7 Compendiums FR Toc",
+  "description": "Une collection de compendiums pour l'Appel de Cthulhu en français.",
   "authors": [
     {
       "name": "Toc",
       "email": "vonv@tentacules.net",
       "url": "https://tentacules.net",
-      "discord": "@vonv"
+      "discord": "@vonv",
+      "flags": {}
     }
   ],
   "url": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/",
   "manifest": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/raw/main/module.json",
   "download": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/archive/main/coc7-module-fr-toc-main.zip",
-  "id": "coc7-module-fr-toc",
   "compatibility": {
     "minimum": "11",
     "verified": "11",
     "maximum": "11"
   },
-  "version": "1.1.6",
   "scripts": [
     "coc7-module-fr-toc.js"
   ],
