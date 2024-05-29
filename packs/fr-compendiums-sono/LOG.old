@@ -1,3 +1,7 @@
-2024/05/29-13:43:15.626891 b2bfd400 Recovering log #519
-2024/05/29-13:43:15.650243 b2bfd400 Delete type=0 #519
-2024/05/29-13:43:15.652719 b2bfd400 Delete type=3 #517
+2024/05/29-15:07:56.217375 b3bff400 Recovering log #526
+2024/05/29-15:07:56.243520 b3bff400 Delete type=0 #526
+2024/05/29-15:07:56.246724 b3bff400 Delete type=3 #524
+2024/05/29-15:15:24.916049 ad9dd400 Level-0 table #531: started
+2024/05/29-15:15:24.917846 ad9dd400 Level-0 table #531: 0 bytes OK
+2024/05/29-15:15:24.922127 ad9dd400 Delete type=0 #529
+2024/05/29-15:15:24.941975 ad9dd400 Manual compaction at level-0 from '!folders!4dJZSPAlvsWxe0Y8' @ 72057594037927935 : 1 .. '!playlists.sounds!zDDVmS50AvFNTggf.sXP2MA2TNsMBpXtY' @ 0 : 0; will stop at (end)
