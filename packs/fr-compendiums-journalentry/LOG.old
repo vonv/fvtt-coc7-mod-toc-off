@@ -1,7 +1,1 @@
-2024/04/08-20:41:43.103792 b3bff400 Recovering log #455
-2024/04/08-20:41:43.126351 b3bff400 Delete type=0 #455
-2024/04/08-20:41:43.128791 b3bff400 Delete type=3 #453
-2024/04/08-20:58:05.132819 af0ff400 Level-0 table #460: started
-2024/04/08-20:58:05.134227 af0ff400 Level-0 table #460: 0 bytes OK
-2024/04/08-20:58:05.137799 af0ff400 Delete type=0 #458
-2024/04/08-20:58:05.155559 af0ff400 Manual compaction at level-0 from '!folders!ql2VZbBSCnmAYjy3' @ 72057594037927935 : 1 .. '!journal.pages!fMvAV26sSs79XS9N.N9mngWpfxwoTZZ96' @ 0 : 0; will stop at (end)
+2024/05/29-10:31:47.592023 b2bfd400 **** Repaired leveldb /home/pi/vttnas/vttfoundrydata1/Data/modules/coc7-module-fr-toc/packs/fr-compendiums-journalentry; recovered 0 files; 0 bytes. Some data may have been lost. ****

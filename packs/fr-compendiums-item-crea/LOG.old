@@ -1,7 +1,1 @@
-2024/04/08-20:41:42.945688 b33fe400 Recovering log #583
-2024/04/08-20:41:42.968077 b33fe400 Delete type=0 #583
-2024/04/08-20:41:42.970535 b33fe400 Delete type=3 #581
-2024/04/08-20:58:05.083364 af0ff400 Level-0 table #588: started
-2024/04/08-20:58:05.084739 af0ff400 Level-0 table #588: 0 bytes OK
-2024/04/08-20:58:05.088442 af0ff400 Delete type=0 #586
-2024/04/08-20:58:05.106301 af0ff400 Manual compaction at level-0 from '!folders!0Bvp8FExwWEhgnhY' @ 72057594037927935 : 1 .. '!items!zsXr59E3PDJmghEs' @ 0 : 0; will stop at (end)
+2024/05/29-10:31:47.491646 b33fe400 **** Repaired leveldb /home/pi/vttnas/vttfoundrydata1/Data/modules/coc7-module-fr-toc/packs/fr-compendiums-item-crea; recovered 0 files; 0 bytes. Some data may have been lost. ****

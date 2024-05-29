@@ -1,7 +1,1 @@
-2024/04/08-20:41:42.711815 b33fe400 Recovering log #534
-2024/04/08-20:41:42.767386 b33fe400 Delete type=0 #534
-2024/04/08-20:41:42.769825 b33fe400 Delete type=3 #532
-2024/04/08-20:58:05.045330 af0ff400 Level-0 table #539: started
-2024/04/08-20:58:05.046716 af0ff400 Level-0 table #539: 0 bytes OK
-2024/04/08-20:58:05.050401 af0ff400 Delete type=0 #537
-2024/04/08-20:58:05.060385 af0ff400 Manual compaction at level-0 from '!actors!0jCHVo4JKAn1F3k9' @ 72057594037927935 : 1 .. '!folders!yzj2uMsSR4jjiHkB' @ 0 : 0; will stop at (end)
+2024/05/29-10:31:47.294068 b23fc400 **** Repaired leveldb /home/pi/vttnas/vttfoundrydata1/Data/modules/coc7-module-fr-toc/packs/fr-compendiums-actor; recovered 0 files; 0 bytes. Some data may have been lost. ****

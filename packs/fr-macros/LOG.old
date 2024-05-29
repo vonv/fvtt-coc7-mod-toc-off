@@ -1,7 +1,1 @@
-2024/04/08-20:41:43.652071 b33fe400 Recovering log #473
-2024/04/08-20:41:43.702011 b33fe400 Delete type=0 #473
-2024/04/08-20:41:43.704564 b33fe400 Delete type=3 #471
-2024/04/08-20:58:05.122367 af0ff400 Level-0 table #478: started
-2024/04/08-20:58:05.123721 af0ff400 Level-0 table #478: 0 bytes OK
-2024/04/08-20:58:05.130334 af0ff400 Delete type=0 #476
-2024/04/08-20:58:05.155007 af0ff400 Manual compaction at level-0 from '!macros!IeRnp7Tqb8MxNtxT' @ 72057594037927935 : 1 .. '!macros!IeRnp7Tqb8MxNtxT' @ 0 : 0; will stop at (end)
+2024/05/29-10:31:48.189875 b33fe400 **** Repaired leveldb /home/pi/vttnas/vttfoundrydata1/Data/modules/coc7-module-fr-toc/packs/fr-macros; recovered 0 files; 0 bytes. Some data may have been lost. ****

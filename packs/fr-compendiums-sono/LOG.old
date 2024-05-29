@@ -1,7 +1,1 @@
-2024/04/08-20:41:43.329374 b33fe400 Recovering log #413
-2024/04/08-20:41:43.354775 b33fe400 Delete type=0 #413
-2024/04/08-20:41:43.357421 b33fe400 Delete type=3 #411
-2024/04/08-20:58:05.098373 af0ff400 Level-0 table #418: started
-2024/04/08-20:58:05.099707 af0ff400 Level-0 table #418: 0 bytes OK
-2024/04/08-20:58:05.103341 af0ff400 Delete type=0 #416
-2024/04/08-20:58:05.106360 af0ff400 Manual compaction at level-0 from '!folders!4dJZSPAlvsWxe0Y8' @ 72057594037927935 : 1 .. '!playlists.sounds!zDDVmS50AvFNTggf.sXP2MA2TNsMBpXtY' @ 0 : 0; will stop at (end)
+2024/05/29-10:31:47.937644 b2bfd400 **** Repaired leveldb /home/pi/vttnas/vttfoundrydata1/Data/modules/coc7-module-fr-toc/packs/fr-compendiums-sono; recovered 0 files; 0 bytes. Some data may have been lost. ****
