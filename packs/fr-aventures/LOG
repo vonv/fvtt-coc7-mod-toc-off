@@ -1,3 +1,7 @@
 2024/05/29-14:01:59.318018 b23fc400 Recovering log #598
 2024/05/29-14:01:59.344824 b23fc400 Delete type=0 #598
 2024/05/29-14:01:59.347517 b23fc400 Delete type=3 #597
+2024/05/29-14:39:51.972271 ad9dd400 Level-0 table #602: started
+2024/05/29-14:39:51.974653 ad9dd400 Level-0 table #602: 0 bytes OK
+2024/05/29-14:39:51.979632 ad9dd400 Delete type=0 #600
+2024/05/29-14:39:51.983928 ad9dd400 Manual compaction at level-0 from '!adventures!0FqCqqwmZA2Wm8fu' @ 72057594037927935 : 1 .. '!folders!H9UXXYTTIsreKmt7' @ 0 : 0; will stop at (end)
