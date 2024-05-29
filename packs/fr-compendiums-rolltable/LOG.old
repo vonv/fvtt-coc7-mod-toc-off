@@ -1,1 +1,3 @@
-2024/05/29-10:31:47.693520 b3bff400 **** Repaired leveldb /home/pi/vttnas/vttfoundrydata1/Data/modules/coc7-module-fr-toc/packs/fr-compendiums-rolltable; recovered 0 files; 0 bytes. Some data may have been lost. ****
+2024/05/29-11:27:51.263 4fc8 Recovering log #607
+2024/05/29-11:27:51.278 4fc8 Delete type=0 #607
+2024/05/29-11:27:51.278 4fc8 Delete type=3 #606
