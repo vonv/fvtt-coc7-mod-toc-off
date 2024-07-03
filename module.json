@@ -1,6 +1,6 @@
 {
-  "id": "coc7-module-fr-toc",
-  "version": "1.1.10",
+  "id": "coc7-module-fr-toc-off",
+  "version": "1.1.11",
   "title": "CoC7 Compendiums FR Toc",
   "description": "<p>Une collection de compendiums pour l'Appel de Cthulhu en français.</p>",
   "authors": [
@@ -8,22 +8,21 @@
       "name": "Toc",
       "email": "vonv@tentacules.net",
       "url": "https://tentacules.net",
-      "discord": "@vonv",
-      "flags": {}
+      "discord": "@vonv"
     }
   ],
-  "url": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/",
-  "manifest": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/raw/main/module.json",
-  "download": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc/-/archive/main/coc7-module-fr-toc-main.zip",
+  "url": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc-off/",
+  "manifest": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc-off/-/raw/main/module.json",
+  "download": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc-off/-/archive/main/coc7-module-fr-toc-off-main.zip",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "10",
+    "verified": "12"
   },
   "scripts": [
-    "coc7-module-fr-toc.js"
+    "coc7-module-fr-toc-off.js"
   ],
   "styles": [
-    "coc7-module-fr-toc.css"
+    "coc7-module-fr-toc-off.css"
   ],
   "relationships": {
     "systems": [
@@ -42,8 +41,7 @@
         "id": "vonv-aventures",
         "type": "module",
         "manifest": "https://gitlab.com/vonv/vonv-aventures/-/raw/main/module.json",
-        "compatibility": {
-        }
+        "compatibility": {}
       }
     ]
   },
@@ -57,8 +55,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "fr-compendiums-item",
@@ -69,8 +66,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "fr-compendiums-item-crea",
@@ -81,8 +77,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "fr-compendiums-journalentry",
@@ -93,8 +88,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "fr-compendiums-rolltable",
@@ -105,8 +99,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "fr-compendiums-scene",
@@ -117,8 +110,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "fr-compendiums-sono",
@@ -129,8 +121,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "fr-aventures",
@@ -141,8 +132,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "fr-macros",
@@ -153,8 +143,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     }
   ]
 }
