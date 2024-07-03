@@ -4,18 +4,18 @@
 async function welcomeMessage() {
   ChatMessage.create({
     type: CONST.CHAT_MESSAGE_TYPES.OTHER,
-    content: '🐙 Ph\'n glui,<br />Cliquez @UUID[Compendium.coc7-module-fr-toc.fr-compendiums-journalentry.JournalEntry.ew3N9xBidfE8M2td]{ici} pour accéder à toute la documentation de ces compendiums pour l\'Appel V7. Bon jeu !',
+    content: '🐙 Ph\'n glui,<br />Cliquez @UUID[Compendium.coc7-module-fr-toc-off.fr-compendiums-journalentry.JournalEntry.ew3N9xBidfE8M2td]{ici} pour accéder à toute la documentation de ces compendiums pour l\'Appel V7. Bon jeu !',
     speaker: { alias: "Cthulhu" }
   })
-  game.user.setFlag("coc7-module-fr-toc", "welcomeMessageShown", true)
+  game.user.setFlag("coc7-module-fr-toc-off", "welcomeMessageShown", true)
 }
 
 Hooks.on('ready', async function () {
   // mise à jour automatique des paramètres du système CoC7
   if (game.settings.get('CoC7', 'overrideSheetArtwork')) {
     const settings = {
-      artworkMainFont: 'url(\'./modules/coc7-module-fr-toc/fonts/mailart-rubberstamp.ttf\') format(\'truetype\')',
-      artworkMainFontBold: 'url(\'./modules/coc7-module-fr-toc/fonts/mailart-rubberstamp.ttf\') format(\'truetype\')',
+      artworkMainFont: 'url(\'./modules/coc7-module-fr-toc-off/fonts/mailart-rubberstamp.ttf\') format(\'truetype\')',
+      artworkMainFontBold: 'url(\'./modules/coc7-module-fr-toc-off/fonts/mailart-rubberstamp.ttf\') format(\'truetype\')',
       artworkMainFontSize: 16,
       artworkBackgroundColor: 'rgba(43,55,83,1)',
       artworkFrontColor: 'rgba(43,55,83,1)',
@@ -35,7 +35,7 @@ Hooks.on('ready', async function () {
     })
 
     // message d'accueil à l'activation du module
-    if (!game.user.getFlag("coc7-module-fr-toc", "welcomeMessageShown")) {
+    if (!game.user.getFlag("coc7-module-fr-toc-off", "welcomeMessageShown")) {
         welcomeMessage()
     }
 
@@ -48,7 +48,7 @@ Hooks.on('ready', async function () {
 
 Hooks.on('renderPause', async function () {
   // mise à jour du logo de pause
-  document.getElementById("pause").children[0].setAttribute("src", "modules/coc7-module-fr-toc/images/logo.webp")
+  document.getElementById("pause").children[0].setAttribute("src", "modules/coc7-module-fr-toc-off/images/logo.webp")
   document.getElementById("pause").children[1].innerHTML = "Cthulhu dort & attend..."
 })
 
@@ -76,4 +76,4 @@ Hooks.once('init', async () => {
 })
 
 // mise à jour du logo en haut à gauche
-document.getElementById("logo").setAttribute("src", "modules/coc7-module-fr-toc/images/logo.webp")
+document.getElementById("logo").setAttribute("src", "modules/coc7-module-fr-toc-off/images/logo.webp")
