@@ -1,3 +1,90 @@
-2024/07/04-00:34:40.769263 b33fe400 Recovering log #820
-2024/07/04-00:34:40.792083 b33fe400 Delete type=0 #820
-2024/07/04-00:34:40.794495 b33fe400 Delete type=3 #818
+2024/07/16-21:06:54.630201 b33fe400 Recovering log #873
+2024/07/16-21:06:54.631267 b33fe400 Level-0 table #875: started
+2024/07/16-21:06:54.638584 b33fe400 Level-0 table #875: 1693 bytes OK
+2024/07/16-21:06:54.660584 b33fe400 Delete type=0 #873
+2024/07/16-21:06:54.663602 b33fe400 Delete type=3 #872
+2024/07/16-21:28:12.091747 b0eff400 Level-0 table #878: started
+2024/07/16-21:28:12.171191 b0eff400 Level-0 table #878: 1247772 bytes OK
+2024/07/16-21:28:12.175449 b0eff400 Delete type=0 #876
+2024/07/16-21:28:51.685750 b0eff400 Compacting 2@0 + 2@1 files
+2024/07/16-21:28:51.888625 b0eff400 Generated table #879@0: 335 keys, 2107843 bytes
+2024/07/16-21:28:51.977637 b0eff400 Generated table #880@0: 158 keys, 1295754 bytes
+2024/07/16-21:28:51.977683 b0eff400 Compacted 2@0 + 2@1 files => 3403597 bytes
+2024/07/16-21:28:51.978561 b0eff400 compacted to: files[ 0 2 0 0 0 0 0 ]
+2024/07/16-21:28:51.982459 b0eff400 Delete type=2 #875
+2024/07/16-21:28:51.985591 b0eff400 Delete type=2 #858
+2024/07/16-21:28:51.991580 b0eff400 Delete type=2 #878
+2024/07/16-21:28:51.997133 b0eff400 Delete type=2 #859
+2024/07/16-21:30:36.344233 b0eff400 Level-0 table #882: started
+2024/07/16-21:30:36.417134 b0eff400 Level-0 table #882: 1261572 bytes OK
+2024/07/16-21:30:36.421154 b0eff400 Delete type=0 #877
+2024/07/16-21:30:54.676312 b0eff400 Compacting 1@0 + 2@1 files
+2024/07/16-21:30:54.851686 b0eff400 Generated table #883@0: 336 keys, 2117367 bytes
+2024/07/16-21:30:54.967247 b0eff400 Generated table #884@0: 157 keys, 1279034 bytes
+2024/07/16-21:30:54.967303 b0eff400 Compacted 1@0 + 2@1 files => 3396401 bytes
+2024/07/16-21:30:54.968193 b0eff400 compacted to: files[ 0 2 0 0 0 0 0 ]
+2024/07/16-21:30:54.972192 b0eff400 Delete type=2 #882
+2024/07/16-21:30:54.976072 b0eff400 Delete type=2 #879
+2024/07/16-21:30:54.982371 b0eff400 Delete type=2 #880
+2024/07/16-21:31:52.970729 b0eff400 Level-0 table #886: started
+2024/07/16-21:31:53.041704 b0eff400 Level-0 table #886: 1228707 bytes OK
+2024/07/16-21:31:53.045926 b0eff400 Delete type=0 #881
+2024/07/16-21:32:50.027551 b0eff400 Compacting 1@0 + 1@1 files
+2024/07/16-21:32:50.138999 b0eff400 Generated table #887@0: 157 keys, 1270688 bytes
+2024/07/16-21:32:50.139045 b0eff400 Compacted 1@0 + 1@1 files => 1270688 bytes
+2024/07/16-21:32:50.139909 b0eff400 compacted to: files[ 0 2 0 0 0 0 0 ]
+2024/07/16-21:32:50.143702 b0eff400 Delete type=2 #884
+2024/07/16-21:32:50.155447 b0eff400 Delete type=2 #886
+2024/07/16-21:37:00.722488 b0eff400 Level-0 table #889: started
+2024/07/16-21:37:00.801601 b0eff400 Level-0 table #889: 1236014 bytes OK
+2024/07/16-21:37:00.805829 b0eff400 Delete type=0 #885
+2024/07/16-21:37:35.775407 b0eff400 Compacting 1@0 + 2@1 files
+2024/07/16-21:37:35.927097 b0eff400 Generated table #890@0: 335 keys, 2106416 bytes
+2024/07/16-21:37:36.037680 b0eff400 Generated table #891@0: 158 keys, 1280723 bytes
+2024/07/16-21:37:36.037728 b0eff400 Compacted 1@0 + 2@1 files => 3387139 bytes
+2024/07/16-21:37:36.038725 b0eff400 compacted to: files[ 0 2 0 0 0 0 0 ]
+2024/07/16-21:37:36.042764 b0eff400 Delete type=2 #887
+2024/07/16-21:37:36.046702 b0eff400 Delete type=2 #883
+2024/07/16-21:37:36.052936 b0eff400 Delete type=2 #889
+2024/07/16-21:38:42.729741 b0eff400 Level-0 table #893: started
+2024/07/16-21:38:42.825326 b0eff400 Level-0 table #893: 1225697 bytes OK
+2024/07/16-21:38:42.829307 b0eff400 Delete type=0 #888
+2024/07/16-21:38:57.266171 b0eff400 Compacting 1@0 + 2@1 files
+2024/07/16-21:38:57.421112 b0eff400 Generated table #894@0: 336 keys, 2111809 bytes
+2024/07/16-21:38:57.528282 b0eff400 Generated table #895@0: 157 keys, 1265305 bytes
+2024/07/16-21:38:57.528328 b0eff400 Compacted 1@0 + 2@1 files => 3377114 bytes
+2024/07/16-21:38:57.529215 b0eff400 compacted to: files[ 0 2 0 0 0 0 0 ]
+2024/07/16-21:38:57.533073 b0eff400 Delete type=2 #893
+2024/07/16-21:38:57.536928 b0eff400 Delete type=2 #890
+2024/07/16-21:38:57.542951 b0eff400 Delete type=2 #891
+2024/07/16-21:39:43.504208 b0eff400 Level-0 table #897: started
+2024/07/16-21:39:43.583276 b0eff400 Level-0 table #897: 1239872 bytes OK
+2024/07/16-21:39:43.587172 b0eff400 Delete type=0 #892
+2024/07/16-21:40:26.754171 b0eff400 Compacting 1@0 + 1@1 files
+2024/07/16-21:40:26.872798 b0eff400 Generated table #898@0: 157 keys, 1257881 bytes
+2024/07/16-21:40:26.872846 b0eff400 Compacted 1@0 + 1@1 files => 1257881 bytes
+2024/07/16-21:40:26.873734 b0eff400 compacted to: files[ 0 2 0 0 0 0 0 ]
+2024/07/16-21:40:26.877584 b0eff400 Delete type=2 #897
+2024/07/16-21:40:26.881384 b0eff400 Delete type=2 #895
+2024/07/16-21:40:44.075506 b0eff400 Level-0 table #900: started
+2024/07/16-21:40:44.153597 b0eff400 Level-0 table #900: 1222824 bytes OK
+2024/07/16-21:40:44.157793 b0eff400 Delete type=0 #896
+2024/07/16-22:25:44.009872 b0eff400 Compacting 1@0 + 2@1 files
+2024/07/16-22:25:44.185180 b0eff400 Generated table #901@0: 336 keys, 2106587 bytes
+2024/07/16-22:25:44.284409 b0eff400 Generated table #902@0: 157 keys, 1255575 bytes
+2024/07/16-22:25:44.284455 b0eff400 Compacted 1@0 + 2@1 files => 3362162 bytes
+2024/07/16-22:25:44.285349 b0eff400 compacted to: files[ 0 2 0 0 0 0 0 ]
+2024/07/16-22:25:44.289240 b0eff400 Delete type=2 #898
+2024/07/16-22:25:44.293071 b0eff400 Delete type=2 #894
+2024/07/16-22:25:44.299321 b0eff400 Delete type=2 #900
+2024/07/16-23:08:46.616597 b0eff400 Level-0 table #904: started
+2024/07/16-23:08:46.627044 b0eff400 Level-0 table #904: 57273 bytes OK
+2024/07/16-23:08:46.630965 b0eff400 Delete type=0 #899
+2024/07/16-23:08:46.724448 b0eff400 Manual compaction at level-0 from '!folders!0Bvp8FExwWEhgnhY' @ 72057594037927935 : 1 .. '!items!zsXr59E3PDJmghEs' @ 0 : 0; will stop at '!items!NRtFAXANQMGlEMUC' @ 21052 : 1
+2024/07/16-23:08:46.724464 b0eff400 Compacting 1@0 + 1@1 files
+2024/07/16-23:08:46.861720 b0eff400 Generated table #905@0: 336 keys, 2105329 bytes
+2024/07/16-23:08:46.861760 b0eff400 Compacted 1@0 + 1@1 files => 2105329 bytes
+2024/07/16-23:08:46.862547 b0eff400 compacted to: files[ 0 2 0 0 0 0 0 ]
+2024/07/16-23:08:46.866082 b0eff400 Delete type=2 #901
+2024/07/16-23:08:46.870188 b0eff400 Delete type=2 #904
+2024/07/16-23:08:46.889078 b0eff400 Manual compaction at level-0 from '!items!NRtFAXANQMGlEMUC' @ 21052 : 1 .. '!items!zsXr59E3PDJmghEs' @ 0 : 0; will stop at (end)

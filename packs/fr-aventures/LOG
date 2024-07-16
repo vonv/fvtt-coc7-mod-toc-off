@@ -1,3 +1,7 @@
-2024/07/04-00:34:41.244928 b2bfd400 Recovering log #731
-2024/07/04-00:34:41.270601 b2bfd400 Delete type=0 #731
-2024/07/04-00:34:41.273217 b2bfd400 Delete type=3 #729
+2024/07/16-21:06:55.154917 b2bfd400 Recovering log #778
+2024/07/16-21:06:55.179076 b2bfd400 Delete type=0 #778
+2024/07/16-21:06:55.182174 b2bfd400 Delete type=3 #777
+2024/07/16-23:08:47.116104 b0eff400 Level-0 table #782: started
+2024/07/16-23:08:47.118378 b0eff400 Level-0 table #782: 0 bytes OK
+2024/07/16-23:08:47.125183 b0eff400 Delete type=0 #780
+2024/07/16-23:08:47.128166 b0eff400 Manual compaction at level-0 from '!adventures!0FqCqqwmZA2Wm8fu' @ 72057594037927935 : 1 .. '!folders!H9UXXYTTIsreKmt7' @ 0 : 0; will stop at (end)
