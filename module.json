@@ -11,9 +11,9 @@
       "discord": "@vonv"
     }
   ],
-  "url": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc-off/",
-  "manifest": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc-off/-/raw/main/module.json",
-  "download": "https://gitlab.com/trouverobjetcache/coc7-module-fr-toc-off/-/archive/main/coc7-module-fr-toc-off-main.zip",
+  "url": "https://gitlab.com/vonv/fvtt-coc7-mod-toc-off/",
+  "manifest": "https://gitlab.com/vonv/fvtt-coc7-mod-toc-off/-/raw/main/module.json",
+  "download": "https://gitlab.com/vonv/fvtt-coc7-mod-toc-off/-/archive/main/fvtt-coc7-mod-toc-off-main.zip",
   "compatibility": {
     "minimum": "10",
     "verified": "12"
@@ -40,7 +40,7 @@
       {
         "id": "vonv-aventures",
         "type": "module",
-        "manifest": "https://gitlab.com/vonv/vonv-aventures/-/raw/main/module.json",
+        "manifest": "https://gitlab.com/vonv/fvtt-mod-vonv-aventures/-/raw/main/module.json",
         "compatibility": {}
       }
     ]
