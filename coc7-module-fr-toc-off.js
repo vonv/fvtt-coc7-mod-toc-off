@@ -7,7 +7,7 @@ async function welcomeMessage() {
     content: '🐙 Ph\'n glui,<br />Cliquez @UUID[Compendium.coc7-module-fr-toc-off.fr-compendiums-journalentry.JournalEntry.ew3N9xBidfE8M2td]{ici} pour accéder à toute la documentation de ces compendiums pour l\'Appel V7. Bon jeu !',
     speaker: { alias: "Cthulhu" }
   })
-  game.user.setFlag("coc7-module-fr-toc-off", "welcomeMessageShown", true)
+  game.user.setFlag("coc7-module-fr-toc-off", "welcomeMessageShown092024", true)
 }
 
 Hooks.on('ready', async function () {
@@ -35,7 +35,7 @@ Hooks.on('ready', async function () {
     })
 
     // message d'accueil à l'activation du module
-    if (!game.user.getFlag("coc7-module-fr-toc-off", "welcomeMessageShown")) {
+    if (!game.user.getFlag("coc7-module-fr-toc-off", "welcomeMessageShown092024")) {
         welcomeMessage()
     }
 
