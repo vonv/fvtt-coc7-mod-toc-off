@@ -1,21 +1,18 @@
-2024/09/10-12:42:07.821 b30 Recovering log #873
-2024/09/10-12:42:07.836 b30 Delete type=0 #873
-2024/09/10-12:42:07.836 b30 Delete type=3 #871
-2024/09/10-12:42:08.008 1c0c Level-0 table #877: started
-2024/09/10-12:42:08.133 1c0c Level-0 table #877: 8423778 bytes OK
-2024/09/10-12:42:08.149 1c0c Delete type=0 #875
-2024/09/10-12:42:08.149 1c0c Manual compaction at level-0 from '!actors!0N8E7GbaOci00BTw' @ 72057594037927935 : 1 .. '!folders!yzj2uMsSR4jjiHkB' @ 0 : 0; will stop at '!actors.items!zLMOpuXkzwrdMoMS.cdTHX1HQrFuzQkuZ' @ 47215 : 1
-2024/09/10-12:42:08.149 1c0c Compacting 2@0 + 4@1 files
-2024/09/10-12:42:08.196 1c0c Generated table #878@0: 877 keys, 2119002 bytes
-2024/09/10-12:42:08.258 1c0c Generated table #879@0: 1121 keys, 2121802 bytes
-2024/09/10-12:42:08.321 1c0c Generated table #880@0: 1136 keys, 2120968 bytes
-2024/09/10-12:42:08.367 1c0c Generated table #881@0: 1133 keys, 2060958 bytes
-2024/09/10-12:42:08.367 1c0c Compacted 2@0 + 4@1 files => 8422730 bytes
-2024/09/10-12:42:08.367 1c0c compacted to: files[ 0 4 0 0 0 0 0 ]
-2024/09/10-12:42:08.367 1c0c Delete type=2 #861
-2024/09/10-12:42:08.367 1c0c Delete type=2 #862
-2024/09/10-12:42:08.367 1c0c Delete type=2 #863
-2024/09/10-12:42:08.367 1c0c Delete type=2 #864
-2024/09/10-12:42:08.367 1c0c Delete type=2 #872
-2024/09/10-12:42:08.367 1c0c Delete type=2 #877
-2024/09/10-12:42:08.367 1c0c Manual compaction at level-0 from '!actors.items!zLMOpuXkzwrdMoMS.cdTHX1HQrFuzQkuZ' @ 47215 : 1 .. '!folders!yzj2uMsSR4jjiHkB' @ 0 : 0; will stop at (end)
+2024/09/10-12:45:19.383414 b33fe400 Recovering log #876
+2024/09/10-12:45:19.408854 b33fe400 Delete type=2 #820
+2024/09/10-12:45:19.412790 b33fe400 Delete type=0 #836
+2024/09/10-12:45:19.417191 b33fe400 Delete type=0 #845
+2024/09/10-12:45:19.422478 b33fe400 Delete type=2 #847
+2024/09/10-12:45:19.428196 b33fe400 Delete type=2 #848
+2024/09/10-12:45:19.433918 b33fe400 Delete type=2 #849
+2024/09/10-12:45:19.439601 b33fe400 Delete type=2 #850
+2024/09/10-12:45:19.445409 b33fe400 Delete type=2 #861
+2024/09/10-12:45:19.451097 b33fe400 Delete type=2 #862
+2024/09/10-12:45:19.456811 b33fe400 Delete type=2 #863
+2024/09/10-12:45:19.462563 b33fe400 Delete type=2 #864
+2024/09/10-12:45:19.468406 b33fe400 Delete type=0 #866
+2024/09/10-12:45:19.472641 b33fe400 Delete type=0 #876
+2024/09/10-12:45:19.476937 b33fe400 Delete type=3 #835
+2024/09/10-12:45:19.481209 b33fe400 Delete type=3 #841
+2024/09/10-12:45:19.485878 b33fe400 Delete type=3 #865
+2024/09/10-12:45:19.490322 b33fe400 Delete type=3 #874
