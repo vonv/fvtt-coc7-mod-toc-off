@@ -1,7 +1,29 @@
-2024/09/10-15:36:23.521757 b23fc400 Recovering log #820
-2024/09/10-15:36:23.559480 b23fc400 Delete type=0 #820
-2024/09/10-15:36:23.561961 b23fc400 Delete type=3 #818
-2024/09/10-15:37:06.651680 b0eff400 Level-0 table #825: started
-2024/09/10-15:37:06.653104 b0eff400 Level-0 table #825: 0 bytes OK
-2024/09/10-15:37:06.656687 b0eff400 Delete type=0 #823
-2024/09/10-15:37:06.675315 b0eff400 Manual compaction at level-0 from '!macros!IeRnp7Tqb8MxNtxT' @ 72057594037927935 : 1 .. '!macros!IeRnp7Tqb8MxNtxT' @ 0 : 0; will stop at (end)
+2024/09/10-16:54:11.393184 b3bff400 Recovering log #828
+2024/09/10-16:54:11.420252 b3bff400 Delete type=2 #759
+2024/09/10-16:54:11.423183 b3bff400 Delete type=0 #775
+2024/09/10-16:54:11.427109 b3bff400 Delete type=0 #782
+2024/09/10-16:54:11.431087 b3bff400 Delete type=2 #794
+2024/09/10-16:54:11.434982 b3bff400 Delete type=0 #796
+2024/09/10-16:54:11.438882 b3bff400 Delete type=0 #806
+2024/09/10-16:54:11.442914 b3bff400 Delete type=2 #808
+2024/09/10-16:54:11.446867 b3bff400 Delete type=0 #810
+2024/09/10-16:54:11.450821 b3bff400 Delete type=0 #820
+2024/09/10-16:54:11.454750 b3bff400 Delete type=0 #828
+2024/09/10-16:54:11.458745 b3bff400 Delete type=3 #774
+2024/09/10-16:54:11.462717 b3bff400 Delete type=3 #780
+2024/09/10-16:54:11.466690 b3bff400 Delete type=3 #795
+2024/09/10-16:54:11.470615 b3bff400 Delete type=3 #804
+2024/09/10-16:54:11.474579 b3bff400 Delete type=3 #809
+2024/09/10-16:54:11.478510 b3bff400 Delete type=3 #818
+2024/09/10-16:54:11.482483 b3bff400 Delete type=3 #826
+2024/09/10-16:56:53.311824 b0eff400 Level-0 table #833: started
+2024/09/10-16:56:53.322722 b0eff400 Level-0 table #833: 1064 bytes OK
+2024/09/10-16:56:53.326385 b0eff400 Delete type=0 #831
+2024/09/10-16:56:53.345684 b0eff400 Manual compaction at level-0 from '!macros!IeRnp7Tqb8MxNtxT' @ 72057594037927935 : 1 .. '!macros!IeRnp7Tqb8MxNtxT' @ 0 : 0; will stop at '!macros!IeRnp7Tqb8MxNtxT' @ 49 : 1
+2024/09/10-16:56:53.345707 b0eff400 Compacting 1@0 + 1@1 files
+2024/09/10-16:56:53.356408 b0eff400 Generated table #834@0: 1 keys, 1064 bytes
+2024/09/10-16:56:53.356438 b0eff400 Compacted 1@0 + 1@1 files => 1064 bytes
+2024/09/10-16:56:53.357147 b0eff400 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/09/10-16:56:53.360539 b0eff400 Delete type=2 #833
+2024/09/10-16:56:53.363534 b0eff400 Delete type=2 #813
+2024/09/10-16:56:53.398912 b0eff400 Manual compaction at level-0 from '!macros!IeRnp7Tqb8MxNtxT' @ 49 : 1 .. '!macros!IeRnp7Tqb8MxNtxT' @ 0 : 0; will stop at (end)

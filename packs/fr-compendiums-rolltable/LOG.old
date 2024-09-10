@@ -1,7 +1,29 @@
-2024/09/10-15:36:23.062855 b23fc400 Recovering log #865
-2024/09/10-15:36:23.085978 b23fc400 Delete type=0 #865
-2024/09/10-15:36:23.088592 b23fc400 Delete type=3 #863
-2024/09/10-15:37:06.590989 b0eff400 Level-0 table #870: started
-2024/09/10-15:37:06.592712 b0eff400 Level-0 table #870: 0 bytes OK
-2024/09/10-15:37:06.596819 b0eff400 Delete type=0 #868
-2024/09/10-15:37:06.622853 b0eff400 Manual compaction at level-0 from '!folders!c59jZ0QhAWYSsHdV' @ 72057594037927935 : 1 .. '!tables.results!z67JoxW5zzn0Kjg8.tLAxbSn0LfPjS4I5' @ 0 : 0; will stop at (end)
+2024/09/10-16:54:10.570143 b3bff400 Recovering log #873
+2024/09/10-16:54:10.596952 b3bff400 Delete type=2 #804
+2024/09/10-16:54:10.599772 b3bff400 Delete type=0 #820
+2024/09/10-16:54:10.604209 b3bff400 Delete type=0 #827
+2024/09/10-16:54:10.608600 b3bff400 Delete type=2 #839
+2024/09/10-16:54:10.613101 b3bff400 Delete type=0 #841
+2024/09/10-16:54:10.617466 b3bff400 Delete type=0 #851
+2024/09/10-16:54:10.621804 b3bff400 Delete type=2 #853
+2024/09/10-16:54:10.626226 b3bff400 Delete type=0 #855
+2024/09/10-16:54:10.630801 b3bff400 Delete type=0 #865
+2024/09/10-16:54:10.635119 b3bff400 Delete type=0 #873
+2024/09/10-16:54:10.639550 b3bff400 Delete type=3 #819
+2024/09/10-16:54:10.643953 b3bff400 Delete type=3 #825
+2024/09/10-16:54:10.648324 b3bff400 Delete type=3 #840
+2024/09/10-16:54:10.652710 b3bff400 Delete type=3 #849
+2024/09/10-16:54:10.657061 b3bff400 Delete type=3 #854
+2024/09/10-16:54:10.661425 b3bff400 Delete type=3 #863
+2024/09/10-16:54:10.665826 b3bff400 Delete type=3 #871
+2024/09/10-16:56:52.590976 b0eff400 Level-0 table #878: started
+2024/09/10-16:56:52.607098 b0eff400 Level-0 table #878: 75339 bytes OK
+2024/09/10-16:56:52.610885 b0eff400 Delete type=0 #876
+2024/09/10-16:56:52.906089 b0eff400 Manual compaction at level-0 from '!folders!c59jZ0QhAWYSsHdV' @ 72057594037927935 : 1 .. '!tables.results!z67JoxW5zzn0Kjg8.tLAxbSn0LfPjS4I5' @ 0 : 0; will stop at '!tables.results!z67JoxW5zzn0Kjg8.tLAxbSn0LfPjS4I5' @ 22844 : 1
+2024/09/10-16:56:52.906125 b0eff400 Compacting 1@0 + 1@1 files
+2024/09/10-16:56:52.926718 b0eff400 Generated table #879@0: 478 keys, 75329 bytes
+2024/09/10-16:56:52.926767 b0eff400 Compacted 1@0 + 1@1 files => 75329 bytes
+2024/09/10-16:56:52.927667 b0eff400 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/09/10-16:56:52.931467 b0eff400 Delete type=2 #878
+2024/09/10-16:56:52.934651 b0eff400 Delete type=2 #858
+2024/09/10-16:56:53.276655 b0eff400 Manual compaction at level-0 from '!tables.results!z67JoxW5zzn0Kjg8.tLAxbSn0LfPjS4I5' @ 22844 : 1 .. '!tables.results!z67JoxW5zzn0Kjg8.tLAxbSn0LfPjS4I5' @ 0 : 0; will stop at (end)

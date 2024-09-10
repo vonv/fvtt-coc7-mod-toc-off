@@ -1,7 +1,21 @@
-2024/09/10-15:36:22.992783 b2bfd400 Recovering log #787
-2024/09/10-15:36:23.017683 b2bfd400 Delete type=0 #787
-2024/09/10-15:36:23.020151 b2bfd400 Delete type=3 #785
-2024/09/10-15:37:06.615387 b0eff400 Level-0 table #792: started
-2024/09/10-15:37:06.616824 b0eff400 Level-0 table #792: 0 bytes OK
-2024/09/10-15:37:06.620325 b0eff400 Delete type=0 #790
-2024/09/10-15:37:06.623725 b0eff400 Manual compaction at level-0 from '!folders!ql2VZbBSCnmAYjy3' @ 72057594037927935 : 1 .. '!journal.pages!fMvAV26sSs79XS9N.N9mngWpfxwoTZZ96' @ 0 : 0; will stop at (end)
+2024/09/10-16:54:10.426255 b33fe400 Recovering log #795
+2024/09/10-16:54:10.450278 b33fe400 Delete type=2 #650
+2024/09/10-16:54:10.452979 b33fe400 Delete type=0 #744
+2024/09/10-16:54:10.457373 b33fe400 Delete type=0 #751
+2024/09/10-16:54:10.461805 b33fe400 Delete type=2 #763
+2024/09/10-16:54:10.466240 b33fe400 Delete type=0 #765
+2024/09/10-16:54:10.470639 b33fe400 Delete type=0 #774
+2024/09/10-16:54:10.475096 b33fe400 Delete type=0 #778
+2024/09/10-16:54:10.479500 b33fe400 Delete type=0 #787
+2024/09/10-16:54:10.484006 b33fe400 Delete type=0 #795
+2024/09/10-16:54:10.488377 b33fe400 Delete type=3 #743
+2024/09/10-16:54:10.493039 b33fe400 Delete type=3 #749
+2024/09/10-16:54:10.497398 b33fe400 Delete type=3 #764
+2024/09/10-16:54:10.501761 b33fe400 Delete type=3 #772
+2024/09/10-16:54:10.506183 b33fe400 Delete type=3 #777
+2024/09/10-16:54:10.510593 b33fe400 Delete type=3 #785
+2024/09/10-16:54:10.515000 b33fe400 Delete type=3 #793
+2024/09/10-16:56:53.329520 b0eff400 Level-0 table #800: started
+2024/09/10-16:56:53.331508 b0eff400 Level-0 table #800: 0 bytes OK
+2024/09/10-16:56:53.342033 b0eff400 Delete type=0 #798
+2024/09/10-16:56:53.367756 b0eff400 Manual compaction at level-0 from '!folders!ql2VZbBSCnmAYjy3' @ 72057594037927935 : 1 .. '!journal.pages!fMvAV26sSs79XS9N.N9mngWpfxwoTZZ96' @ 0 : 0; will stop at (end)
