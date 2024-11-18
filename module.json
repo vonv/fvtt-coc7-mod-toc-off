@@ -1,6 +1,6 @@
 {
   "id": "coc7-module-fr-toc-off",
-  "version": "1.1.18",
+  "version": "1.1.19",
   "title": "CoC7 Compendiums FR Toc",
   "description": "<p>Une collection de compendiums pour l'Appel de Cthulhu en français.</p>",
   "authors": [
@@ -40,7 +40,7 @@
       {
         "id": "vonv-aventures",
         "type": "module",
-        "manifest": "https://gitlab.com/vonv/vonv-fvtt-module-bol/-/raw/main/module.json",
+        "manifest": "https://gitlab.com/vonv/fvtt-mod-vonv-aventures/-/raw/main/module.json",
         "compatibility": {}
       }
     ]
