@@ -5,6 +5,6 @@ Activez-le.
 Allez dans le compendium FR-compendiums-journalentries
 Ouvrez Doc d'utilisation des compendiums.
 
-https://gitlab.com/trouverobjetcache/coc7-module-fr-toc-off/-/raw/main/module.json
+https://gitlab.com/vonv/fvtt-coc7-mod-toc-off/-/raw/main/module.json
 
 Bon jeu.
